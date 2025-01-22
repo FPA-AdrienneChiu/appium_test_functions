@@ -1,0 +1,33 @@
+| 2024-11-05 16:18:05,508 | FEATURE  | conftest                  | test_example_1                                                                |
+| 2024-11-05 16:18:05,508 | SCENARIO | conftest                  | Add some numbers together correctly to simulate a passing test with one passing step and no failing steps |
+| 2024-11-05 16:18:05,509 | REPORT   | conftest                  | Here is some information at the top of the report.                            |
+| 2024-11-05 16:18:05,509 | REPORT   | conftest                  | You can add multiple lines.                                                   |
+| 2024-11-05 16:18:05,509 | STEP     | conftest                  | Add 3 and 3                                                                   |
+| 2024-11-05 16:18:05,509 | RESULT   | conftest                  | PASS                                                                          |
+| 2024-11-05 16:18:05,509 | SCENARIO | conftest                  | Add some numbers together correctly to simulate a passing test with multiple passing steps |
+| 2024-11-05 16:18:05,509 | STEP     | conftest                  | Add 2 and 2                                                                   |
+| 2024-11-05 16:18:05,509 | STEP     | conftest                  | Add 1 and 1                                                                   |
+| 2024-11-05 16:18:05,510 | RESULT   | conftest                  | PASS                                                                          |
+| 2024-11-05 16:18:05,510 | SCENARIO | conftest                  | Import a fixture and verify its contents                                      |
+| 2024-11-05 16:18:05,510 | STEP     | conftest                  | Verify a test can import a fixture                                            |
+| 2024-11-05 16:18:05,510 | RESULT   | conftest                  | PASS                                                                          |
+| 2024-11-05 16:18:05,511 | SCENARIO | conftest                  | Add some numbers together incorrectly to simulate a failing test with one failing step and no passing steps |
+| 2024-11-05 16:18:05,511 | STEP     | conftest                  | 5 plus 5 is 55                                                                |
+| 2024-11-05 16:18:05,525 | RESULT   | conftest                  | FAIL                                                                          |
+| 2024-11-05 16:18:05,526 | SCENARIO | conftest                  | Add some numbers together incorrectly to simulate a failing test with one passing step and one failing step |
+| 2024-11-05 16:18:05,526 | STEP     | conftest                  | Add 1 and 1                                                                   |
+| 2024-11-05 16:18:05,526 | STEP     | conftest                  | 5 plus 5 is 55                                                                |
+| 2024-11-05 16:18:05,527 | RESULT   | conftest                  | FAIL                                                                          |
+| 2024-11-05 16:18:05,528 | SCENARIO | conftest                  | Add some numbers together incorrectly to simulate a failing test with one passing step and two failing steps |
+| 2024-11-05 16:18:05,528 | STEP     | conftest                  | Add 1 and 1                                                                   |
+| 2024-11-05 16:18:05,528 | STEP     | conftest                  | 5 plus 5 is 55                                                                |
+| 2024-11-05 16:18:05,529 | RESULT   | conftest                  | FAIL                                                                          |
+| 2024-11-05 16:18:05,529 | SCENARIO | conftest                  | Add some numbers together incorrectly to simulate a failing test with two passing steps and two failing steps |
+| 2024-11-05 16:18:05,530 | STEP     | conftest                  | Add 1 and 1                                                                   |
+| 2024-11-05 16:18:05,530 | STEP     | conftest                  | Add 5 and 5                                                                   |
+| 2024-11-05 16:18:05,530 | STEP     | conftest                  | 8 plus 8 is 18                                                                |
+| 2024-11-05 16:18:05,531 | RESULT   | conftest                  | FAIL                                                                          |
+| 2024-11-05 16:18:05,531 | FEATURE  | conftest                  | test_example_2                                                                |
+| 2024-11-05 16:18:05,531 | SCENARIO | conftest                  | Print a string but do not log any steps                                       |
+| 2024-11-05 16:18:05,532 | REPORT   | conftest                  | You can add information to the top of the report at any point.                |
+| 2024-11-05 16:18:05,532 | RESULT   | conftest                  | PASS                                                                          |

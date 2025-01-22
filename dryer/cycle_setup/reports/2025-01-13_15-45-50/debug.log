@@ -1,0 +1,5 @@
+| 2025-01-13 15:45:50,544 | FEATURE  | log_config                | test_cycle_selection_dryer1                                                   |
+| 2025-01-13 15:45:50,544 | SCENARIO | log_config                | cycle_selection_dryer                                                         |
+| 2025-01-13 15:45:50,544 | REPORT   | log_config                | Here is some information at the top of the report.                            |
+| 2025-01-13 15:45:50,544 | STEP     | log_config                | I am on the fibre selection screen of dryer                                   |
+| 2025-01-13 15:45:50,664 | RESULT   | log_config                | FAIL                                                                          |

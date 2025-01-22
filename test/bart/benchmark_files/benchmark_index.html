@@ -1,0 +1,198 @@
+<!--
+    &copy; Copyright 2024, Fisher & Paykel Appliances Ltd
+
+    All rights reserved. Fisher & Paykel's source code is an
+    unpublished work and the use of a copyright notice does not imply otherwise.
+    This source code contains confidential, trade secret material of
+    Fisher & Paykel Appliances Ltd.
+    Any attempt or participation in deciphering, decoding, reverse engineering
+    or in any way altering the source code is strictly prohibited,
+    unless the prior written consent of Fisher & Paykel is obtained.
+    Permission to use, copy, publish, modify and distribute for any purpose
+    is not permitted without specific, written prior permission from
+    Fisher & Paykel Appliances Limited.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Report</title>
+</head>
+<body>
+    <header id="top-copyright">&copy; 2024 Fisher & Paykel Appliances Limited. All rights reserved.</header>
+    <h1 id="report-title">Report</h1>
+    <div id="info">
+        <p class="centred-text">Here is some information at the top of the report.</p>
+        <p class="centred-text">You can add multiple lines.</p>
+        <p class="centred-text">You can add information to the top of the report at any point.</p>
+    </div>
+    <h2 class="feature-title">test_example_1</h2>
+    <p class="scenario-title">Add some numbers together correctly to simulate a passing test with one passing step and no failing steps</p>
+    <table class="steps-table">
+        <tr>
+            <th class="steps-table-timestamp-column steps-table-heading">Timestamp</th>
+            <th class="steps-table-step-column steps-table-heading">Step</th>
+            <th class="steps-table-result-column steps-table-heading">Result</th>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,556</td>
+            <td class="steps-table-data">Add 3 and 3</td>
+            <td class="steps-table-data steps-table-result-pass">PASS</td>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,556</td>
+            <td class="steps-table-data">RESULT</td>
+            <td class="steps-table-data steps-table-result-pass">PASS</td>
+        </tr>
+    </table>
+    <p class="scenario-title">Add some numbers together correctly to simulate a passing test with multiple passing steps</p>
+    <table class="steps-table">
+        <tr>
+            <th class="steps-table-timestamp-column steps-table-heading">Timestamp</th>
+            <th class="steps-table-step-column steps-table-heading">Step</th>
+            <th class="steps-table-result-column steps-table-heading">Result</th>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,557</td>
+            <td class="steps-table-data">Add 2 and 2</td>
+            <td class="steps-table-data steps-table-result-pass">PASS</td>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,557</td>
+            <td class="steps-table-data">Add 1 and 1</td>
+            <td class="steps-table-data steps-table-result-pass">PASS</td>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,557</td>
+            <td class="steps-table-data">RESULT</td>
+            <td class="steps-table-data steps-table-result-pass">PASS</td>
+        </tr>
+    </table>
+    <p class="scenario-title">Import a fixture and verify its contents</p>
+    <table class="steps-table">
+        <tr>
+            <th class="steps-table-timestamp-column steps-table-heading">Timestamp</th>
+            <th class="steps-table-step-column steps-table-heading">Step</th>
+            <th class="steps-table-result-column steps-table-heading">Result</th>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,557</td>
+            <td class="steps-table-data">Verify a test can import a fixture</td>
+            <td class="steps-table-data steps-table-result-pass">PASS</td>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,558</td>
+            <td class="steps-table-data">RESULT</td>
+            <td class="steps-table-data steps-table-result-pass">PASS</td>
+        </tr>
+    </table>
+    <p class="scenario-title">Add some numbers together incorrectly to simulate a failing test with one failing step and no passing steps</p>
+    <table class="steps-table">
+        <tr>
+            <th class="steps-table-timestamp-column steps-table-heading">Timestamp</th>
+            <th class="steps-table-step-column steps-table-heading">Step</th>
+            <th class="steps-table-result-column steps-table-heading">Result</th>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,558</td>
+            <td class="steps-table-data">5 plus 5 is 55</td>
+            <td class="steps-table-data steps-table-result-fail">FAIL</td>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,572</td>
+            <td class="steps-table-data">RESULT</td>
+            <td class="steps-table-data steps-table-result-fail">FAIL</td>
+        </tr>
+    </table>
+    <p class="scenario-title">Add some numbers together incorrectly to simulate a failing test with one passing step and one failing step</p>
+    <table class="steps-table">
+        <tr>
+            <th class="steps-table-timestamp-column steps-table-heading">Timestamp</th>
+            <th class="steps-table-step-column steps-table-heading">Step</th>
+            <th class="steps-table-result-column steps-table-heading">Result</th>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,573</td>
+            <td class="steps-table-data">Add 1 and 1</td>
+            <td class="steps-table-data steps-table-result-pass">PASS</td>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,573</td>
+            <td class="steps-table-data">5 plus 5 is 55</td>
+            <td class="steps-table-data steps-table-result-fail">FAIL</td>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,574</td>
+            <td class="steps-table-data">RESULT</td>
+            <td class="steps-table-data steps-table-result-fail">FAIL</td>
+        </tr>
+    </table>
+    <p class="scenario-title">Add some numbers together incorrectly to simulate a failing test with one passing step and two failing steps</p>
+    <table class="steps-table">
+        <tr>
+            <th class="steps-table-timestamp-column steps-table-heading">Timestamp</th>
+            <th class="steps-table-step-column steps-table-heading">Step</th>
+            <th class="steps-table-result-column steps-table-heading">Result</th>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,574</td>
+            <td class="steps-table-data">Add 1 and 1</td>
+            <td class="steps-table-data steps-table-result-pass">PASS</td>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,574</td>
+            <td class="steps-table-data">5 plus 5 is 55</td>
+            <td class="steps-table-data steps-table-result-fail">FAIL</td>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,575</td>
+            <td class="steps-table-data">RESULT</td>
+            <td class="steps-table-data steps-table-result-fail">FAIL</td>
+        </tr>
+    </table>
+    <p class="scenario-title">Add some numbers together incorrectly to simulate a failing test with two passing steps and two failing steps</p>
+    <table class="steps-table">
+        <tr>
+            <th class="steps-table-timestamp-column steps-table-heading">Timestamp</th>
+            <th class="steps-table-step-column steps-table-heading">Step</th>
+            <th class="steps-table-result-column steps-table-heading">Result</th>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,576</td>
+            <td class="steps-table-data">Add 1 and 1</td>
+            <td class="steps-table-data steps-table-result-pass">PASS</td>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,576</td>
+            <td class="steps-table-data">Add 5 and 5</td>
+            <td class="steps-table-data steps-table-result-pass">PASS</td>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,576</td>
+            <td class="steps-table-data">8 plus 8 is 18</td>
+            <td class="steps-table-data steps-table-result-fail">FAIL</td>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,577</td>
+            <td class="steps-table-data">RESULT</td>
+            <td class="steps-table-data steps-table-result-fail">FAIL</td>
+        </tr>
+    </table>
+    <h2 class="feature-title">test_example_2</h2>
+    <p class="scenario-title">Print a string but do not log any steps</p>
+    <table class="steps-table">
+        <tr>
+            <th class="steps-table-timestamp-column steps-table-heading">Timestamp</th>
+            <th class="steps-table-step-column steps-table-heading">Step</th>
+            <th class="steps-table-result-column steps-table-heading">Result</th>
+        </tr>
+        <tr>
+            <td class="steps-table-data">2024-11-05 16:19:31,578</td>
+            <td class="steps-table-data">RESULT</td>
+            <td class="steps-table-data steps-table-result-pass">PASS</td>
+        </tr>
+    </table>
+</body>
+</html>
