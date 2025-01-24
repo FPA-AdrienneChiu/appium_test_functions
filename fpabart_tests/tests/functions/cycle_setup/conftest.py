@@ -16,10 +16,14 @@ Fisher & Paykel Appliances Limited.
 
 import os
 import pytest
+pytest.register_assert_rewrite('fpabart')
+import fpabart
 
 from bart_logging import create_logger, Result, archive_report
 from pytest import FixtureRequest, Item
 from typing import Callable
+from appium import webdriver
+
 
 
 logger = create_logger(__name__)

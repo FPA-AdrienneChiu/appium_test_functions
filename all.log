@@ -1,0 +1,2 @@
+2025-01-24 15:49:45,025 - conftest - WARNING - 'fpabart_fixtures' does not exist! There should be a file called 'fpabart_fixtures.py' in the root of your test project! See the README for details.
+2025-01-24 15:49:45,025 - conftest - WARNING - 'fpabart_hooks' does not exist! There should be a file called 'fpabart_hooks.py' in the root of your test project! See the README for details.
