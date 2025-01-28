@@ -487,5 +487,3 @@
 2025-01-28 15:52:10,545 - ttFont - DEBUG - Writing 'GDEF' table to disk
 2025-01-28 15:52:10,545 - ttFont - DEBUG - Compiling 'MATH' table
 2025-01-28 15:52:10,546 - ttFont - DEBUG - Writing 'MATH' table to disk
-2025-01-28 15:52:10,550 - conftest - WARNING - Could not set feature attribute 'end_timestamp' to '2025-01-28 15:52:10,550' because 'fpabart.json' has already been created!
-2025-01-28 15:52:10,550 - conftest - INFO - Finished feature: 'test_running'

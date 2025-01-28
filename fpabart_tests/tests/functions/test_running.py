@@ -10,11 +10,12 @@ def test_running_auto(appium_driver):
 
     #Check I am on Home Screen 
     bart.step("Check if on Home Screen")
-    appium_driver_helper.verify_text(appium_driver, "button-menu-title-1", "COTTON")
+    appium_driver_helper.verify_text(appium_driver, "button-menu-title-1", "COTTON") # for DRYER
+
+
 
     # # Navigate from the Home Screen to the Material Settings Screen
     # bart.step("Check for materials")
-
     # materials = {
     # "option-card-fibre-mixed": "Mixed",
     # "option-card-fibre-cotton": "Cotton",
@@ -31,7 +32,6 @@ def test_running_auto(appium_driver):
     # "option-card-fibre-Nylon": "Nylon",
     # "option-card-fibre-Ramie": "Ramie"
     #}
-
     # appium_driver_helper.get_element(appium_driver, materials).click()
 
 

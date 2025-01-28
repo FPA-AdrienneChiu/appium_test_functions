@@ -1,19 +1,20 @@
 {
     "attributes": {
-        "start_timestamp": "2025-01-28 15:45:29,236",
-        "end_timestamp": "2025-01-28 15:52:08,433"
+        "start_timestamp": "2025-01-28 15:52:39,094",
+        "end_timestamp": "2025-01-28 16:01:28,859"
     },
     "features": [
         {
             "name": "test_running",
             "attributes": {
-                "start_timestamp": "2025-01-28 15:45:29,262"
+                "start_timestamp": "2025-01-28 15:52:39,114",
+                "end_timestamp": "2025-01-28 16:01:28,855"
             },
             "scenarios": [
                 {
                     "name": "Running Auto",
                     "attributes": {
-                        "start_timestamp": "2025-01-28 15:45:29,262"
+                        "start_timestamp": "2025-01-28 15:52:39,114"
                     },
                     "steps": [],
                     "result": false
