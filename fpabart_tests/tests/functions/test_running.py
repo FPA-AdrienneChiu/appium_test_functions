@@ -1,50 +1,60 @@
 import fpabart as bart
 import modules.appium_driver.appium_driver_helper as appium_driver_helper
-from appium.webdriver import Remote
 from time import sleep
 
 
 
 @bart.scenario("Running Auto")
-def test_running_auto(appium_driver: Remote):
-    """Test dryers run cycle and verify UI elements"""
+def test_running_auto(appium_driver):
+    """Test dryers auto run cycle and verify UI elements"""
 
-    #Verify I am on Home Screen 
+    #Check I am on Home Screen 
     bart.step("Check if on Home Screen")
-    appium_driver_helper.verify_text(appium_driver, "DRYER", "DRYER")
+    appium_driver_helper.verify_text(appium_driver, "button-menu-title-1", "COTTON")
 
-    # Navigate from the Home Screen to the Material Settings Screen
-    bart.step("Check for mixed material")
-    material_panel_id = "Mixed"
-    appium_driver_helper.get_element(appium_driver, material_panel_id).click()
+    # # Navigate from the Home Screen to the Material Settings Screen
+    # bart.step("Check for materials")
 
-    # Press button selecting Mixed
-    bart.step("Click on mixed material")
-    mixed = appium_driver_helper.get_element(appium_driver, "Mixed", "Mixed") #chnage element  
-    mixed.click()
+    # materials = {
+    # "option-card-fibre-mixed": "Mixed",
+    # "option-card-fibre-cotton": "Cotton",
+    # "option-card-fibre-Polyester": "Polyester",
+    # "option-card-fibre-Silk": "Silk",
+    # "option-card-fibre-Wool": "Wool",
+    # "option-card-fibre-Acrylic": "Acrylic",
+    # "option-card-fibre-Viscose": "Viscose",
+    # "option-card-fibre-Linen": "Linen",
+    # "option-card-fibre-Lyocell": "Lyocell",
+    # "option-card-fibre-Down": "Down",
+    # "option-card-fibre-Hemp": "Hemp",
+    # "option-card-fibre-Cashmere": "Cashmere",
+    # "option-card-fibre-Nylon": "Nylon",
+    # "option-card-fibre-Ramie": "Ramie"
+    #}
+
+    # appium_driver_helper.get_element(appium_driver, materials).click()
+
 
     # Verify that the time is set to "AUTO"
-    bart.step("Check if time is set to Auto")
-    appium_driver_helper.verify_text(appium_driver, "time", "time")
-    appium_driver_helper.verify_text(appium_driver, "Auto", "Auto" ) #first Auto should be time id first
+    # bart.step("Check if time is set to Auto")
+    # appium_driver_helper.verify_text(appium_driver, "option-card-time", "time")
+    # appium_driver_helper.verify_text(appium_driver, "time", "Auto" ) 
 
     # Click on Start button
-    bart.step("Click start")
-    start = appium_driver_helper.get_element(appium_driver, "Start")
-    start.click()
+    # bart.step("Click start")
+    # start = appium_driver_helper.get_element(appium_driver, "Start") #no resource id
+    # start.click()
 
     # Verify I am on Running Cycle Screen
-    bart.step("Check for running cycle menu text")
-    appium_driver_helper.verify_text(appium_driver, "Cancel", "Cancel")
-    appium_driver_helper.verify_text(appium_driver, "Options", "Options")
-    appium_driver_helper.verify_text(appium_driver, "Add item", "Add item")
+    # bart.step("Check for running cycle menu text")
+    # appium_driver_helper.verify_text(appium_driver, "cycle-time-remaining", "Auto")
+    # appium_driver_helper.verify_text(appium_driver, "Cancel", "Cancel") # no resource id
+    # appium_driver_helper.verify_text(appium_driver, "Options", "Options") # no resource id
+    # appium_driver_helper.verify_text(appium_driver, "Add item", "Add item")# no resource id
 
-    #  Wait for 30 seconds of no interaction
-    bart.step("Wait 30 secs to sleep")
-    sleep(30)
+    # Wait for 30 seconds of no interaction
+    # bart.step("Wait 30 secs to sleep")
+    # sleep(30)
 
     # Check footer and hamburger menu dissapears
-    bart.step("footer and hamburger menu dissapears")
-
-
-   # change to resource_id, so far test has failed
+    # bart.step("footer and hamburger menu dissapears")

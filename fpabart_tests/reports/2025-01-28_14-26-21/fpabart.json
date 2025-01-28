@@ -1,0 +1,27 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-28 14:26:18,658",
+        "end_timestamp": "2025-01-28 14:26:18,935"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-28 14:26:18,686",
+                "end_timestamp": "2025-01-28 14:26:18,933"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-28 14:26:18,686"
+                    },
+                    "steps": [],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}
