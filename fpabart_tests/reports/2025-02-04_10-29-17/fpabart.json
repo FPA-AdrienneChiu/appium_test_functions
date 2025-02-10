@@ -1,0 +1,101 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-04 10:28:04,833",
+        "end_timestamp": "2025-02-04 10:29:14,216"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-04 10:28:04,868",
+                "end_timestamp": "2025-02-04 10:29:14,202"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-04 10:28:04,869",
+                        "end_timestamp": "2025-02-04 10:29:14,201"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-04 10:28:13,586",
+                                "end_timestamp": "2025-02-04 10:28:14,762"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-04 10:28:14,762",
+                                "end_timestamp": "2025-02-04 10:28:20,581"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random material: Linen",
+                            "attributes": {
+                                "start_timestamp": "2025-02-04 10:28:20,581",
+                                "end_timestamp": "2025-02-04 10:28:25,966"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-04 10:28:25,966",
+                                "end_timestamp": "2025-02-04 10:28:27,889"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click start",
+                            "attributes": {
+                                "start_timestamp": "2025-02-04 10:28:27,890",
+                                "end_timestamp": "2025-02-04 10:28:29,955"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that I am on running cycle menu",
+                            "attributes": {
+                                "start_timestamp": "2025-02-04 10:28:29,956",
+                                "end_timestamp": "2025-02-04 10:28:33,208"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Wait 30 secs to sleep",
+                            "attributes": {
+                                "start_timestamp": "2025-02-04 10:28:33,209",
+                                "end_timestamp": "2025-02-04 10:29:03,239"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Hamburger and Footer Menu Dissapears",
+                            "attributes": {
+                                "start_timestamp": "2025-02-04 10:29:03,240",
+                                "end_timestamp": "2025-02-04 10:29:11,436"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Complete Scenario",
+                            "attributes": {
+                                "start_timestamp": "2025-02-04 10:29:11,437",
+                                "end_timestamp": "2025-02-04 10:29:14,201"
+                            },
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                }
+            ],
+            "result": true
+        }
+    ],
+    "result": true
+}

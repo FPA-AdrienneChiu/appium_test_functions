@@ -1,0 +1,61 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 11:03:42,771",
+        "end_timestamp": "2025-02-03 11:04:33,442"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 11:03:42,792",
+                "end_timestamp": "2025-02-03 11:04:33,441"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 11:03:42,793",
+                        "end_timestamp": "2025-02-03 11:04:33,440"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:04:07,327",
+                                "end_timestamp": "2025-02-03 11:04:11,539"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:04:11,539",
+                                "end_timestamp": "2025-02-03 11:04:11,540"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting material: Elastane",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:04:11,540",
+                                "end_timestamp": "2025-02-03 11:04:15,442"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:04:15,442",
+                                "end_timestamp": "2025-02-03 11:04:33,440"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

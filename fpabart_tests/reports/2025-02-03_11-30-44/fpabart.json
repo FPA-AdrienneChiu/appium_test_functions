@@ -1,0 +1,61 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 11:29:49,365",
+        "end_timestamp": "2025-02-03 11:30:42,237"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 11:29:49,387",
+                "end_timestamp": "2025-02-03 11:30:42,236"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 11:29:49,388",
+                        "end_timestamp": "2025-02-03 11:30:42,235"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:30:13,890",
+                                "end_timestamp": "2025-02-03 11:30:18,032"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:30:18,033",
+                                "end_timestamp": "2025-02-03 11:30:18,033"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random material: Cotton",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:30:18,034",
+                                "end_timestamp": "2025-02-03 11:30:22,875"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:30:22,876",
+                                "end_timestamp": "2025-02-03 11:30:42,235"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

@@ -1,0 +1,45 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-30 11:58:22,790",
+        "end_timestamp": "2025-01-30 11:58:45,598"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-30 11:58:22,808",
+                "end_timestamp": "2025-01-30 11:58:45,597"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-30 11:58:22,808",
+                        "end_timestamp": "2025-01-30 11:58:45,597"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:58:29,973",
+                                "end_timestamp": "2025-01-30 11:58:31,160"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check for materials",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:58:31,160",
+                                "end_timestamp": "2025-01-30 11:58:45,597"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

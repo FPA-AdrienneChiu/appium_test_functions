@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 12:03:12,042",
+        "end_timestamp": "2025-02-03 12:03:39,004"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 12:03:12,066",
+                "end_timestamp": "2025-02-03 12:03:39,003"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 12:03:12,067",
+                        "end_timestamp": "2025-02-03 12:03:39,002"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 12:03:20,167",
+                                "end_timestamp": "2025-02-03 12:03:21,320"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 12:03:21,320",
+                                "end_timestamp": "2025-02-03 12:03:24,934"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random material: Nylon",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 12:03:24,934",
+                                "end_timestamp": "2025-02-03 12:03:39,002"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

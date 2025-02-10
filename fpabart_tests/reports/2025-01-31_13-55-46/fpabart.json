@@ -1,0 +1,37 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-31 13:55:18,992",
+        "end_timestamp": "2025-01-31 13:55:45,237"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-31 13:55:19,013",
+                "end_timestamp": "2025-01-31 13:55:45,233"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-31 13:55:19,013",
+                        "end_timestamp": "2025-01-31 13:55:45,231"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 13:55:41,108",
+                                "end_timestamp": "2025-01-31 13:55:45,231"
+                            },
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                }
+            ],
+            "result": true
+        }
+    ],
+    "result": true
+}

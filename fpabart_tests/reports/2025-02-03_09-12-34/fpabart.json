@@ -1,0 +1,61 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 09:12:03,190",
+        "end_timestamp": "2025-02-03 09:12:32,201"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 09:12:03,219",
+                "end_timestamp": "2025-02-03 09:12:32,195"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 09:12:03,220",
+                        "end_timestamp": "2025-02-03 09:12:32,195"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:12:11,719",
+                                "end_timestamp": "2025-02-03 09:12:12,909"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:12:12,910",
+                                "end_timestamp": "2025-02-03 09:12:12,910"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting material: Wool",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:12:12,910",
+                                "end_timestamp": "2025-02-03 09:12:18,145"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:12:18,146",
+                                "end_timestamp": "2025-02-03 09:12:32,194"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

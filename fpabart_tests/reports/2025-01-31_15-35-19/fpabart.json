@@ -1,0 +1,93 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-31 15:34:43,057",
+        "end_timestamp": "2025-01-31 15:35:17,559"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-31 15:34:43,079",
+                "end_timestamp": "2025-01-31 15:35:17,557"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-31 15:34:43,079",
+                        "end_timestamp": "2025-01-31 15:35:17,556"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:34:50,109",
+                                "end_timestamp": "2025-01-31 15:34:51,289"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:34:51,289",
+                                "end_timestamp": "2025-01-31 15:34:51,289"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting material: Silk",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:34:51,290",
+                                "end_timestamp": "2025-01-31 15:34:56,393"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:34:56,394",
+                                "end_timestamp": "2025-01-31 15:34:58,336"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click start",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:34:58,337",
+                                "end_timestamp": "2025-01-31 15:35:00,361"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that I am on running cycle menu",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:35:00,362",
+                                "end_timestamp": "2025-01-31 15:35:03,635"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Wait 30 secs to sleep",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:35:03,635",
+                                "end_timestamp": "2025-01-31 15:35:13,645"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "I go back to the fabric selection screen",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:35:13,647",
+                                "end_timestamp": "2025-01-31 15:35:17,556"
+                            },
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                }
+            ],
+            "result": true
+        }
+    ],
+    "result": true
+}

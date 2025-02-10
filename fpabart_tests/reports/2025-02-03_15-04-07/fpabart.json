@@ -1,0 +1,103 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 15:03:10,628",
+        "end_timestamp": "2025-02-03 15:04:04,729"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 15:03:10,649",
+                "end_timestamp": "2025-02-03 15:04:04,727"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 15:03:10,650",
+                        "end_timestamp": "2025-02-03 15:03:50,037"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:03:18,754",
+                                "end_timestamp": "2025-02-03 15:03:19,941"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:03:19,941",
+                                "end_timestamp": "2025-02-03 15:03:25,760"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random material: Down",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:03:25,761",
+                                "end_timestamp": "2025-02-03 15:03:31,296"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:03:31,297",
+                                "end_timestamp": "2025-02-03 15:03:33,269"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click start",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:03:33,269",
+                                "end_timestamp": "2025-02-03 15:03:34,790"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that I am on running cycle menu",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:03:34,790",
+                                "end_timestamp": "2025-02-03 15:03:50,037"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                },
+                {
+                    "name": "Running Timed",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 15:03:50,038",
+                        "end_timestamp": "2025-02-03 15:04:04,727"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:03:50,039",
+                                "end_timestamp": "2025-02-03 15:03:50,342"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:03:50,342",
+                                "end_timestamp": "2025-02-03 15:04:04,727"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

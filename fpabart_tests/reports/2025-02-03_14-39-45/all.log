@@ -1,0 +1,957 @@
+2025-02-03 14:39:04,107 - conftest - INFO - Set session attribute 'start_timestamp' to '2025-02-03 14:39:04,107'
+2025-02-03 14:39:04,107 - fpabart_hooks - DEBUG - Updated the Python path to include the root of the repository! The Python path is now: ['/home/achiu/appium_test_functions/fpabart_tests', '/home/achiu/.pyenv/versions/3.10.0/lib/python310.zip', '/home/achiu/.pyenv/versions/3.10.0/lib/python3.10', '/home/achiu/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload', '/home/achiu/.pyenv/versions/3.10.0/lib/python3.10/site-packages', '/home/achiu/appium_test_functions']
+2025-02-03 14:39:04,137 - conftest - INFO - Starting feature: 'test_running'
+2025-02-03 14:39:04,137 - conftest - INFO - Set feature attribute 'start_timestamp' to '2025-02-03 14:39:04,137'
+2025-02-03 14:39:04,137 - conftest - INFO - Starting scenario: 'Running Timed'
+2025-02-03 14:39:04,137 - conftest - INFO - Set scenario attribute 'start_timestamp' to '2025-02-03 14:39:04,137'
+2025-02-03 14:39:04,138 - fpabart_fixtures - DEBUG - Starting Appium service at 127.0.0.1:4723
+2025-02-03 14:39:04,248 - connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2025-02-03 14:39:04,252 - connectionpool - DEBUG - http://127.0.0.1:4723 "HEAD /status HTTP/11" 200 0
+2025-02-03 14:39:04,253 - fpabart_fixtures - DEBUG - Loading capabilities: {'platformName': 'Android', 'platformVersion': '11', 'deviceName': 'i350fisher_paykel ', 'appPackage': 'com.fisherpaykel.laundry.fcs200', 'appActivity': 'com.fisherpaykel.laundry.fcs200.MainActivity', 'automationName': 'UiAutomator2', 'noReset': 'true', 'fullReset': 'false'}
+2025-02-03 14:39:04,253 - fpabart_fixtures - DEBUG - Creating Appium driver at http://127.0.0.1:4723
+2025-02-03 14:39:04,253 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'appium:automationName': 'UiAutomator2', 'platformName': 'Android', 'appium:platformVersion': '11', 'appium:deviceName': 'i350fisher_paykel ', 'appium:appPackage': 'com.fisherpaykel.laundry.fcs200', 'appium:appActivity': 'com.fisherpaykel.laundry.fcs200.MainActivity', 'appium:noReset': 'true', 'appium:fullReset': 'false'}}}
+2025-02-03 14:39:04,254 - connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2025-02-03 14:39:12,249 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session HTTP/11" 200 0
+2025-02-03 14:39:12,250 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"capabilities":{"platformName":"Android","automationName":"UiAutomator2","platformVersion":"11","deviceName":"i350fisher_paykel","appPackage":"com.fisherpaykel.laundry.fcs200","appActivity":"com.fisherpaykel.laundry.fcs200.MainActivity","noReset":true,"fullReset":false,"platform":"LINUX","webStorageEnabled":false,"takesScreenshot":true,"javascriptEnabled":true,"databaseEnabled":false,"networkConnectionEnabled":true,"locationContextEnabled":false,"warnings":{},"desired":{"platformName":"Android","automationName":"UiAutomator2","platformVersion":"11","deviceName":"i350fisher_paykel ","appPackage":"com.fisherpaykel.laundry.fcs200","appActivity":"com.fisherpaykel.laundry.fcs200.MainActivity","noReset":true,"fullReset":false},"deviceUDID":"i350fisher_paykel","pixelRatio":"1","statBarHeight":0,"viewportRect":{"left":0,"top":0,"width":1280,"height":720},"deviceApiLevel":30,"deviceManufacturer":"mediatek","deviceModel":"i350_fisher_paykel","deviceScreenSize":"1280x720","deviceScreenDensity":160},"sessionId":"2a59a7b0-a4aa-4726-bae7-adb7ad2ab578"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1065', 'ETag': 'W/"429-WP/jDBFDBU5yVV6p216YgDbE8fg"', 'Date': 'Mon, 03 Feb 2025 01:39:12 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:12,250 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:12,251 - fpabart_fixtures - INFO - Successfully set up Appium!
+2025-02-03 14:39:12,251 - conftest - INFO - Running step: 'Check for screen title'
+2025-02-03 14:39:12,252 - conftest - INFO - Set step attribute 'start_timestamp' to '2025-02-03 14:39:12,251'
+2025-02-03 14:39:12,252 - appium_driver_helper - INFO - Looking for element 'title'...
+2025-02-03 14:39:12,252 - appium_driver_helper - DEBUG - Searching for element 'title. Attempt 1/5
+2025-02-03 14:39:12,252 - appium_driver_helper - DEBUG - Search mode for 'title': ('xpath', '//*[@resource-id="title"]')
+2025-02-03 14:39:12,252 - appium_driver_helper - DEBUG - Search mode for 'title': ('accessibility id', 'title')
+2025-02-03 14:39:12,252 - appium_driver_helper - DEBUG - Search mode for 'title': ('id', 'title')
+2025-02-03 14:39:12,252 - appium_driver_helper - DEBUG - Search mode for 'title': ('xpath', '//*[@content-desc="title"]')
+2025-02-03 14:39:12,252 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="title"]' with search mode 'xpath'...
+2025-02-03 14:39:12,252 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="title"]'}
+2025-02-03 14:39:13,192 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:13,193 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77d800000008","ELEMENT":"00000000-0000-05f4-0000-77d800000008"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77b800000008","ELEMENT":"00000000-0000-05f4-0000-77b800000008"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77be00000008","ELEMENT":"00000000-0000-05f4-0000-77be00000008"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77c400000008","ELEMENT":"00000000-0000-05f4-0000-77c400000008"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77ca00000008","ELEMENT":"00000000-0000-05f4-0000-77ca00000008"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77bb00000008","ELEMENT":"00000000-0000-05f4-0000-77bb00000008"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77c100000008","ELEMENT":"00000000-0000-05f4-0000-77c100000008"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77c700000008","ELEMENT":"00000000-0000-05f4-0000-77c700000008"},{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77cd00000008","ELEMENT":"00000000-0000-05f4-0000-77cd00000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '1163', 'ETag': 'W/"48b-Y4RtstvDUcXvDugmtuuRBtOYuoQ"', 'Date': 'Mon, 03 Feb 2025 01:39:13 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:13,193 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:13,193 - appium_driver_helper - INFO - Found element 'title' with search mode 'xpath' and locator '//*[@resource-id="title"]'!
+2025-02-03 14:39:13,193 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'xpath', 'value': '//*[@resource-id="title"]'}
+2025-02-03 14:39:13,401 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:13,401 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77d800000008","ELEMENT":"00000000-0000-05f4-0000-77d800000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-x2qDCuK6UbbLTzYhLdOh5B3hEvg"', 'Date': 'Mon, 03 Feb 2025 01:39:13 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:13,402 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:13,402 - conftest - INFO - Set step attribute 'end_timestamp' to '2025-02-03 14:39:13,402'
+2025-02-03 14:39:13,402 - conftest - INFO - Running step: 'Check that all materials are present'
+2025-02-03 14:39:13,402 - conftest - INFO - Set step attribute 'start_timestamp' to '2025-02-03 14:39:13,402'
+2025-02-03 14:39:14,404 - appium_driver_helper - INFO - Looking for element 'Acrylic'...
+2025-02-03 14:39:14,404 - appium_driver_helper - DEBUG - Searching for element 'Acrylic. Attempt 1/5
+2025-02-03 14:39:14,405 - appium_driver_helper - DEBUG - Search mode for 'Acrylic': ('xpath', '//*[@resource-id="Acrylic"]')
+2025-02-03 14:39:14,405 - appium_driver_helper - DEBUG - Search mode for 'Acrylic': ('accessibility id', 'Acrylic')
+2025-02-03 14:39:14,405 - appium_driver_helper - DEBUG - Search mode for 'Acrylic': ('id', 'Acrylic')
+2025-02-03 14:39:14,405 - appium_driver_helper - DEBUG - Search mode for 'Acrylic': ('xpath', '//*[@content-desc="Acrylic"]')
+2025-02-03 14:39:14,405 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="Acrylic"]' with search mode 'xpath'...
+2025-02-03 14:39:14,406 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="Acrylic"]'}
+2025-02-03 14:39:14,619 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:14,620 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:14 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:14,620 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:15,122 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="Acrylic"]'}
+2025-02-03 14:39:15,328 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:15,329 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:15 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:15,329 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:15,330 - appium_driver_helper - WARNING - Timed out looking for element 'Acrylic' with search mode xpath' and locator'//*[@resource-id="Acrylic"]'!
+2025-02-03 14:39:15,330 - appium_driver_helper - DEBUG - Waiting for locator 'Acrylic' with search mode 'accessibility id'...
+2025-02-03 14:39:15,330 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'accessibility id', 'value': 'Acrylic'}
+2025-02-03 14:39:15,386 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:15,386 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77cb00000008","ELEMENT":"00000000-0000-05f4-0000-77cb00000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-RFMcfHvZ3dks3Ly5nAbVbEd2Krg"', 'Date': 'Mon, 03 Feb 2025 01:39:15 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:15,387 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:15,387 - appium_driver_helper - INFO - Found element 'Acrylic' with search mode 'accessibility id' and locator 'Acrylic'!
+2025-02-03 14:39:15,387 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'accessibility id', 'value': 'Acrylic'}
+2025-02-03 14:39:15,446 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:15,447 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77cb00000008","ELEMENT":"00000000-0000-05f4-0000-77cb00000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-h/RKhr+j4ixRCur7DrMJBpwyM+M"', 'Date': 'Mon, 03 Feb 2025 01:39:15 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:15,447 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:15,448 - remote_connection - DEBUG - GET http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-77cb00000008/rect {}
+2025-02-03 14:39:15,485 - connectionpool - DEBUG - http://127.0.0.1:4723 "GET /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-77cb00000008/rect HTTP/11" 200 0
+2025-02-03 14:39:15,485 - remote_connection - DEBUG - Remote response: status=200 | data={"sessionId":"2a59a7b0-a4aa-4726-bae7-adb7ad2ab578","value":{"height":56,"width":36,"x":1222,"y":249}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '102', 'ETag': 'W/"66-oQpbVJOCz3olqNQn2zEedUveQbY"', 'Date': 'Mon, 03 Feb 2025 01:39:15 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:15,485 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:15,486 - appium_driver_helper - INFO - Looking for element 'Mixed'...
+2025-02-03 14:39:15,486 - appium_driver_helper - DEBUG - Searching for element 'Mixed. Attempt 1/5
+2025-02-03 14:39:15,486 - appium_driver_helper - DEBUG - Search mode for 'Mixed': ('xpath', '//*[@resource-id="Mixed"]')
+2025-02-03 14:39:15,486 - appium_driver_helper - DEBUG - Search mode for 'Mixed': ('accessibility id', 'Mixed')
+2025-02-03 14:39:15,486 - appium_driver_helper - DEBUG - Search mode for 'Mixed': ('id', 'Mixed')
+2025-02-03 14:39:15,486 - appium_driver_helper - DEBUG - Search mode for 'Mixed': ('xpath', '//*[@content-desc="Mixed"]')
+2025-02-03 14:39:15,486 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="Mixed"]' with search mode 'xpath'...
+2025-02-03 14:39:15,486 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="Mixed"]'}
+2025-02-03 14:39:15,659 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:15,659 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:15 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:15,660 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:16,161 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="Mixed"]'}
+2025-02-03 14:39:16,350 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:16,351 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:16 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:16,351 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:16,352 - appium_driver_helper - WARNING - Timed out looking for element 'Mixed' with search mode xpath' and locator'//*[@resource-id="Mixed"]'!
+2025-02-03 14:39:16,352 - appium_driver_helper - DEBUG - Waiting for locator 'Mixed' with search mode 'accessibility id'...
+2025-02-03 14:39:16,353 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'accessibility id', 'value': 'Mixed'}
+2025-02-03 14:39:16,409 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:16,409 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77b900000008","ELEMENT":"00000000-0000-05f4-0000-77b900000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-f0DDfGCcLX1YR+6Cpvdls99h0o4"', 'Date': 'Mon, 03 Feb 2025 01:39:16 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:16,409 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:16,409 - appium_driver_helper - INFO - Found element 'Mixed' with search mode 'accessibility id' and locator 'Mixed'!
+2025-02-03 14:39:16,410 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'accessibility id', 'value': 'Mixed'}
+2025-02-03 14:39:16,456 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:16,456 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77b900000008","ELEMENT":"00000000-0000-05f4-0000-77b900000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-uBCETPWhaSZyCbrsxMWKueiXvr4"', 'Date': 'Mon, 03 Feb 2025 01:39:16 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:16,456 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:16,456 - remote_connection - DEBUG - GET http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-77b900000008/rect {}
+2025-02-03 14:39:16,484 - connectionpool - DEBUG - http://127.0.0.1:4723 "GET /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-77b900000008/rect HTTP/11" 200 0
+2025-02-03 14:39:16,484 - remote_connection - DEBUG - Remote response: status=200 | data={"sessionId":"2a59a7b0-a4aa-4726-bae7-adb7ad2ab578","value":{"height":56,"width":124,"x":381,"y":249}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '102', 'ETag': 'W/"66-78ub4bgv2/WFaKBLF0KRIeHvtWw"', 'Date': 'Mon, 03 Feb 2025 01:39:16 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:16,484 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:16,484 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/actions {'actions': [{'type': 'pointer', 'parameters': {'pointerType': 'touch'}, 'id': 'touch', 'actions': [{'type': 'pointerMove', 'duration': 250, 'x': 1222, 'y': 249, 'origin': 'viewport'}, {'type': 'pointerDown', 'duration': 0, 'button': 0}, {'type': 'pointerMove', 'duration': 250, 'x': 381, 'y': 249, 'origin': 'viewport'}, {'type': 'pause', 'duration': 300}, {'type': 'pointerUp', 'duration': 0, 'button': 0}]}]}
+2025-02-03 14:39:17,368 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/actions HTTP/11" 200 0
+2025-02-03 14:39:17,368 - remote_connection - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Mon, 03 Feb 2025 01:39:17 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:17,368 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:17,369 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/actions {'actions': [{'type': 'pointer', 'parameters': {'pointerType': 'touch'}, 'id': 'touch', 'actions': [{'type': 'pointerMove', 'duration': 250, 'x': 1222, 'y': 249, 'origin': 'viewport'}, {'type': 'pointerDown', 'duration': 0, 'button': 0}, {'type': 'pointerMove', 'duration': 250, 'x': 381, 'y': 249, 'origin': 'viewport'}, {'type': 'pause', 'duration': 300}, {'type': 'pointerUp', 'duration': 0, 'button': 0}]}]}
+2025-02-03 14:39:18,267 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/actions HTTP/11" 200 0
+2025-02-03 14:39:18,268 - remote_connection - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Mon, 03 Feb 2025 01:39:18 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:18,268 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:18,268 - conftest - INFO - Set step attribute 'end_timestamp' to '2025-02-03 14:39:18,268'
+2025-02-03 14:39:18,268 - conftest - INFO - Running step: 'Selecting random material: Down'
+2025-02-03 14:39:18,268 - conftest - INFO - Set step attribute 'start_timestamp' to '2025-02-03 14:39:18,268'
+2025-02-03 14:39:18,268 - appium_driver_helper - INFO - Looking for element 'Down'...
+2025-02-03 14:39:18,268 - appium_driver_helper - DEBUG - Searching for element 'Down. Attempt 1/5
+2025-02-03 14:39:18,268 - appium_driver_helper - DEBUG - Search mode for 'Down': ('xpath', '//*[@resource-id="Down"]')
+2025-02-03 14:39:18,269 - appium_driver_helper - DEBUG - Search mode for 'Down': ('accessibility id', 'Down')
+2025-02-03 14:39:18,269 - appium_driver_helper - DEBUG - Search mode for 'Down': ('id', 'Down')
+2025-02-03 14:39:18,269 - appium_driver_helper - DEBUG - Search mode for 'Down': ('xpath', '//*[@content-desc="Down"]')
+2025-02-03 14:39:18,269 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="Down"]' with search mode 'xpath'...
+2025-02-03 14:39:18,269 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="Down"]'}
+2025-02-03 14:39:19,425 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:19,426 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:19 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:19,426 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:19,426 - appium_driver_helper - WARNING - Timed out looking for element 'Down' with search mode xpath' and locator'//*[@resource-id="Down"]'!
+2025-02-03 14:39:19,426 - appium_driver_helper - DEBUG - Waiting for locator 'Down' with search mode 'accessibility id'...
+2025-02-03 14:39:19,426 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'accessibility id', 'value': 'Down'}
+2025-02-03 14:39:19,469 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:19,469 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77e500000008","ELEMENT":"00000000-0000-05f4-0000-77e500000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-c6+4Ymn2nlo9uEdfOENIw3IC2N4"', 'Date': 'Mon, 03 Feb 2025 01:39:19 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:19,469 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:19,470 - appium_driver_helper - INFO - Found element 'Down' with search mode 'accessibility id' and locator 'Down'!
+2025-02-03 14:39:19,470 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'accessibility id', 'value': 'Down'}
+2025-02-03 14:39:19,507 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:19,507 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-77e500000008","ELEMENT":"00000000-0000-05f4-0000-77e500000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-GQliI8HJplWfzlKjuvZV7umR7cA"', 'Date': 'Mon, 03 Feb 2025 01:39:19 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:19,508 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:19,508 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-77e500000008/click {}
+2025-02-03 14:39:20,626 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-77e500000008/click HTTP/11" 200 0
+2025-02-03 14:39:20,626 - remote_connection - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Mon, 03 Feb 2025 01:39:20 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:20,627 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:23,631 - conftest - INFO - Set step attribute 'end_timestamp' to '2025-02-03 14:39:23,630'
+2025-02-03 14:39:23,631 - conftest - INFO - Running step: 'Check if time is set to Auto'
+2025-02-03 14:39:23,631 - conftest - INFO - Set step attribute 'start_timestamp' to '2025-02-03 14:39:23,631'
+2025-02-03 14:39:23,631 - appium_driver_helper - INFO - Looking for element 'Auto'...
+2025-02-03 14:39:23,632 - appium_driver_helper - DEBUG - Searching for element 'Auto. Attempt 1/5
+2025-02-03 14:39:23,632 - appium_driver_helper - DEBUG - Search mode for 'Auto': ('xpath', '//*[@resource-id="Auto"]')
+2025-02-03 14:39:23,632 - appium_driver_helper - DEBUG - Search mode for 'Auto': ('accessibility id', 'Auto')
+2025-02-03 14:39:23,632 - appium_driver_helper - DEBUG - Search mode for 'Auto': ('id', 'Auto')
+2025-02-03 14:39:23,632 - appium_driver_helper - DEBUG - Search mode for 'Auto': ('xpath', '//*[@content-desc="Auto"]')
+2025-02-03 14:39:23,632 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="Auto"]' with search mode 'xpath'...
+2025-02-03 14:39:23,633 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="Auto"]'}
+2025-02-03 14:39:23,831 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:23,831 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:23 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:23,832 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:24,333 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="Auto"]'}
+2025-02-03 14:39:24,513 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:24,513 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:24 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:24,513 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:24,514 - appium_driver_helper - WARNING - Timed out looking for element 'Auto' with search mode xpath' and locator'//*[@resource-id="Auto"]'!
+2025-02-03 14:39:24,514 - appium_driver_helper - DEBUG - Waiting for locator 'Auto' with search mode 'accessibility id'...
+2025-02-03 14:39:24,514 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'accessibility id', 'value': 'Auto'}
+2025-02-03 14:39:24,559 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:24,560 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-781000000008","ELEMENT":"00000000-0000-05f4-0000-781000000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-wqIvVNRzYGQtWEMFNLCDWxofxlY"', 'Date': 'Mon, 03 Feb 2025 01:39:24 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:24,560 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:24,561 - appium_driver_helper - INFO - Found element 'Auto' with search mode 'accessibility id' and locator 'Auto'!
+2025-02-03 14:39:24,561 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'accessibility id', 'value': 'Auto'}
+2025-02-03 14:39:24,602 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:24,602 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-781000000008","ELEMENT":"00000000-0000-05f4-0000-781000000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-6hclj01cuMO76MSzooSD8u4cMfk"', 'Date': 'Mon, 03 Feb 2025 01:39:24 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:24,603 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:24,603 - appium_driver_helper - INFO - Looking for element 'time'...
+2025-02-03 14:39:24,603 - appium_driver_helper - DEBUG - Searching for element 'time. Attempt 1/5
+2025-02-03 14:39:24,603 - appium_driver_helper - DEBUG - Search mode for 'time': ('xpath', '//*[@resource-id="time"]')
+2025-02-03 14:39:24,603 - appium_driver_helper - DEBUG - Search mode for 'time': ('accessibility id', 'time')
+2025-02-03 14:39:24,604 - appium_driver_helper - DEBUG - Search mode for 'time': ('id', 'time')
+2025-02-03 14:39:24,604 - appium_driver_helper - DEBUG - Search mode for 'time': ('xpath', '//*[@content-desc="time"]')
+2025-02-03 14:39:24,604 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="time"]' with search mode 'xpath'...
+2025-02-03 14:39:24,604 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="time"]'}
+2025-02-03 14:39:24,772 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:24,772 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:24 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:24,773 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:25,274 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="time"]'}
+2025-02-03 14:39:25,432 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:25,433 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:25 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:25,433 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:25,433 - appium_driver_helper - WARNING - Timed out looking for element 'time' with search mode xpath' and locator'//*[@resource-id="time"]'!
+2025-02-03 14:39:25,433 - appium_driver_helper - DEBUG - Waiting for locator 'time' with search mode 'accessibility id'...
+2025-02-03 14:39:25,433 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'accessibility id', 'value': 'time'}
+2025-02-03 14:39:25,484 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:25,485 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-780f00000008","ELEMENT":"00000000-0000-05f4-0000-780f00000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-ou2MiDnKHDh2wDmGdzcpk4sgLog"', 'Date': 'Mon, 03 Feb 2025 01:39:25 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:25,485 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:25,485 - appium_driver_helper - INFO - Found element 'time' with search mode 'accessibility id' and locator 'time'!
+2025-02-03 14:39:25,485 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'accessibility id', 'value': 'time'}
+2025-02-03 14:39:25,527 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:25,528 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-780f00000008","ELEMENT":"00000000-0000-05f4-0000-780f00000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-/XeLGRTQURtF6s0bzjyPNMIWQ9M"', 'Date': 'Mon, 03 Feb 2025 01:39:25 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:25,528 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:25,528 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-781000000008/click {}
+2025-02-03 14:39:26,634 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-781000000008/click HTTP/11" 200 0
+2025-02-03 14:39:26,634 - remote_connection - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Mon, 03 Feb 2025 01:39:26 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:26,635 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:26,635 - conftest - INFO - Set step attribute 'end_timestamp' to '2025-02-03 14:39:26,635'
+2025-02-03 14:39:26,635 - conftest - INFO - Running step: 'Swipe through all time options'
+2025-02-03 14:39:26,635 - conftest - INFO - Set step attribute 'start_timestamp' to '2025-02-03 14:39:26,635'
+2025-02-03 14:39:27,637 - appium_driver_helper - INFO - Looking for element '0:30'...
+2025-02-03 14:39:27,638 - appium_driver_helper - DEBUG - Searching for element '0:30. Attempt 1/5
+2025-02-03 14:39:27,638 - appium_driver_helper - DEBUG - Search mode for '0:30': ('xpath', '//*[@resource-id="0:30"]')
+2025-02-03 14:39:27,638 - appium_driver_helper - DEBUG - Search mode for '0:30': ('accessibility id', '0:30')
+2025-02-03 14:39:27,638 - appium_driver_helper - DEBUG - Search mode for '0:30': ('id', '0:30')
+2025-02-03 14:39:27,638 - appium_driver_helper - DEBUG - Search mode for '0:30': ('xpath', '//*[@content-desc="0:30"]')
+2025-02-03 14:39:27,638 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="0:30"]' with search mode 'xpath'...
+2025-02-03 14:39:27,639 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="0:30"]'}
+2025-02-03 14:39:27,777 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:27,778 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:27 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:27,778 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:28,279 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="0:30"]'}
+2025-02-03 14:39:28,407 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:28,408 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:28 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:28,409 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:28,409 - appium_driver_helper - WARNING - Timed out looking for element '0:30' with search mode xpath' and locator'//*[@resource-id="0:30"]'!
+2025-02-03 14:39:28,409 - appium_driver_helper - DEBUG - Waiting for locator '0:30' with search mode 'accessibility id'...
+2025-02-03 14:39:28,410 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'accessibility id', 'value': '0:30'}
+2025-02-03 14:39:28,453 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:28,453 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-783c00000008","ELEMENT":"00000000-0000-05f4-0000-783c00000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-BmNken3COHY4IdMW+JNgkNFHRkg"', 'Date': 'Mon, 03 Feb 2025 01:39:28 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:28,453 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:28,453 - appium_driver_helper - INFO - Found element '0:30' with search mode 'accessibility id' and locator '0:30'!
+2025-02-03 14:39:28,453 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'accessibility id', 'value': '0:30'}
+2025-02-03 14:39:28,488 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:28,489 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-783c00000008","ELEMENT":"00000000-0000-05f4-0000-783c00000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-QNb0N4GzgzggomsOoHB6m+jNGzc"', 'Date': 'Mon, 03 Feb 2025 01:39:28 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:28,489 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:28,489 - remote_connection - DEBUG - GET http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-783c00000008/rect {}
+2025-02-03 14:39:28,515 - connectionpool - DEBUG - http://127.0.0.1:4723 "GET /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-783c00000008/rect HTTP/11" 200 0
+2025-02-03 14:39:28,515 - remote_connection - DEBUG - Remote response: status=200 | data={"sessionId":"2a59a7b0-a4aa-4726-bae7-adb7ad2ab578","value":{"height":70,"width":594,"x":158,"y":424}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '102', 'ETag': 'W/"66-ieWNHjP1DoxTJdjOybZidfgj0vw"', 'Date': 'Mon, 03 Feb 2025 01:39:28 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:28,515 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:28,515 - appium_driver_helper - INFO - Looking for element 'Auto'...
+2025-02-03 14:39:28,515 - appium_driver_helper - DEBUG - Searching for element 'Auto. Attempt 1/5
+2025-02-03 14:39:28,515 - appium_driver_helper - DEBUG - Search mode for 'Auto': ('xpath', '//*[@resource-id="Auto"]')
+2025-02-03 14:39:28,515 - appium_driver_helper - DEBUG - Search mode for 'Auto': ('accessibility id', 'Auto')
+2025-02-03 14:39:28,515 - appium_driver_helper - DEBUG - Search mode for 'Auto': ('id', 'Auto')
+2025-02-03 14:39:28,515 - appium_driver_helper - DEBUG - Search mode for 'Auto': ('xpath', '//*[@content-desc="Auto"]')
+2025-02-03 14:39:28,516 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="Auto"]' with search mode 'xpath'...
+2025-02-03 14:39:28,516 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="Auto"]'}
+2025-02-03 14:39:28,629 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:28,629 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:28 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:28,630 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:29,131 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="Auto"]'}
+2025-02-03 14:39:29,251 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:29,252 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:29 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:29,253 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:29,253 - appium_driver_helper - WARNING - Timed out looking for element 'Auto' with search mode xpath' and locator'//*[@resource-id="Auto"]'!
+2025-02-03 14:39:29,253 - appium_driver_helper - DEBUG - Waiting for locator 'Auto' with search mode 'accessibility id'...
+2025-02-03 14:39:29,254 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'accessibility id', 'value': 'Auto'}
+2025-02-03 14:39:29,300 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:29,300 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-783b00000008","ELEMENT":"00000000-0000-05f4-0000-783b00000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-S/a3hmc0Rpo4/ekyvh/a8KFK5kg"', 'Date': 'Mon, 03 Feb 2025 01:39:29 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:29,300 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:29,301 - appium_driver_helper - INFO - Found element 'Auto' with search mode 'accessibility id' and locator 'Auto'!
+2025-02-03 14:39:29,301 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'accessibility id', 'value': 'Auto'}
+2025-02-03 14:39:29,335 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:29,335 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-783b00000008","ELEMENT":"00000000-0000-05f4-0000-783b00000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-tnTwWkyyODB6accNQ6oM0zt3LXY"', 'Date': 'Mon, 03 Feb 2025 01:39:29 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:29,336 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:29,336 - remote_connection - DEBUG - GET http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-783b00000008/rect {}
+2025-02-03 14:39:29,360 - connectionpool - DEBUG - http://127.0.0.1:4723 "GET /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-783b00000008/rect HTTP/11" 200 0
+2025-02-03 14:39:29,360 - remote_connection - DEBUG - Remote response: status=200 | data={"sessionId":"2a59a7b0-a4aa-4726-bae7-adb7ad2ab578","value":{"height":80,"width":600,"x":155,"y":320}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '102', 'ETag': 'W/"66-JUDyY9TNU0uv14ENraRG9FSs2hY"', 'Date': 'Mon, 03 Feb 2025 01:39:29 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:29,360 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:29,360 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/actions {'actions': [{'type': 'pointer', 'parameters': {'pointerType': 'touch'}, 'id': 'touch', 'actions': [{'type': 'pointerMove', 'duration': 250, 'x': 158, 'y': 424, 'origin': 'viewport'}, {'type': 'pointerDown', 'duration': 0, 'button': 0}, {'type': 'pointerMove', 'duration': 250, 'x': 155, 'y': 320, 'origin': 'viewport'}, {'type': 'pause', 'duration': 300}, {'type': 'pointerUp', 'duration': 0, 'button': 0}]}]}
+2025-02-03 14:39:30,243 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/actions HTTP/11" 200 0
+2025-02-03 14:39:30,243 - remote_connection - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Mon, 03 Feb 2025 01:39:30 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:30,244 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:30,245 - appium_driver_helper - INFO - Looking for element '0:40'...
+2025-02-03 14:39:30,245 - appium_driver_helper - DEBUG - Searching for element '0:40. Attempt 1/5
+2025-02-03 14:39:30,245 - appium_driver_helper - DEBUG - Search mode for '0:40': ('xpath', '//*[@resource-id="0:40"]')
+2025-02-03 14:39:30,245 - appium_driver_helper - DEBUG - Search mode for '0:40': ('accessibility id', '0:40')
+2025-02-03 14:39:30,245 - appium_driver_helper - DEBUG - Search mode for '0:40': ('id', '0:40')
+2025-02-03 14:39:30,246 - appium_driver_helper - DEBUG - Search mode for '0:40': ('xpath', '//*[@content-desc="0:40"]')
+2025-02-03 14:39:30,246 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="0:40"]' with search mode 'xpath'...
+2025-02-03 14:39:30,246 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="0:40"]'}
+2025-02-03 14:39:31,132 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:31,132 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:31 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:31,133 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:31,133 - appium_driver_helper - WARNING - Timed out looking for element '0:40' with search mode xpath' and locator'//*[@resource-id="0:40"]'!
+2025-02-03 14:39:31,133 - appium_driver_helper - DEBUG - Waiting for locator '0:40' with search mode 'accessibility id'...
+2025-02-03 14:39:31,134 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'accessibility id', 'value': '0:40'}
+2025-02-03 14:39:31,176 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:31,177 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-783d00000008","ELEMENT":"00000000-0000-05f4-0000-783d00000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-CIvsApVkVhT26Gfa2X414miTPRU"', 'Date': 'Mon, 03 Feb 2025 01:39:31 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:31,177 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:31,177 - appium_driver_helper - INFO - Found element '0:40' with search mode 'accessibility id' and locator '0:40'!
+2025-02-03 14:39:31,177 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'accessibility id', 'value': '0:40'}
+2025-02-03 14:39:31,212 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:31,212 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-783d00000008","ELEMENT":"00000000-0000-05f4-0000-783d00000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-OcEAYnzdGbtSDI2vh4oD1A8et0M"', 'Date': 'Mon, 03 Feb 2025 01:39:31 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:31,212 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:31,213 - remote_connection - DEBUG - GET http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-783d00000008/rect {}
+2025-02-03 14:39:31,244 - connectionpool - DEBUG - http://127.0.0.1:4723 "GET /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-783d00000008/rect HTTP/11" 200 0
+2025-02-03 14:39:31,244 - remote_connection - DEBUG - Remote response: status=200 | data={"sessionId":"2a59a7b0-a4aa-4726-bae7-adb7ad2ab578","value":{"height":70,"width":594,"x":158,"y":423}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '102', 'ETag': 'W/"66-lQFIfMnl/DFpPK0JrdeC0RlXAX4"', 'Date': 'Mon, 03 Feb 2025 01:39:31 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:31,244 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:31,244 - appium_driver_helper - INFO - Looking for element '0:30'...
+2025-02-03 14:39:31,244 - appium_driver_helper - DEBUG - Searching for element '0:30. Attempt 1/5
+2025-02-03 14:39:31,244 - appium_driver_helper - DEBUG - Search mode for '0:30': ('xpath', '//*[@resource-id="0:30"]')
+2025-02-03 14:39:31,244 - appium_driver_helper - DEBUG - Search mode for '0:30': ('accessibility id', '0:30')
+2025-02-03 14:39:31,245 - appium_driver_helper - DEBUG - Search mode for '0:30': ('id', '0:30')
+2025-02-03 14:39:31,245 - appium_driver_helper - DEBUG - Search mode for '0:30': ('xpath', '//*[@content-desc="0:30"]')
+2025-02-03 14:39:31,245 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="0:30"]' with search mode 'xpath'...
+2025-02-03 14:39:31,245 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="0:30"]'}
+2025-02-03 14:39:31,356 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:31,357 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:31 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:31,357 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:31,859 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="0:30"]'}
+2025-02-03 14:39:31,969 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:31,969 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:31 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:31,970 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:31,970 - appium_driver_helper - WARNING - Timed out looking for element '0:30' with search mode xpath' and locator'//*[@resource-id="0:30"]'!
+2025-02-03 14:39:31,970 - appium_driver_helper - DEBUG - Waiting for locator '0:30' with search mode 'accessibility id'...
+2025-02-03 14:39:31,971 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'accessibility id', 'value': '0:30'}
+2025-02-03 14:39:32,015 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:32,016 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-783c00000008","ELEMENT":"00000000-0000-05f4-0000-783c00000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-BmNken3COHY4IdMW+JNgkNFHRkg"', 'Date': 'Mon, 03 Feb 2025 01:39:32 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:32,016 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:32,016 - appium_driver_helper - INFO - Found element '0:30' with search mode 'accessibility id' and locator '0:30'!
+2025-02-03 14:39:32,017 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'accessibility id', 'value': '0:30'}
+2025-02-03 14:39:32,061 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:32,062 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-783c00000008","ELEMENT":"00000000-0000-05f4-0000-783c00000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-QNb0N4GzgzggomsOoHB6m+jNGzc"', 'Date': 'Mon, 03 Feb 2025 01:39:32 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:32,062 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:32,062 - remote_connection - DEBUG - GET http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-783c00000008/rect {}
+2025-02-03 14:39:32,095 - connectionpool - DEBUG - http://127.0.0.1:4723 "GET /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-783c00000008/rect HTTP/11" 200 0
+2025-02-03 14:39:32,095 - remote_connection - DEBUG - Remote response: status=200 | data={"sessionId":"2a59a7b0-a4aa-4726-bae7-adb7ad2ab578","value":{"height":80,"width":600,"x":155,"y":319}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '102', 'ETag': 'W/"66-dToruFBd8KI/5BkGMUZk4sUwHsA"', 'Date': 'Mon, 03 Feb 2025 01:39:32 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:32,095 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:32,095 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/actions {'actions': [{'type': 'pointer', 'parameters': {'pointerType': 'touch'}, 'id': 'touch', 'actions': [{'type': 'pointerMove', 'duration': 250, 'x': 158, 'y': 423, 'origin': 'viewport'}, {'type': 'pointerDown', 'duration': 0, 'button': 0}, {'type': 'pointerMove', 'duration': 250, 'x': 155, 'y': 319, 'origin': 'viewport'}, {'type': 'pause', 'duration': 300}, {'type': 'pointerUp', 'duration': 0, 'button': 0}]}]}
+2025-02-03 14:39:32,964 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/actions HTTP/11" 200 0
+2025-02-03 14:39:32,965 - remote_connection - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Mon, 03 Feb 2025 01:39:32 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:32,965 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:32,965 - appium_driver_helper - INFO - Looking for element '0:50'...
+2025-02-03 14:39:32,965 - appium_driver_helper - DEBUG - Searching for element '0:50. Attempt 1/5
+2025-02-03 14:39:32,965 - appium_driver_helper - DEBUG - Search mode for '0:50': ('xpath', '//*[@resource-id="0:50"]')
+2025-02-03 14:39:32,966 - appium_driver_helper - DEBUG - Search mode for '0:50': ('accessibility id', '0:50')
+2025-02-03 14:39:32,966 - appium_driver_helper - DEBUG - Search mode for '0:50': ('id', '0:50')
+2025-02-03 14:39:32,966 - appium_driver_helper - DEBUG - Search mode for '0:50': ('xpath', '//*[@content-desc="0:50"]')
+2025-02-03 14:39:32,966 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="0:50"]' with search mode 'xpath'...
+2025-02-03 14:39:32,966 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="0:50"]'}
+2025-02-03 14:39:33,865 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:33,865 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:33 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:33,866 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:33,866 - appium_driver_helper - WARNING - Timed out looking for element '0:50' with search mode xpath' and locator'//*[@resource-id="0:50"]'!
+2025-02-03 14:39:33,866 - appium_driver_helper - DEBUG - Waiting for locator '0:50' with search mode 'accessibility id'...
+2025-02-03 14:39:33,866 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'accessibility id', 'value': '0:50'}
+2025-02-03 14:39:33,908 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:33,909 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-784900000008","ELEMENT":"00000000-0000-05f4-0000-784900000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-K9hE3lZ7P7lp9DA/neAX4/2FXa8"', 'Date': 'Mon, 03 Feb 2025 01:39:33 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:33,909 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:33,909 - appium_driver_helper - INFO - Found element '0:50' with search mode 'accessibility id' and locator '0:50'!
+2025-02-03 14:39:33,909 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'accessibility id', 'value': '0:50'}
+2025-02-03 14:39:33,944 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:33,944 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-784900000008","ELEMENT":"00000000-0000-05f4-0000-784900000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-/ATWTdajcACzwxxXXDMfkD6clj0"', 'Date': 'Mon, 03 Feb 2025 01:39:33 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:33,944 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:33,945 - remote_connection - DEBUG - GET http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-784900000008/rect {}
+2025-02-03 14:39:33,969 - connectionpool - DEBUG - http://127.0.0.1:4723 "GET /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-784900000008/rect HTTP/11" 200 0
+2025-02-03 14:39:33,970 - remote_connection - DEBUG - Remote response: status=200 | data={"sessionId":"2a59a7b0-a4aa-4726-bae7-adb7ad2ab578","value":{"height":70,"width":596,"x":157,"y":423}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '102', 'ETag': 'W/"66-nZ4oindZPN+Jp4WP0Stibn77IL0"', 'Date': 'Mon, 03 Feb 2025 01:39:33 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:33,970 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:33,970 - appium_driver_helper - INFO - Looking for element '0:40'...
+2025-02-03 14:39:33,970 - appium_driver_helper - DEBUG - Searching for element '0:40. Attempt 1/5
+2025-02-03 14:39:33,970 - appium_driver_helper - DEBUG - Search mode for '0:40': ('xpath', '//*[@resource-id="0:40"]')
+2025-02-03 14:39:33,970 - appium_driver_helper - DEBUG - Search mode for '0:40': ('accessibility id', '0:40')
+2025-02-03 14:39:33,970 - appium_driver_helper - DEBUG - Search mode for '0:40': ('id', '0:40')
+2025-02-03 14:39:33,970 - appium_driver_helper - DEBUG - Search mode for '0:40': ('xpath', '//*[@content-desc="0:40"]')
+2025-02-03 14:39:33,970 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="0:40"]' with search mode 'xpath'...
+2025-02-03 14:39:33,971 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="0:40"]'}
+2025-02-03 14:39:34,071 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:34,071 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:34 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:34,072 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:34,574 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="0:40"]'}
+2025-02-03 14:39:34,692 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:34,693 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:34 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:34,693 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:34,693 - appium_driver_helper - WARNING - Timed out looking for element '0:40' with search mode xpath' and locator'//*[@resource-id="0:40"]'!
+2025-02-03 14:39:34,693 - appium_driver_helper - DEBUG - Waiting for locator '0:40' with search mode 'accessibility id'...
+2025-02-03 14:39:34,693 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'accessibility id', 'value': '0:40'}
+2025-02-03 14:39:34,729 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:34,730 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-783d00000008","ELEMENT":"00000000-0000-05f4-0000-783d00000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-CIvsApVkVhT26Gfa2X414miTPRU"', 'Date': 'Mon, 03 Feb 2025 01:39:34 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:34,730 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:34,730 - appium_driver_helper - INFO - Found element '0:40' with search mode 'accessibility id' and locator '0:40'!
+2025-02-03 14:39:34,730 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'accessibility id', 'value': '0:40'}
+2025-02-03 14:39:34,764 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:34,765 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-783d00000008","ELEMENT":"00000000-0000-05f4-0000-783d00000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-OcEAYnzdGbtSDI2vh4oD1A8et0M"', 'Date': 'Mon, 03 Feb 2025 01:39:34 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:34,765 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:34,765 - remote_connection - DEBUG - GET http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-783d00000008/rect {}
+2025-02-03 14:39:34,793 - connectionpool - DEBUG - http://127.0.0.1:4723 "GET /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-783d00000008/rect HTTP/11" 200 0
+2025-02-03 14:39:34,793 - remote_connection - DEBUG - Remote response: status=200 | data={"sessionId":"2a59a7b0-a4aa-4726-bae7-adb7ad2ab578","value":{"height":80,"width":600,"x":155,"y":319}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '102', 'ETag': 'W/"66-dToruFBd8KI/5BkGMUZk4sUwHsA"', 'Date': 'Mon, 03 Feb 2025 01:39:34 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:34,794 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:34,794 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/actions {'actions': [{'type': 'pointer', 'parameters': {'pointerType': 'touch'}, 'id': 'touch', 'actions': [{'type': 'pointerMove', 'duration': 250, 'x': 157, 'y': 423, 'origin': 'viewport'}, {'type': 'pointerDown', 'duration': 0, 'button': 0}, {'type': 'pointerMove', 'duration': 250, 'x': 155, 'y': 319, 'origin': 'viewport'}, {'type': 'pause', 'duration': 300}, {'type': 'pointerUp', 'duration': 0, 'button': 0}]}]}
+2025-02-03 14:39:35,676 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/actions HTTP/11" 200 0
+2025-02-03 14:39:35,676 - remote_connection - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Mon, 03 Feb 2025 01:39:35 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:35,677 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:35,677 - conftest - INFO - Set step attribute 'end_timestamp' to '2025-02-03 14:39:35,677'
+2025-02-03 14:39:35,677 - conftest - INFO - Running step: 'Selecting random time: 0:30'
+2025-02-03 14:39:35,677 - conftest - INFO - Set step attribute 'start_timestamp' to '2025-02-03 14:39:35,677'
+2025-02-03 14:39:35,677 - appium_driver_helper - INFO - Looking for element '0:30'...
+2025-02-03 14:39:35,677 - appium_driver_helper - DEBUG - Searching for element '0:30. Attempt 1/5
+2025-02-03 14:39:35,677 - appium_driver_helper - DEBUG - Search mode for '0:30': ('xpath', '//*[@resource-id="0:30"]')
+2025-02-03 14:39:35,677 - appium_driver_helper - DEBUG - Search mode for '0:30': ('accessibility id', '0:30')
+2025-02-03 14:39:35,677 - appium_driver_helper - DEBUG - Search mode for '0:30': ('id', '0:30')
+2025-02-03 14:39:35,677 - appium_driver_helper - DEBUG - Search mode for '0:30': ('xpath', '//*[@content-desc="0:30"]')
+2025-02-03 14:39:35,678 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="0:30"]' with search mode 'xpath'...
+2025-02-03 14:39:35,678 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="0:30"]'}
+2025-02-03 14:39:36,570 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:36,571 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:36 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:36,571 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:36,571 - appium_driver_helper - WARNING - Timed out looking for element '0:30' with search mode xpath' and locator'//*[@resource-id="0:30"]'!
+2025-02-03 14:39:36,571 - appium_driver_helper - DEBUG - Waiting for locator '0:30' with search mode 'accessibility id'...
+2025-02-03 14:39:36,571 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'accessibility id', 'value': '0:30'}
+2025-02-03 14:39:36,610 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:36,610 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-783c00000008","ELEMENT":"00000000-0000-05f4-0000-783c00000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-BmNken3COHY4IdMW+JNgkNFHRkg"', 'Date': 'Mon, 03 Feb 2025 01:39:36 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:36,610 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:36,610 - appium_driver_helper - INFO - Found element '0:30' with search mode 'accessibility id' and locator '0:30'!
+2025-02-03 14:39:36,611 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'accessibility id', 'value': '0:30'}
+2025-02-03 14:39:36,649 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:36,649 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-783c00000008","ELEMENT":"00000000-0000-05f4-0000-783c00000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-QNb0N4GzgzggomsOoHB6m+jNGzc"', 'Date': 'Mon, 03 Feb 2025 01:39:36 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:36,649 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:36,649 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-783c00000008/click {}
+2025-02-03 14:39:36,721 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-783c00000008/click HTTP/11" 200 0
+2025-02-03 14:39:36,722 - remote_connection - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Mon, 03 Feb 2025 01:39:36 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:36,723 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:39,727 - conftest - INFO - Set step attribute 'end_timestamp' to '2025-02-03 14:39:39,727'
+2025-02-03 14:39:39,727 - conftest - INFO - Running step: 'Click on confirm for chosen time option'
+2025-02-03 14:39:39,727 - conftest - INFO - Set step attribute 'start_timestamp' to '2025-02-03 14:39:39,727'
+2025-02-03 14:39:39,728 - appium_driver_helper - INFO - Looking for element 'button-confirm'...
+2025-02-03 14:39:39,728 - appium_driver_helper - DEBUG - Searching for element 'button-confirm. Attempt 1/5
+2025-02-03 14:39:39,728 - appium_driver_helper - DEBUG - Search mode for 'button-confirm': ('xpath', '//*[@resource-id="button-confirm"]')
+2025-02-03 14:39:39,728 - appium_driver_helper - DEBUG - Search mode for 'button-confirm': ('accessibility id', 'button-confirm')
+2025-02-03 14:39:39,728 - appium_driver_helper - DEBUG - Search mode for 'button-confirm': ('id', 'button-confirm')
+2025-02-03 14:39:39,729 - appium_driver_helper - DEBUG - Search mode for 'button-confirm': ('xpath', '//*[@content-desc="button-confirm"]')
+2025-02-03 14:39:39,729 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="button-confirm"]' with search mode 'xpath'...
+2025-02-03 14:39:39,729 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="button-confirm"]'}
+2025-02-03 14:39:39,848 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:39,849 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-784300000008","ELEMENT":"00000000-0000-05f4-0000-784300000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-doPHSEHB0BRu1j3co7902LUy3GE"', 'Date': 'Mon, 03 Feb 2025 01:39:39 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:39,849 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:39,849 - appium_driver_helper - INFO - Found element 'button-confirm' with search mode 'xpath' and locator '//*[@resource-id="button-confirm"]'!
+2025-02-03 14:39:39,849 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'xpath', 'value': '//*[@resource-id="button-confirm"]'}
+2025-02-03 14:39:39,948 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:39,948 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-784300000008","ELEMENT":"00000000-0000-05f4-0000-784300000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-OZEoaIVamh8LzYuHdEZmASLxXjk"', 'Date': 'Mon, 03 Feb 2025 01:39:39 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:39,949 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:39,949 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-784300000008/click {}
+2025-02-03 14:39:41,046 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-784300000008/click HTTP/11" 200 0
+2025-02-03 14:39:41,047 - remote_connection - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Mon, 03 Feb 2025 01:39:41 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:41,047 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:41,048 - conftest - INFO - Set step attribute 'end_timestamp' to '2025-02-03 14:39:41,048'
+2025-02-03 14:39:41,048 - conftest - INFO - Running step: 'Click start'
+2025-02-03 14:39:41,048 - conftest - INFO - Set step attribute 'start_timestamp' to '2025-02-03 14:39:41,048'
+2025-02-03 14:39:41,048 - appium_driver_helper - INFO - Looking for element 'Start'...
+2025-02-03 14:39:41,048 - appium_driver_helper - DEBUG - Searching for element 'Start. Attempt 1/5
+2025-02-03 14:39:41,049 - appium_driver_helper - DEBUG - Search mode for 'Start': ('xpath', '//*[@resource-id="Start"]')
+2025-02-03 14:39:41,049 - appium_driver_helper - DEBUG - Search mode for 'Start': ('accessibility id', 'Start')
+2025-02-03 14:39:41,049 - appium_driver_helper - DEBUG - Search mode for 'Start': ('id', 'Start')
+2025-02-03 14:39:41,049 - appium_driver_helper - DEBUG - Search mode for 'Start': ('xpath', '//*[@content-desc="Start"]')
+2025-02-03 14:39:41,049 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="Start"]' with search mode 'xpath'...
+2025-02-03 14:39:41,049 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="Start"]'}
+2025-02-03 14:39:41,193 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:41,194 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:41 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:41,194 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:41,695 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="Start"]'}
+2025-02-03 14:39:41,835 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:41,835 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '12', 'ETag': 'W/"c-ct3goOI+b+kRZv2R9j2fTtMXwkk"', 'Date': 'Mon, 03 Feb 2025 01:39:41 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:41,835 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:41,836 - appium_driver_helper - WARNING - Timed out looking for element 'Start' with search mode xpath' and locator'//*[@resource-id="Start"]'!
+2025-02-03 14:39:41,836 - appium_driver_helper - DEBUG - Waiting for locator 'Start' with search mode 'accessibility id'...
+2025-02-03 14:39:41,836 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'accessibility id', 'value': 'Start'}
+2025-02-03 14:39:41,874 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:41,874 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-785f00000008","ELEMENT":"00000000-0000-05f4-0000-785f00000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-5tIrac8Uk8WfvaebmXlAJoRZhiA"', 'Date': 'Mon, 03 Feb 2025 01:39:41 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:41,874 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:41,874 - appium_driver_helper - INFO - Found element 'Start' with search mode 'accessibility id' and locator 'Start'!
+2025-02-03 14:39:41,875 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'accessibility id', 'value': 'Start'}
+2025-02-03 14:39:41,909 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:41,910 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-785f00000008","ELEMENT":"00000000-0000-05f4-0000-785f00000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-QFD/rcRze52nNQcqfzZkLIskn9Q"', 'Date': 'Mon, 03 Feb 2025 01:39:41 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:41,910 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:41,910 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-785f00000008/click {}
+2025-02-03 14:39:42,992 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element/00000000-0000-05f4-0000-785f00000008/click HTTP/11" 200 0
+2025-02-03 14:39:42,992 - remote_connection - DEBUG - Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '14', 'ETag': 'W/"e-9/1BuKMgFObM1mWJm+YjxtXJnUM"', 'Date': 'Mon, 03 Feb 2025 01:39:42 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:42,992 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:42,993 - conftest - INFO - Set step attribute 'end_timestamp' to '2025-02-03 14:39:42,993'
+2025-02-03 14:39:42,993 - conftest - INFO - Running step: 'Verify that the chosen time is displayed on running screen'
+2025-02-03 14:39:42,993 - conftest - INFO - Set step attribute 'start_timestamp' to '2025-02-03 14:39:42,993'
+2025-02-03 14:39:42,993 - appium_driver_helper - INFO - Looking for element 'cycle-time-remaning'...
+2025-02-03 14:39:42,993 - appium_driver_helper - DEBUG - Searching for element 'cycle-time-remaning. Attempt 1/5
+2025-02-03 14:39:42,993 - appium_driver_helper - DEBUG - Search mode for 'cycle-time-remaning': ('xpath', '//*[@resource-id="cycle-time-remaning"]')
+2025-02-03 14:39:42,993 - appium_driver_helper - DEBUG - Search mode for 'cycle-time-remaning': ('accessibility id', 'cycle-time-remaning')
+2025-02-03 14:39:42,994 - appium_driver_helper - DEBUG - Search mode for 'cycle-time-remaning': ('id', 'cycle-time-remaning')
+2025-02-03 14:39:42,994 - appium_driver_helper - DEBUG - Search mode for 'cycle-time-remaning': ('xpath', '//*[@content-desc="cycle-time-remaning"]')
+2025-02-03 14:39:42,994 - appium_driver_helper - DEBUG - Waiting for locator '//*[@resource-id="cycle-time-remaning"]' with search mode 'xpath'...
+2025-02-03 14:39:42,994 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements {'using': 'xpath', 'value': '//*[@resource-id="cycle-time-remaning"]'}
+2025-02-03 14:39:43,109 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/elements HTTP/11" 200 0
+2025-02-03 14:39:43,110 - remote_connection - DEBUG - Remote response: status=200 | data={"value":[{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-787800000008","ELEMENT":"00000000-0000-05f4-0000-787800000008"}]} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '139', 'ETag': 'W/"8b-6p6aap/Z2g9uNr4OYyrzAwYODBM"', 'Date': 'Mon, 03 Feb 2025 01:39:43 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:43,110 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:43,111 - appium_driver_helper - INFO - Found element 'cycle-time-remaning' with search mode 'xpath' and locator '//*[@resource-id="cycle-time-remaning"]'!
+2025-02-03 14:39:43,111 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element {'using': 'xpath', 'value': '//*[@resource-id="cycle-time-remaning"]'}
+2025-02-03 14:39:43,216 - connectionpool - DEBUG - http://127.0.0.1:4723 "POST /session/2a59a7b0-a4aa-4726-bae7-adb7ad2ab578/element HTTP/11" 200 0
+2025-02-03 14:39:43,217 - remote_connection - DEBUG - Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"00000000-0000-05f4-0000-787800000008","ELEMENT":"00000000-0000-05f4-0000-787800000008"}} | headers=HTTPHeaderDict({'X-Powered-By': 'Express', 'Vary': 'X-HTTP-Method-Override', 'Content-Type': 'application/json; charset=utf-8', 'Content-Length': '137', 'ETag': 'W/"89-tACgFCf4fJ7Bxxhsbu75p0ZSRR0"', 'Date': 'Mon, 03 Feb 2025 01:39:43 GMT', 'Connection': 'keep-alive', 'Keep-Alive': 'timeout=600'})
+2025-02-03 14:39:43,218 - remote_connection - DEBUG - Finished Request
+2025-02-03 14:39:43,219 - conftest - INFO - Set step attribute 'end_timestamp' to '2025-02-03 14:39:43,219'
+2025-02-03 14:39:43,219 - conftest - INFO - Set scenario attribute 'end_timestamp' to '2025-02-03 14:39:43,219'
+2025-02-03 14:39:43,219 - conftest - INFO - Finished scenario: 'Running Timed'
+2025-02-03 14:39:43,220 - conftest - INFO - Set feature attribute 'end_timestamp' to '2025-02-03 14:39:43,220'
+2025-02-03 14:39:43,220 - conftest - INFO - Finished feature: 'test_running'
+2025-02-03 14:39:43,224 - conftest - INFO - Set session attribute 'end_timestamp' to '2025-02-03 14:39:43,224'
+2025-02-03 14:39:44,686 - __init__ - WARNING - Ignored `box-shadow: 0 0 1rem var(--color-page-container-shadow)` at 48:5, unknown property.
+2025-02-03 14:39:44,688 - urls - ERROR - Relative URI reference without a base URI: <link href="styles.css">
+2025-02-03 14:39:44,839 - ttFont - DEBUG - Reading 'maxp' table from disk
+2025-02-03 14:39:44,839 - ttFont - DEBUG - Decompiling 'maxp' table
+2025-02-03 14:39:44,839 - loggingTools - DEBUG - Took 0.000s to load 'maxp'
+2025-02-03 14:39:44,839 - loggingTools - DEBUG - Took 0.000s to prune 'maxp'
+2025-02-03 14:39:44,839 - __init__ - INFO - maxp pruned
+2025-02-03 14:39:44,840 - ttFont - DEBUG - Reading 'cmap' table from disk
+2025-02-03 14:39:44,840 - ttFont - DEBUG - Decompiling 'cmap' table
+2025-02-03 14:39:44,841 - ttFont - DEBUG - Reading 'post' table from disk
+2025-02-03 14:39:44,841 - ttFont - DEBUG - Decompiling 'post' table
+2025-02-03 14:39:44,850 - loggingTools - DEBUG - Took 0.010s to load 'cmap'
+2025-02-03 14:39:44,850 - loggingTools - DEBUG - Took 0.000s to prune 'cmap'
+2025-02-03 14:39:44,850 - __init__ - INFO - cmap pruned
+2025-02-03 14:39:44,850 - __init__ - INFO - fpgm dropped
+2025-02-03 14:39:44,850 - __init__ - INFO - prep dropped
+2025-02-03 14:39:44,850 - __init__ - INFO - cvt  dropped
+2025-02-03 14:39:44,850 - __init__ - INFO - kern dropped
+2025-02-03 14:39:44,850 - loggingTools - DEBUG - Took 0.000s to load 'post'
+2025-02-03 14:39:44,850 - loggingTools - DEBUG - Took 0.000s to prune 'post'
+2025-02-03 14:39:44,850 - __init__ - INFO - post pruned
+2025-02-03 14:39:44,851 - __init__ - INFO - GPOS dropped
+2025-02-03 14:39:44,851 - __init__ - INFO - GSUB dropped
+2025-02-03 14:39:44,851 - ttFont - DEBUG - Reading 'glyf' table from disk
+2025-02-03 14:39:44,852 - ttFont - DEBUG - Decompiling 'glyf' table
+2025-02-03 14:39:44,852 - ttFont - DEBUG - Reading 'loca' table from disk
+2025-02-03 14:39:44,852 - ttFont - DEBUG - Decompiling 'loca' table
+2025-02-03 14:39:44,852 - ttFont - DEBUG - Reading 'head' table from disk
+2025-02-03 14:39:44,852 - ttFont - DEBUG - Decompiling 'head' table
+2025-02-03 14:39:44,859 - loggingTools - DEBUG - Took 0.008s to load 'glyf'
+2025-02-03 14:39:44,859 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-02-03 14:39:44,860 - __init__ - INFO - glyf pruned
+2025-02-03 14:39:44,861 - loggingTools - DEBUG - Took 0.001s to close glyph list over 'cmap'
+2025-02-03 14:39:44,861 - __init__ - INFO - Added gid0 to subset
+2025-02-03 14:39:44,861 - __init__ - INFO - Closing glyph list over 'glyf': 39 glyphs before
+2025-02-03 14:39:44,861 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'F', 'P', 'R', 'S', 'T', 'V', 'a', 'b', 'c', 'colon', 'd', 'e', 'f', 'fi', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 'slash', 'space', 't', 'three', 'u', 'underscore', 'w', 'y', 'zero']
+2025-02-03 14:39:44,862 - __init__ - INFO - Glyph IDs:   [0, 3, 16, 18, 19, 22, 29, 36, 38, 39, 41, 51, 53, 54, 55, 57, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 5038]
+2025-02-03 14:39:44,862 - __init__ - INFO - Closed glyph list over 'glyf': 39 glyphs after
+2025-02-03 14:39:44,862 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'F', 'P', 'R', 'S', 'T', 'V', 'a', 'b', 'c', 'colon', 'd', 'e', 'f', 'fi', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 'slash', 'space', 't', 'three', 'u', 'underscore', 'w', 'y', 'zero']
+2025-02-03 14:39:44,862 - __init__ - INFO - Glyph IDs:   [0, 3, 16, 18, 19, 22, 29, 36, 38, 39, 41, 51, 53, 54, 55, 57, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 5038]
+2025-02-03 14:39:44,862 - loggingTools - DEBUG - Took 0.001s to close glyph list over 'glyf'
+2025-02-03 14:39:44,866 - __init__ - INFO - Retaining 39 glyphs
+2025-02-03 14:39:44,866 - __init__ - INFO - head subsetting not needed
+2025-02-03 14:39:44,867 - __init__ - INFO - hhea subsetting not needed
+2025-02-03 14:39:44,867 - __init__ - INFO - maxp subsetting not needed
+2025-02-03 14:39:44,867 - __init__ - INFO - OS/2 subsetting not needed
+2025-02-03 14:39:44,867 - ttFont - DEBUG - Reading 'hmtx' table from disk
+2025-02-03 14:39:44,867 - ttFont - DEBUG - Decompiling 'hmtx' table
+2025-02-03 14:39:44,867 - ttFont - DEBUG - Reading 'hhea' table from disk
+2025-02-03 14:39:44,867 - ttFont - DEBUG - Decompiling 'hhea' table
+2025-02-03 14:39:44,872 - loggingTools - DEBUG - Took 0.005s to subset 'hmtx'
+2025-02-03 14:39:44,872 - __init__ - INFO - hmtx subsetted
+2025-02-03 14:39:44,874 - loggingTools - DEBUG - Took 0.002s to subset 'cmap'
+2025-02-03 14:39:44,874 - __init__ - INFO - cmap subsetted
+2025-02-03 14:39:44,874 - __init__ - INFO - loca subsetting not needed
+2025-02-03 14:39:44,874 - loggingTools - DEBUG - Took 0.000s to subset 'post'
+2025-02-03 14:39:44,874 - __init__ - INFO - post subsetted
+2025-02-03 14:39:44,874 - __init__ - INFO - gasp subsetting not needed
+2025-02-03 14:39:44,874 - __init__ - INFO - FFTM NOT subset; don't know how to subset
+2025-02-03 14:39:44,874 - ttFont - DEBUG - Reading 'GDEF' table from disk
+2025-02-03 14:39:44,875 - ttFont - DEBUG - Decompiling 'GDEF' table
+2025-02-03 14:39:44,877 - loggingTools - DEBUG - Took 0.002s to subset 'GDEF'
+2025-02-03 14:39:44,877 - __init__ - INFO - GDEF subsetted
+2025-02-03 14:39:44,877 - __init__ - INFO - name subsetting not needed
+2025-02-03 14:39:44,880 - loggingTools - DEBUG - Took 0.003s to subset 'glyf'
+2025-02-03 14:39:44,880 - __init__ - INFO - glyf subsetted
+2025-02-03 14:39:44,881 - loggingTools - DEBUG - Took 0.000s to subset GlyphOrder
+2025-02-03 14:39:44,881 - loggingTools - DEBUG - Took 0.000s to prune 'head'
+2025-02-03 14:39:44,881 - __init__ - INFO - head pruned
+2025-02-03 14:39:44,881 - ttFont - DEBUG - Reading 'OS/2' table from disk
+2025-02-03 14:39:44,881 - ttFont - DEBUG - Decompiling 'OS/2' table
+2025-02-03 14:39:44,882 - __init__ - INFO - OS/2 Unicode ranges pruned: [0, 62]
+2025-02-03 14:39:44,882 - __init__ - INFO - OS/2 CodePage ranges pruned: [0]
+2025-02-03 14:39:44,883 - loggingTools - DEBUG - Took 0.001s to prune 'glyf'
+2025-02-03 14:39:44,883 - __init__ - INFO - glyf pruned
+2025-02-03 14:39:44,883 - loggingTools - DEBUG - Took 0.000s to prune 'GDEF'
+2025-02-03 14:39:44,883 - __init__ - INFO - GDEF pruned
+2025-02-03 14:39:44,884 - ttFont - DEBUG - Reading 'name' table from disk
+2025-02-03 14:39:44,884 - ttFont - DEBUG - Decompiling 'name' table
+2025-02-03 14:39:44,884 - ttFont - DEBUG - Reading 'gasp' table from disk
+2025-02-03 14:39:44,884 - ttFont - DEBUG - Decompiling 'gasp' table
+2025-02-03 14:39:44,884 - ttFont - DEBUG - Reading 'FFTM' table from disk
+2025-02-03 14:39:44,884 - ttFont - DEBUG - Decompiling 'FFTM' table
+2025-02-03 14:39:44,884 - loggingTools - DEBUG - Took 0.001s to prune 'name'
+2025-02-03 14:39:44,884 - __init__ - INFO - name pruned
+2025-02-03 14:39:44,885 - ttFont - DEBUG - Compiling 'glyf' table
+2025-02-03 14:39:44,894 - ttFont - DEBUG - Writing 'glyf' table to disk
+2025-02-03 14:39:44,895 - ttFont - DEBUG - Compiling 'maxp' table
+2025-02-03 14:39:44,897 - ttFont - DEBUG - Writing 'maxp' table to disk
+2025-02-03 14:39:44,897 - ttFont - DEBUG - Compiling 'loca' table
+2025-02-03 14:39:44,898 - ttFont - DEBUG - Writing 'loca' table to disk
+2025-02-03 14:39:44,898 - ttFont - DEBUG - Compiling 'head' table
+2025-02-03 14:39:44,898 - ttFont - DEBUG - Writing 'head' table to disk
+2025-02-03 14:39:44,898 - ttFont - DEBUG - Compiling 'hmtx' table
+2025-02-03 14:39:44,902 - ttFont - DEBUG - Writing 'hmtx' table to disk
+2025-02-03 14:39:44,903 - ttFont - DEBUG - Compiling 'hhea' table
+2025-02-03 14:39:44,905 - ttFont - DEBUG - Writing 'hhea' table to disk
+2025-02-03 14:39:44,905 - ttFont - DEBUG - Compiling 'OS/2' table
+2025-02-03 14:39:44,905 - ttFont - DEBUG - Writing 'OS/2' table to disk
+2025-02-03 14:39:44,906 - ttFont - DEBUG - Compiling 'cmap' table
+2025-02-03 14:39:44,906 - ttFont - DEBUG - Writing 'cmap' table to disk
+2025-02-03 14:39:44,906 - ttFont - DEBUG - Compiling 'name' table
+2025-02-03 14:39:44,906 - ttFont - DEBUG - Writing 'name' table to disk
+2025-02-03 14:39:44,906 - ttFont - DEBUG - Compiling 'post' table
+2025-02-03 14:39:44,907 - ttFont - DEBUG - Writing 'post' table to disk
+2025-02-03 14:39:44,907 - ttFont - DEBUG - Compiling 'gasp' table
+2025-02-03 14:39:44,907 - ttFont - DEBUG - Writing 'gasp' table to disk
+2025-02-03 14:39:44,907 - ttFont - DEBUG - Compiling 'FFTM' table
+2025-02-03 14:39:44,907 - ttFont - DEBUG - Writing 'FFTM' table to disk
+2025-02-03 14:39:44,907 - ttFont - DEBUG - Compiling 'GDEF' table
+2025-02-03 14:39:44,907 - ttFont - DEBUG - Writing 'GDEF' table to disk
+2025-02-03 14:39:44,909 - ttFont - DEBUG - Reading 'maxp' table from disk
+2025-02-03 14:39:44,909 - ttFont - DEBUG - Decompiling 'maxp' table
+2025-02-03 14:39:44,909 - loggingTools - DEBUG - Took 0.001s to load 'maxp'
+2025-02-03 14:39:44,910 - loggingTools - DEBUG - Took 0.000s to prune 'maxp'
+2025-02-03 14:39:44,910 - __init__ - INFO - maxp pruned
+2025-02-03 14:39:44,910 - ttFont - DEBUG - Reading 'cmap' table from disk
+2025-02-03 14:39:44,910 - ttFont - DEBUG - Decompiling 'cmap' table
+2025-02-03 14:39:44,911 - ttFont - DEBUG - Reading 'post' table from disk
+2025-02-03 14:39:44,911 - ttFont - DEBUG - Decompiling 'post' table
+2025-02-03 14:39:44,919 - loggingTools - DEBUG - Took 0.009s to load 'cmap'
+2025-02-03 14:39:44,919 - loggingTools - DEBUG - Took 0.000s to prune 'cmap'
+2025-02-03 14:39:44,919 - __init__ - INFO - cmap pruned
+2025-02-03 14:39:44,919 - __init__ - INFO - fpgm dropped
+2025-02-03 14:39:44,919 - __init__ - INFO - prep dropped
+2025-02-03 14:39:44,919 - __init__ - INFO - cvt  dropped
+2025-02-03 14:39:44,919 - __init__ - INFO - kern dropped
+2025-02-03 14:39:44,919 - loggingTools - DEBUG - Took 0.000s to load 'post'
+2025-02-03 14:39:44,919 - loggingTools - DEBUG - Took 0.000s to prune 'post'
+2025-02-03 14:39:44,919 - __init__ - INFO - post pruned
+2025-02-03 14:39:44,920 - __init__ - INFO - GPOS dropped
+2025-02-03 14:39:44,920 - __init__ - INFO - GSUB dropped
+2025-02-03 14:39:44,920 - ttFont - DEBUG - Reading 'glyf' table from disk
+2025-02-03 14:39:44,920 - ttFont - DEBUG - Decompiling 'glyf' table
+2025-02-03 14:39:44,920 - ttFont - DEBUG - Reading 'loca' table from disk
+2025-02-03 14:39:44,920 - ttFont - DEBUG - Decompiling 'loca' table
+2025-02-03 14:39:44,920 - ttFont - DEBUG - Reading 'head' table from disk
+2025-02-03 14:39:44,920 - ttFont - DEBUG - Decompiling 'head' table
+2025-02-03 14:39:44,926 - loggingTools - DEBUG - Took 0.006s to load 'glyf'
+2025-02-03 14:39:44,926 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-02-03 14:39:44,927 - __init__ - INFO - glyf pruned
+2025-02-03 14:39:44,927 - loggingTools - DEBUG - Took 0.000s to close glyph list over 'cmap'
+2025-02-03 14:39:44,927 - __init__ - INFO - Added gid0 to subset
+2025-02-03 14:39:44,928 - __init__ - INFO - Closing glyph list over 'MATH': 44 glyphs before
+2025-02-03 14:39:44,928 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'L', 'P', 'R', 'S', 'T', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'seven', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-02-03 14:39:44,928 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 22, 23, 24, 26, 28, 29, 36, 41, 47, 51, 53, 54, 55, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-02-03 14:39:44,928 - ttFont - DEBUG - Reading 'MATH' table from disk
+2025-02-03 14:39:44,928 - ttFont - DEBUG - Decompiling 'MATH' table
+2025-02-03 14:39:44,930 - __init__ - INFO - Closed glyph list over 'MATH': 44 glyphs after
+2025-02-03 14:39:44,930 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'L', 'P', 'R', 'S', 'T', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'seven', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-02-03 14:39:44,930 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 22, 23, 24, 26, 28, 29, 36, 41, 47, 51, 53, 54, 55, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-02-03 14:39:44,931 - loggingTools - DEBUG - Took 0.003s to close glyph list over 'MATH'
+2025-02-03 14:39:44,931 - __init__ - INFO - Closing glyph list over 'glyf': 44 glyphs before
+2025-02-03 14:39:44,931 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'L', 'P', 'R', 'S', 'T', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'seven', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-02-03 14:39:44,931 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 22, 23, 24, 26, 28, 29, 36, 41, 47, 51, 53, 54, 55, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-02-03 14:39:44,931 - __init__ - INFO - Closed glyph list over 'glyf': 44 glyphs after
+2025-02-03 14:39:44,931 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'L', 'P', 'R', 'S', 'T', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'seven', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-02-03 14:39:44,931 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 22, 23, 24, 26, 28, 29, 36, 41, 47, 51, 53, 54, 55, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-02-03 14:39:44,931 - loggingTools - DEBUG - Took 0.001s to close glyph list over 'glyf'
+2025-02-03 14:39:44,934 - __init__ - INFO - Retaining 44 glyphs
+2025-02-03 14:39:44,934 - __init__ - INFO - head subsetting not needed
+2025-02-03 14:39:44,934 - __init__ - INFO - hhea subsetting not needed
+2025-02-03 14:39:44,934 - __init__ - INFO - maxp subsetting not needed
+2025-02-03 14:39:44,934 - __init__ - INFO - OS/2 subsetting not needed
+2025-02-03 14:39:44,935 - ttFont - DEBUG - Reading 'hmtx' table from disk
+2025-02-03 14:39:44,935 - ttFont - DEBUG - Decompiling 'hmtx' table
+2025-02-03 14:39:44,935 - ttFont - DEBUG - Reading 'hhea' table from disk
+2025-02-03 14:39:44,935 - ttFont - DEBUG - Decompiling 'hhea' table
+2025-02-03 14:39:44,937 - loggingTools - DEBUG - Took 0.003s to subset 'hmtx'
+2025-02-03 14:39:44,938 - __init__ - INFO - hmtx subsetted
+2025-02-03 14:39:44,939 - loggingTools - DEBUG - Took 0.002s to subset 'cmap'
+2025-02-03 14:39:44,939 - __init__ - INFO - cmap subsetted
+2025-02-03 14:39:44,940 - __init__ - INFO - loca subsetting not needed
+2025-02-03 14:39:44,940 - loggingTools - DEBUG - Took 0.000s to subset 'post'
+2025-02-03 14:39:44,940 - __init__ - INFO - post subsetted
+2025-02-03 14:39:44,940 - __init__ - INFO - gasp subsetting not needed
+2025-02-03 14:39:44,940 - __init__ - INFO - FFTM NOT subset; don't know how to subset
+2025-02-03 14:39:44,940 - loggingTools - DEBUG - Took 0.000s to subset 'MATH'
+2025-02-03 14:39:44,940 - __init__ - INFO - MATH subsetted
+2025-02-03 14:39:44,940 - ttFont - DEBUG - Reading 'GDEF' table from disk
+2025-02-03 14:39:44,940 - ttFont - DEBUG - Decompiling 'GDEF' table
+2025-02-03 14:39:44,942 - loggingTools - DEBUG - Took 0.002s to subset 'GDEF'
+2025-02-03 14:39:44,943 - __init__ - INFO - GDEF subsetted
+2025-02-03 14:39:44,943 - __init__ - INFO - name subsetting not needed
+2025-02-03 14:39:44,944 - loggingTools - DEBUG - Took 0.001s to subset 'glyf'
+2025-02-03 14:39:44,944 - __init__ - INFO - glyf subsetted
+2025-02-03 14:39:44,944 - loggingTools - DEBUG - Took 0.000s to subset GlyphOrder
+2025-02-03 14:39:44,945 - loggingTools - DEBUG - Took 0.000s to prune 'head'
+2025-02-03 14:39:44,945 - __init__ - INFO - head pruned
+2025-02-03 14:39:44,945 - ttFont - DEBUG - Reading 'OS/2' table from disk
+2025-02-03 14:39:44,945 - ttFont - DEBUG - Decompiling 'OS/2' table
+2025-02-03 14:39:44,945 - __init__ - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2025-02-03 14:39:44,945 - __init__ - INFO - OS/2 CodePage ranges pruned: [0]
+2025-02-03 14:39:44,946 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-02-03 14:39:44,946 - __init__ - INFO - glyf pruned
+2025-02-03 14:39:44,946 - loggingTools - DEBUG - Took 0.000s to prune 'GDEF'
+2025-02-03 14:39:44,946 - __init__ - INFO - GDEF pruned
+2025-02-03 14:39:44,946 - ttFont - DEBUG - Reading 'name' table from disk
+2025-02-03 14:39:44,946 - ttFont - DEBUG - Decompiling 'name' table
+2025-02-03 14:39:44,947 - ttFont - DEBUG - Reading 'gasp' table from disk
+2025-02-03 14:39:44,947 - ttFont - DEBUG - Decompiling 'gasp' table
+2025-02-03 14:39:44,947 - ttFont - DEBUG - Reading 'FFTM' table from disk
+2025-02-03 14:39:44,947 - ttFont - DEBUG - Decompiling 'FFTM' table
+2025-02-03 14:39:44,947 - loggingTools - DEBUG - Took 0.001s to prune 'name'
+2025-02-03 14:39:44,947 - __init__ - INFO - name pruned
+2025-02-03 14:39:44,947 - ttFont - DEBUG - Compiling 'glyf' table
+2025-02-03 14:39:44,952 - ttFont - DEBUG - Writing 'glyf' table to disk
+2025-02-03 14:39:44,952 - ttFont - DEBUG - Compiling 'maxp' table
+2025-02-03 14:39:44,952 - ttFont - DEBUG - Writing 'maxp' table to disk
+2025-02-03 14:39:44,953 - ttFont - DEBUG - Compiling 'loca' table
+2025-02-03 14:39:44,953 - ttFont - DEBUG - Writing 'loca' table to disk
+2025-02-03 14:39:44,953 - ttFont - DEBUG - Compiling 'head' table
+2025-02-03 14:39:44,953 - ttFont - DEBUG - Writing 'head' table to disk
+2025-02-03 14:39:44,953 - ttFont - DEBUG - Compiling 'hmtx' table
+2025-02-03 14:39:44,953 - ttFont - DEBUG - Writing 'hmtx' table to disk
+2025-02-03 14:39:44,953 - ttFont - DEBUG - Compiling 'hhea' table
+2025-02-03 14:39:44,953 - ttFont - DEBUG - Writing 'hhea' table to disk
+2025-02-03 14:39:44,953 - ttFont - DEBUG - Compiling 'OS/2' table
+2025-02-03 14:39:44,953 - ttFont - DEBUG - Writing 'OS/2' table to disk
+2025-02-03 14:39:44,954 - ttFont - DEBUG - Compiling 'cmap' table
+2025-02-03 14:39:44,954 - ttFont - DEBUG - Writing 'cmap' table to disk
+2025-02-03 14:39:44,954 - ttFont - DEBUG - Compiling 'name' table
+2025-02-03 14:39:44,954 - ttFont - DEBUG - Writing 'name' table to disk
+2025-02-03 14:39:44,954 - ttFont - DEBUG - Compiling 'post' table
+2025-02-03 14:39:44,954 - ttFont - DEBUG - Writing 'post' table to disk
+2025-02-03 14:39:44,954 - ttFont - DEBUG - Compiling 'gasp' table
+2025-02-03 14:39:44,954 - ttFont - DEBUG - Writing 'gasp' table to disk
+2025-02-03 14:39:44,954 - ttFont - DEBUG - Compiling 'FFTM' table
+2025-02-03 14:39:44,955 - ttFont - DEBUG - Writing 'FFTM' table to disk
+2025-02-03 14:39:44,955 - ttFont - DEBUG - Compiling 'GDEF' table
+2025-02-03 14:39:44,955 - ttFont - DEBUG - Writing 'GDEF' table to disk
+2025-02-03 14:39:44,955 - ttFont - DEBUG - Compiling 'MATH' table
+2025-02-03 14:39:44,956 - ttFont - DEBUG - Writing 'MATH' table to disk
+2025-02-03 14:39:44,975 - __init__ - WARNING - Ignored `box-shadow: 0 0 1rem var(--color-page-container-shadow)` at 48:5, unknown property.
+2025-02-03 14:39:44,977 - urls - ERROR - Relative URI reference without a base URI: <link href="styles.css">
+2025-02-03 14:39:45,047 - ttFont - DEBUG - Reading 'maxp' table from disk
+2025-02-03 14:39:45,047 - ttFont - DEBUG - Decompiling 'maxp' table
+2025-02-03 14:39:45,047 - loggingTools - DEBUG - Took 0.000s to load 'maxp'
+2025-02-03 14:39:45,047 - loggingTools - DEBUG - Took 0.000s to prune 'maxp'
+2025-02-03 14:39:45,047 - __init__ - INFO - maxp pruned
+2025-02-03 14:39:45,047 - ttFont - DEBUG - Reading 'cmap' table from disk
+2025-02-03 14:39:45,047 - ttFont - DEBUG - Decompiling 'cmap' table
+2025-02-03 14:39:45,048 - ttFont - DEBUG - Reading 'post' table from disk
+2025-02-03 14:39:45,048 - ttFont - DEBUG - Decompiling 'post' table
+2025-02-03 14:39:45,056 - loggingTools - DEBUG - Took 0.009s to load 'cmap'
+2025-02-03 14:39:45,056 - loggingTools - DEBUG - Took 0.000s to prune 'cmap'
+2025-02-03 14:39:45,056 - __init__ - INFO - cmap pruned
+2025-02-03 14:39:45,056 - __init__ - INFO - fpgm dropped
+2025-02-03 14:39:45,057 - __init__ - INFO - prep dropped
+2025-02-03 14:39:45,057 - __init__ - INFO - cvt  dropped
+2025-02-03 14:39:45,057 - __init__ - INFO - kern dropped
+2025-02-03 14:39:45,057 - loggingTools - DEBUG - Took 0.000s to load 'post'
+2025-02-03 14:39:45,057 - loggingTools - DEBUG - Took 0.000s to prune 'post'
+2025-02-03 14:39:45,057 - __init__ - INFO - post pruned
+2025-02-03 14:39:45,057 - __init__ - INFO - GPOS dropped
+2025-02-03 14:39:45,057 - __init__ - INFO - GSUB dropped
+2025-02-03 14:39:45,057 - ttFont - DEBUG - Reading 'glyf' table from disk
+2025-02-03 14:39:45,057 - ttFont - DEBUG - Decompiling 'glyf' table
+2025-02-03 14:39:45,058 - ttFont - DEBUG - Reading 'loca' table from disk
+2025-02-03 14:39:45,058 - ttFont - DEBUG - Decompiling 'loca' table
+2025-02-03 14:39:45,058 - ttFont - DEBUG - Reading 'head' table from disk
+2025-02-03 14:39:45,058 - ttFont - DEBUG - Decompiling 'head' table
+2025-02-03 14:39:45,064 - loggingTools - DEBUG - Took 0.007s to load 'glyf'
+2025-02-03 14:39:45,064 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-02-03 14:39:45,064 - __init__ - INFO - glyf pruned
+2025-02-03 14:39:45,065 - loggingTools - DEBUG - Took 0.000s to close glyph list over 'cmap'
+2025-02-03 14:39:45,065 - __init__ - INFO - Added gid0 to subset
+2025-02-03 14:39:45,065 - __init__ - INFO - Closing glyph list over 'glyf': 39 glyphs before
+2025-02-03 14:39:45,066 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'F', 'P', 'R', 'S', 'T', 'V', 'a', 'b', 'c', 'colon', 'd', 'e', 'f', 'fi', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 'slash', 'space', 't', 'three', 'u', 'underscore', 'w', 'y', 'zero']
+2025-02-03 14:39:45,066 - __init__ - INFO - Glyph IDs:   [0, 3, 16, 18, 19, 22, 29, 36, 38, 39, 41, 51, 53, 54, 55, 57, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 5038]
+2025-02-03 14:39:45,066 - __init__ - INFO - Closed glyph list over 'glyf': 39 glyphs after
+2025-02-03 14:39:45,066 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'C', 'D', 'F', 'P', 'R', 'S', 'T', 'V', 'a', 'b', 'c', 'colon', 'd', 'e', 'f', 'fi', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'o', 'p', 'r', 's', 'slash', 'space', 't', 'three', 'u', 'underscore', 'w', 'y', 'zero']
+2025-02-03 14:39:45,066 - __init__ - INFO - Glyph IDs:   [0, 3, 16, 18, 19, 22, 29, 36, 38, 39, 41, 51, 53, 54, 55, 57, 66, 68, 69, 70, 71, 72, 73, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 90, 92, 5038]
+2025-02-03 14:39:45,067 - loggingTools - DEBUG - Took 0.001s to close glyph list over 'glyf'
+2025-02-03 14:39:45,070 - __init__ - INFO - Retaining 39 glyphs
+2025-02-03 14:39:45,070 - __init__ - INFO - head subsetting not needed
+2025-02-03 14:39:45,071 - __init__ - INFO - hhea subsetting not needed
+2025-02-03 14:39:45,071 - __init__ - INFO - maxp subsetting not needed
+2025-02-03 14:39:45,071 - __init__ - INFO - OS/2 subsetting not needed
+2025-02-03 14:39:45,071 - ttFont - DEBUG - Reading 'hmtx' table from disk
+2025-02-03 14:39:45,071 - ttFont - DEBUG - Decompiling 'hmtx' table
+2025-02-03 14:39:45,071 - ttFont - DEBUG - Reading 'hhea' table from disk
+2025-02-03 14:39:45,071 - ttFont - DEBUG - Decompiling 'hhea' table
+2025-02-03 14:39:45,076 - loggingTools - DEBUG - Took 0.005s to subset 'hmtx'
+2025-02-03 14:39:45,076 - __init__ - INFO - hmtx subsetted
+2025-02-03 14:39:45,078 - loggingTools - DEBUG - Took 0.002s to subset 'cmap'
+2025-02-03 14:39:45,078 - __init__ - INFO - cmap subsetted
+2025-02-03 14:39:45,078 - __init__ - INFO - loca subsetting not needed
+2025-02-03 14:39:45,078 - loggingTools - DEBUG - Took 0.000s to subset 'post'
+2025-02-03 14:39:45,078 - __init__ - INFO - post subsetted
+2025-02-03 14:39:45,079 - __init__ - INFO - gasp subsetting not needed
+2025-02-03 14:39:45,079 - __init__ - INFO - FFTM NOT subset; don't know how to subset
+2025-02-03 14:39:45,079 - ttFont - DEBUG - Reading 'GDEF' table from disk
+2025-02-03 14:39:45,079 - ttFont - DEBUG - Decompiling 'GDEF' table
+2025-02-03 14:39:45,080 - loggingTools - DEBUG - Took 0.002s to subset 'GDEF'
+2025-02-03 14:39:45,081 - __init__ - INFO - GDEF subsetted
+2025-02-03 14:39:45,081 - __init__ - INFO - name subsetting not needed
+2025-02-03 14:39:45,124 - loggingTools - DEBUG - Took 0.043s to subset 'glyf'
+2025-02-03 14:39:45,124 - __init__ - INFO - glyf subsetted
+2025-02-03 14:39:45,125 - loggingTools - DEBUG - Took 0.000s to subset GlyphOrder
+2025-02-03 14:39:45,125 - loggingTools - DEBUG - Took 0.000s to prune 'head'
+2025-02-03 14:39:45,125 - __init__ - INFO - head pruned
+2025-02-03 14:39:45,125 - ttFont - DEBUG - Reading 'OS/2' table from disk
+2025-02-03 14:39:45,125 - ttFont - DEBUG - Decompiling 'OS/2' table
+2025-02-03 14:39:45,126 - __init__ - INFO - OS/2 Unicode ranges pruned: [0, 62]
+2025-02-03 14:39:45,126 - __init__ - INFO - OS/2 CodePage ranges pruned: [0]
+2025-02-03 14:39:45,127 - loggingTools - DEBUG - Took 0.001s to prune 'glyf'
+2025-02-03 14:39:45,127 - __init__ - INFO - glyf pruned
+2025-02-03 14:39:45,127 - loggingTools - DEBUG - Took 0.000s to prune 'GDEF'
+2025-02-03 14:39:45,128 - __init__ - INFO - GDEF pruned
+2025-02-03 14:39:45,128 - ttFont - DEBUG - Reading 'name' table from disk
+2025-02-03 14:39:45,128 - ttFont - DEBUG - Decompiling 'name' table
+2025-02-03 14:39:45,128 - ttFont - DEBUG - Reading 'gasp' table from disk
+2025-02-03 14:39:45,128 - ttFont - DEBUG - Decompiling 'gasp' table
+2025-02-03 14:39:45,128 - ttFont - DEBUG - Reading 'FFTM' table from disk
+2025-02-03 14:39:45,128 - ttFont - DEBUG - Decompiling 'FFTM' table
+2025-02-03 14:39:45,128 - loggingTools - DEBUG - Took 0.001s to prune 'name'
+2025-02-03 14:39:45,128 - __init__ - INFO - name pruned
+2025-02-03 14:39:45,129 - ttFont - DEBUG - Compiling 'glyf' table
+2025-02-03 14:39:45,138 - ttFont - DEBUG - Writing 'glyf' table to disk
+2025-02-03 14:39:45,138 - ttFont - DEBUG - Compiling 'maxp' table
+2025-02-03 14:39:45,140 - ttFont - DEBUG - Writing 'maxp' table to disk
+2025-02-03 14:39:45,140 - ttFont - DEBUG - Compiling 'loca' table
+2025-02-03 14:39:45,142 - ttFont - DEBUG - Writing 'loca' table to disk
+2025-02-03 14:39:45,142 - ttFont - DEBUG - Compiling 'head' table
+2025-02-03 14:39:45,142 - ttFont - DEBUG - Writing 'head' table to disk
+2025-02-03 14:39:45,142 - ttFont - DEBUG - Compiling 'hmtx' table
+2025-02-03 14:39:45,146 - ttFont - DEBUG - Writing 'hmtx' table to disk
+2025-02-03 14:39:45,147 - ttFont - DEBUG - Compiling 'hhea' table
+2025-02-03 14:39:45,150 - ttFont - DEBUG - Writing 'hhea' table to disk
+2025-02-03 14:39:45,150 - ttFont - DEBUG - Compiling 'OS/2' table
+2025-02-03 14:39:45,150 - ttFont - DEBUG - Writing 'OS/2' table to disk
+2025-02-03 14:39:45,150 - ttFont - DEBUG - Compiling 'cmap' table
+2025-02-03 14:39:45,151 - ttFont - DEBUG - Writing 'cmap' table to disk
+2025-02-03 14:39:45,151 - ttFont - DEBUG - Compiling 'name' table
+2025-02-03 14:39:45,151 - ttFont - DEBUG - Writing 'name' table to disk
+2025-02-03 14:39:45,151 - ttFont - DEBUG - Compiling 'post' table
+2025-02-03 14:39:45,151 - ttFont - DEBUG - Writing 'post' table to disk
+2025-02-03 14:39:45,152 - ttFont - DEBUG - Compiling 'gasp' table
+2025-02-03 14:39:45,152 - ttFont - DEBUG - Writing 'gasp' table to disk
+2025-02-03 14:39:45,152 - ttFont - DEBUG - Compiling 'FFTM' table
+2025-02-03 14:39:45,152 - ttFont - DEBUG - Writing 'FFTM' table to disk
+2025-02-03 14:39:45,152 - ttFont - DEBUG - Compiling 'GDEF' table
+2025-02-03 14:39:45,152 - ttFont - DEBUG - Writing 'GDEF' table to disk
+2025-02-03 14:39:45,154 - ttFont - DEBUG - Reading 'maxp' table from disk
+2025-02-03 14:39:45,154 - ttFont - DEBUG - Decompiling 'maxp' table
+2025-02-03 14:39:45,154 - loggingTools - DEBUG - Took 0.000s to load 'maxp'
+2025-02-03 14:39:45,154 - loggingTools - DEBUG - Took 0.000s to prune 'maxp'
+2025-02-03 14:39:45,154 - __init__ - INFO - maxp pruned
+2025-02-03 14:39:45,154 - ttFont - DEBUG - Reading 'cmap' table from disk
+2025-02-03 14:39:45,154 - ttFont - DEBUG - Decompiling 'cmap' table
+2025-02-03 14:39:45,155 - ttFont - DEBUG - Reading 'post' table from disk
+2025-02-03 14:39:45,155 - ttFont - DEBUG - Decompiling 'post' table
+2025-02-03 14:39:45,163 - loggingTools - DEBUG - Took 0.009s to load 'cmap'
+2025-02-03 14:39:45,163 - loggingTools - DEBUG - Took 0.000s to prune 'cmap'
+2025-02-03 14:39:45,164 - __init__ - INFO - cmap pruned
+2025-02-03 14:39:45,164 - __init__ - INFO - fpgm dropped
+2025-02-03 14:39:45,164 - __init__ - INFO - prep dropped
+2025-02-03 14:39:45,164 - __init__ - INFO - cvt  dropped
+2025-02-03 14:39:45,164 - __init__ - INFO - kern dropped
+2025-02-03 14:39:45,164 - loggingTools - DEBUG - Took 0.000s to load 'post'
+2025-02-03 14:39:45,164 - loggingTools - DEBUG - Took 0.000s to prune 'post'
+2025-02-03 14:39:45,164 - __init__ - INFO - post pruned
+2025-02-03 14:39:45,164 - __init__ - INFO - GPOS dropped
+2025-02-03 14:39:45,164 - __init__ - INFO - GSUB dropped
+2025-02-03 14:39:45,164 - ttFont - DEBUG - Reading 'glyf' table from disk
+2025-02-03 14:39:45,164 - ttFont - DEBUG - Decompiling 'glyf' table
+2025-02-03 14:39:45,165 - ttFont - DEBUG - Reading 'loca' table from disk
+2025-02-03 14:39:45,165 - ttFont - DEBUG - Decompiling 'loca' table
+2025-02-03 14:39:45,165 - ttFont - DEBUG - Reading 'head' table from disk
+2025-02-03 14:39:45,165 - ttFont - DEBUG - Decompiling 'head' table
+2025-02-03 14:39:45,170 - loggingTools - DEBUG - Took 0.006s to load 'glyf'
+2025-02-03 14:39:45,171 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-02-03 14:39:45,171 - __init__ - INFO - glyf pruned
+2025-02-03 14:39:45,172 - loggingTools - DEBUG - Took 0.001s to close glyph list over 'cmap'
+2025-02-03 14:39:45,172 - __init__ - INFO - Added gid0 to subset
+2025-02-03 14:39:45,172 - __init__ - INFO - Closing glyph list over 'MATH': 44 glyphs before
+2025-02-03 14:39:45,172 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'L', 'P', 'R', 'S', 'T', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'seven', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-02-03 14:39:45,172 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 22, 23, 24, 26, 28, 29, 36, 41, 47, 51, 53, 54, 55, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-02-03 14:39:45,173 - ttFont - DEBUG - Reading 'MATH' table from disk
+2025-02-03 14:39:45,173 - ttFont - DEBUG - Decompiling 'MATH' table
+2025-02-03 14:39:45,174 - __init__ - INFO - Closed glyph list over 'MATH': 44 glyphs after
+2025-02-03 14:39:45,175 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'L', 'P', 'R', 'S', 'T', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'seven', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-02-03 14:39:45,175 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 22, 23, 24, 26, 28, 29, 36, 41, 47, 51, 53, 54, 55, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-02-03 14:39:45,175 - loggingTools - DEBUG - Took 0.003s to close glyph list over 'MATH'
+2025-02-03 14:39:45,175 - __init__ - INFO - Closing glyph list over 'glyf': 44 glyphs before
+2025-02-03 14:39:45,175 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'L', 'P', 'R', 'S', 'T', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'seven', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-02-03 14:39:45,175 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 22, 23, 24, 26, 28, 29, 36, 41, 47, 51, 53, 54, 55, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-02-03 14:39:45,175 - __init__ - INFO - Closed glyph list over 'glyf': 44 glyphs after
+2025-02-03 14:39:45,175 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'L', 'P', 'R', 'S', 'T', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'seven', 'space', 't', 'three', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-02-03 14:39:45,175 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 22, 23, 24, 26, 28, 29, 36, 41, 47, 51, 53, 54, 55, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-02-03 14:39:45,176 - loggingTools - DEBUG - Took 0.001s to close glyph list over 'glyf'
+2025-02-03 14:39:45,178 - __init__ - INFO - Retaining 44 glyphs
+2025-02-03 14:39:45,179 - __init__ - INFO - head subsetting not needed
+2025-02-03 14:39:45,179 - __init__ - INFO - hhea subsetting not needed
+2025-02-03 14:39:45,179 - __init__ - INFO - maxp subsetting not needed
+2025-02-03 14:39:45,179 - __init__ - INFO - OS/2 subsetting not needed
+2025-02-03 14:39:45,179 - ttFont - DEBUG - Reading 'hmtx' table from disk
+2025-02-03 14:39:45,179 - ttFont - DEBUG - Decompiling 'hmtx' table
+2025-02-03 14:39:45,179 - ttFont - DEBUG - Reading 'hhea' table from disk
+2025-02-03 14:39:45,179 - ttFont - DEBUG - Decompiling 'hhea' table
+2025-02-03 14:39:45,182 - loggingTools - DEBUG - Took 0.003s to subset 'hmtx'
+2025-02-03 14:39:45,182 - __init__ - INFO - hmtx subsetted
+2025-02-03 14:39:45,184 - loggingTools - DEBUG - Took 0.002s to subset 'cmap'
+2025-02-03 14:39:45,184 - __init__ - INFO - cmap subsetted
+2025-02-03 14:39:45,184 - __init__ - INFO - loca subsetting not needed
+2025-02-03 14:39:45,184 - loggingTools - DEBUG - Took 0.000s to subset 'post'
+2025-02-03 14:39:45,184 - __init__ - INFO - post subsetted
+2025-02-03 14:39:45,184 - __init__ - INFO - gasp subsetting not needed
+2025-02-03 14:39:45,184 - __init__ - INFO - FFTM NOT subset; don't know how to subset
+2025-02-03 14:39:45,185 - loggingTools - DEBUG - Took 0.000s to subset 'MATH'
+2025-02-03 14:39:45,185 - __init__ - INFO - MATH subsetted
+2025-02-03 14:39:45,185 - ttFont - DEBUG - Reading 'GDEF' table from disk
+2025-02-03 14:39:45,185 - ttFont - DEBUG - Decompiling 'GDEF' table
+2025-02-03 14:39:45,187 - loggingTools - DEBUG - Took 0.002s to subset 'GDEF'
+2025-02-03 14:39:45,187 - __init__ - INFO - GDEF subsetted
+2025-02-03 14:39:45,187 - __init__ - INFO - name subsetting not needed
+2025-02-03 14:39:45,188 - loggingTools - DEBUG - Took 0.001s to subset 'glyf'
+2025-02-03 14:39:45,188 - __init__ - INFO - glyf subsetted
+2025-02-03 14:39:45,188 - loggingTools - DEBUG - Took 0.000s to subset GlyphOrder
+2025-02-03 14:39:45,189 - loggingTools - DEBUG - Took 0.000s to prune 'head'
+2025-02-03 14:39:45,189 - __init__ - INFO - head pruned
+2025-02-03 14:39:45,189 - ttFont - DEBUG - Reading 'OS/2' table from disk
+2025-02-03 14:39:45,189 - ttFont - DEBUG - Decompiling 'OS/2' table
+2025-02-03 14:39:45,189 - __init__ - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2025-02-03 14:39:45,189 - __init__ - INFO - OS/2 CodePage ranges pruned: [0]
+2025-02-03 14:39:45,190 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-02-03 14:39:45,190 - __init__ - INFO - glyf pruned
+2025-02-03 14:39:45,190 - loggingTools - DEBUG - Took 0.000s to prune 'GDEF'
+2025-02-03 14:39:45,190 - __init__ - INFO - GDEF pruned
+2025-02-03 14:39:45,190 - ttFont - DEBUG - Reading 'name' table from disk
+2025-02-03 14:39:45,190 - ttFont - DEBUG - Decompiling 'name' table
+2025-02-03 14:39:45,191 - ttFont - DEBUG - Reading 'gasp' table from disk
+2025-02-03 14:39:45,191 - ttFont - DEBUG - Decompiling 'gasp' table
+2025-02-03 14:39:45,191 - ttFont - DEBUG - Reading 'FFTM' table from disk
+2025-02-03 14:39:45,191 - ttFont - DEBUG - Decompiling 'FFTM' table
+2025-02-03 14:39:45,191 - loggingTools - DEBUG - Took 0.001s to prune 'name'
+2025-02-03 14:39:45,191 - __init__ - INFO - name pruned
+2025-02-03 14:39:45,191 - ttFont - DEBUG - Compiling 'glyf' table
+2025-02-03 14:39:45,197 - ttFont - DEBUG - Writing 'glyf' table to disk
+2025-02-03 14:39:45,197 - ttFont - DEBUG - Compiling 'maxp' table
+2025-02-03 14:39:45,197 - ttFont - DEBUG - Writing 'maxp' table to disk
+2025-02-03 14:39:45,197 - ttFont - DEBUG - Compiling 'loca' table
+2025-02-03 14:39:45,197 - ttFont - DEBUG - Writing 'loca' table to disk
+2025-02-03 14:39:45,198 - ttFont - DEBUG - Compiling 'head' table
+2025-02-03 14:39:45,198 - ttFont - DEBUG - Writing 'head' table to disk
+2025-02-03 14:39:45,198 - ttFont - DEBUG - Compiling 'hmtx' table
+2025-02-03 14:39:45,198 - ttFont - DEBUG - Writing 'hmtx' table to disk
+2025-02-03 14:39:45,198 - ttFont - DEBUG - Compiling 'hhea' table
+2025-02-03 14:39:45,198 - ttFont - DEBUG - Writing 'hhea' table to disk
+2025-02-03 14:39:45,198 - ttFont - DEBUG - Compiling 'OS/2' table
+2025-02-03 14:39:45,199 - ttFont - DEBUG - Writing 'OS/2' table to disk
+2025-02-03 14:39:45,199 - ttFont - DEBUG - Compiling 'cmap' table
+2025-02-03 14:39:45,199 - ttFont - DEBUG - Writing 'cmap' table to disk
+2025-02-03 14:39:45,199 - ttFont - DEBUG - Compiling 'name' table
+2025-02-03 14:39:45,199 - ttFont - DEBUG - Writing 'name' table to disk
+2025-02-03 14:39:45,199 - ttFont - DEBUG - Compiling 'post' table
+2025-02-03 14:39:45,199 - ttFont - DEBUG - Writing 'post' table to disk
+2025-02-03 14:39:45,199 - ttFont - DEBUG - Compiling 'gasp' table
+2025-02-03 14:39:45,199 - ttFont - DEBUG - Writing 'gasp' table to disk
+2025-02-03 14:39:45,200 - ttFont - DEBUG - Compiling 'FFTM' table
+2025-02-03 14:39:45,200 - ttFont - DEBUG - Writing 'FFTM' table to disk
+2025-02-03 14:39:45,200 - ttFont - DEBUG - Compiling 'GDEF' table
+2025-02-03 14:39:45,200 - ttFont - DEBUG - Writing 'GDEF' table to disk
+2025-02-03 14:39:45,200 - ttFont - DEBUG - Compiling 'MATH' table
+2025-02-03 14:39:45,201 - ttFont - DEBUG - Writing 'MATH' table to disk

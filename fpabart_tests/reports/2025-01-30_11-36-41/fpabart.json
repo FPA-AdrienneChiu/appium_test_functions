@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-30 11:36:28,006",
+        "end_timestamp": "2025-01-30 11:36:40,012"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-30 11:36:28,027",
+                "end_timestamp": "2025-01-30 11:36:40,010"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-30 11:36:28,027",
+                        "end_timestamp": "2025-01-30 11:36:40,010"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check if on Home Screen",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:36:35,508",
+                                "end_timestamp": "2025-01-30 11:36:36,675"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check for materials",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:36:36,675",
+                                "end_timestamp": "2025-01-30 11:36:39,085"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "I click on a material",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:36:39,086",
+                                "end_timestamp": "2025-01-30 11:36:40,010"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

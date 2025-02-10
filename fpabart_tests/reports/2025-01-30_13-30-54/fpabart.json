@@ -1,0 +1,45 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-30 13:30:29,627",
+        "end_timestamp": "2025-01-30 13:30:52,549"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-30 13:30:29,647",
+                "end_timestamp": "2025-01-30 13:30:52,547"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-30 13:30:29,648",
+                        "end_timestamp": "2025-01-30 13:30:52,547"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 13:30:36,814",
+                                "end_timestamp": "2025-01-30 13:30:38,006"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "I click on a material",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 13:30:38,006",
+                                "end_timestamp": "2025-01-30 13:30:52,547"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

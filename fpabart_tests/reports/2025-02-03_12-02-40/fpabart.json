@@ -1,0 +1,61 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 12:02:12,934",
+        "end_timestamp": "2025-02-03 12:02:38,740"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 12:02:12,954",
+                "end_timestamp": "2025-02-03 12:02:38,738"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 12:02:12,955",
+                        "end_timestamp": "2025-02-03 12:02:38,738"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 12:02:20,050",
+                                "end_timestamp": "2025-02-03 12:02:21,194"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 12:02:21,194",
+                                "end_timestamp": "2025-02-03 12:02:21,194"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Swipe across for rest of material option screen",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 12:02:21,194",
+                                "end_timestamp": "2025-02-03 12:02:24,791"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random material: Lyocell",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 12:02:24,791",
+                                "end_timestamp": "2025-02-03 12:02:38,738"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

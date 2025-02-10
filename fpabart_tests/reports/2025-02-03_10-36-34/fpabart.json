@@ -1,0 +1,61 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 10:35:39,420",
+        "end_timestamp": "2025-02-03 10:36:31,985"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 10:35:39,452",
+                "end_timestamp": "2025-02-03 10:36:31,975"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 10:35:39,453",
+                        "end_timestamp": "2025-02-03 10:36:31,974"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:36:03,708",
+                                "end_timestamp": "2025-02-03 10:36:07,752"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:36:07,753",
+                                "end_timestamp": "2025-02-03 10:36:07,753"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting material: Polyester",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:36:07,754",
+                                "end_timestamp": "2025-02-03 10:36:12,574"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:36:12,575",
+                                "end_timestamp": "2025-02-03 10:36:31,974"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

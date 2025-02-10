@@ -19,7 +19,7 @@ Fisher & Paykel Appliances Limited.
 """
 
 import json
-import pypdf
+import PyPDF2
 
 from datetime import datetime
 from jinja2 import Environment, FileSystemLoader
@@ -374,7 +374,7 @@ def _create_pdf_file() -> None:
 
     # Count the number of pages in the PDF file.
     with open(_directory / REPORT_PDF_FILE_NAME, "rb") as file:
-        reader = pypdf.PdfReader(file)
+        reader = PyPDF2.PdfReader(file)
         num_pages = len(reader.pages)
 
     # Configure the CSS file such that, should it get turned into a PDF, all of its content will go onto one page.

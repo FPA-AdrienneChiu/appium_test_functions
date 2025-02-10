@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-31 14:44:57,168",
+        "end_timestamp": "2025-01-31 14:45:20,956"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-31 14:44:57,190",
+                "end_timestamp": "2025-01-31 14:45:20,954"
+            },
+            "scenarios": [
+                {
+                    "name": "I verify the cycle progress screen with default values for all fabrics ",
+                    "attributes": {
+                        "start_timestamp": "2025-01-31 14:44:57,191",
+                        "end_timestamp": "2025-01-31 14:45:20,954"
+                    },
+                    "steps": [
+                        {
+                            "name": "I check the default values on cycle progress screen for all fabrics before swipe",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 14:45:05,277",
+                                "end_timestamp": "2025-01-31 14:45:05,277"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "I click on option-card-fibre-cotton option",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 14:45:05,277",
+                                "end_timestamp": "2025-01-31 14:45:06,532"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "I check the default time and click on start option",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 14:45:06,533",
+                                "end_timestamp": "2025-01-31 14:45:20,954"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

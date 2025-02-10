@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-30 13:46:24,149",
+        "end_timestamp": "2025-01-30 13:46:33,612"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-30 13:46:24,169",
+                "end_timestamp": "2025-01-30 13:46:33,608"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-30 13:46:24,170",
+                        "end_timestamp": "2025-01-30 13:46:33,605"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 13:46:31,435",
+                                "end_timestamp": "2025-01-30 13:46:32,643"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "I click on a material",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 13:46:32,644",
+                                "end_timestamp": "2025-01-30 13:46:33,175"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 13:46:33,176",
+                                "end_timestamp": "2025-01-30 13:46:33,603"
+                            },
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                }
+            ],
+            "result": true
+        }
+    ],
+    "result": true
+}

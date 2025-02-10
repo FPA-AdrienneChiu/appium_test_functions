@@ -1,0 +1,480 @@
+2025-01-29 10:25:20,891 - conftest - INFO - Set session attribute 'start_timestamp' to '2025-01-29 10:25:20,891'
+2025-01-29 10:25:20,891 - fpabart_hooks - DEBUG - Updated the Python path to include the root of the repository! The Python path is now: ['/home/achiu/appium_test_functions/fpabart_tests', '/home/achiu/.pyenv/versions/3.10.0/lib/python310.zip', '/home/achiu/.pyenv/versions/3.10.0/lib/python3.10', '/home/achiu/.pyenv/versions/3.10.0/lib/python3.10/lib-dynload', '/home/achiu/.pyenv/versions/3.10.0/lib/python3.10/site-packages', '/home/achiu/appium_test_functions']
+2025-01-29 10:25:20,917 - conftest - INFO - Starting feature: 'test_running'
+2025-01-29 10:25:20,917 - conftest - INFO - Set feature attribute 'start_timestamp' to '2025-01-29 10:25:20,917'
+2025-01-29 10:25:20,918 - conftest - INFO - Starting scenario: 'Running Auto'
+2025-01-29 10:25:20,918 - conftest - INFO - Set scenario attribute 'start_timestamp' to '2025-01-29 10:25:20,918'
+2025-01-29 10:25:20,918 - fpabart_fixtures - DEBUG - Starting Appium service at 127.0.0.1:4723
+2025-01-29 10:25:21,078 - connectionpool - DEBUG - Starting new HTTP connection (1): 127.0.0.1:4723
+2025-01-29 10:25:21,085 - connectionpool - DEBUG - http://127.0.0.1:4723 "HEAD /status HTTP/11" 200 0
+2025-01-29 10:25:21,085 - fpabart_fixtures - DEBUG - Loading capabilities: {'platformName': 'Android', 'platformVersion': '11', 'deviceName': 'i350fisher_paykel ', 'appPackage': 'com.fisherpaykel.laundry.fcs200', 'appActivity': 'com.fisherpaykel.laundry.fcs200.MainActivity', 'automationName': 'UiAutomator2', 'noReset': 'true', 'fullReset': 'false'}
+2025-01-29 10:25:21,085 - fpabart_fixtures - DEBUG - Creating Appium driver at http://127.0.0.1:4723
+2025-01-29 10:25:21,086 - remote_connection - DEBUG - POST http://127.0.0.1:4723/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'appium:automationName': 'UiAutomator2', 'platformName': 'Android', 'appium:platformVersion': '11', 'appium:deviceName': 'i350fisher_paykel ', 'appium:appPackage': 'com.fisherpaykel.laundry.fcs200', 'appium:appActivity': 'com.fisherpaykel.laundry.fcs200.MainActivity', 'appium:noReset': 'true', 'appium:fullReset': 'false'}}}
+2025-01-29 10:25:21,086 - connectionpool - DEBUG - Starting new HTTP connection (1): proxy.fp.co.nz:8080
+2025-01-29 10:26:20,425 - conftest - INFO - Set session attribute 'end_timestamp' to '2025-01-29 10:26:20,425'
+2025-01-29 10:26:22,076 - __init__ - WARNING - Ignored `box-shadow: 0 0 1rem var(--color-page-container-shadow)` at 48:5, unknown property.
+2025-01-29 10:26:22,078 - urls - ERROR - Relative URI reference without a base URI: <link href="styles.css">
+2025-01-29 10:26:22,199 - ttFont - DEBUG - Reading 'maxp' table from disk
+2025-01-29 10:26:22,200 - ttFont - DEBUG - Decompiling 'maxp' table
+2025-01-29 10:26:22,200 - loggingTools - DEBUG - Took 0.001s to load 'maxp'
+2025-01-29 10:26:22,201 - loggingTools - DEBUG - Took 0.000s to prune 'maxp'
+2025-01-29 10:26:22,201 - __init__ - INFO - maxp pruned
+2025-01-29 10:26:22,203 - ttFont - DEBUG - Reading 'cmap' table from disk
+2025-01-29 10:26:22,203 - ttFont - DEBUG - Decompiling 'cmap' table
+2025-01-29 10:26:22,204 - ttFont - DEBUG - Reading 'post' table from disk
+2025-01-29 10:26:22,204 - ttFont - DEBUG - Decompiling 'post' table
+2025-01-29 10:26:22,213 - loggingTools - DEBUG - Took 0.010s to load 'cmap'
+2025-01-29 10:26:22,213 - loggingTools - DEBUG - Took 0.000s to prune 'cmap'
+2025-01-29 10:26:22,213 - __init__ - INFO - cmap pruned
+2025-01-29 10:26:22,213 - __init__ - INFO - fpgm dropped
+2025-01-29 10:26:22,213 - __init__ - INFO - prep dropped
+2025-01-29 10:26:22,213 - __init__ - INFO - cvt  dropped
+2025-01-29 10:26:22,214 - __init__ - INFO - kern dropped
+2025-01-29 10:26:22,214 - loggingTools - DEBUG - Took 0.000s to load 'post'
+2025-01-29 10:26:22,214 - loggingTools - DEBUG - Took 0.000s to prune 'post'
+2025-01-29 10:26:22,214 - __init__ - INFO - post pruned
+2025-01-29 10:26:22,216 - __init__ - INFO - GPOS dropped
+2025-01-29 10:26:22,216 - __init__ - INFO - GSUB dropped
+2025-01-29 10:26:22,216 - ttFont - DEBUG - Reading 'glyf' table from disk
+2025-01-29 10:26:22,216 - ttFont - DEBUG - Decompiling 'glyf' table
+2025-01-29 10:26:22,217 - ttFont - DEBUG - Reading 'loca' table from disk
+2025-01-29 10:26:22,217 - ttFont - DEBUG - Decompiling 'loca' table
+2025-01-29 10:26:22,217 - ttFont - DEBUG - Reading 'head' table from disk
+2025-01-29 10:26:22,217 - ttFont - DEBUG - Decompiling 'head' table
+2025-01-29 10:26:22,224 - loggingTools - DEBUG - Took 0.008s to load 'glyf'
+2025-01-29 10:26:22,224 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-01-29 10:26:22,224 - __init__ - INFO - glyf pruned
+2025-01-29 10:26:22,225 - loggingTools - DEBUG - Took 0.000s to close glyph list over 'cmap'
+2025-01-29 10:26:22,225 - __init__ - INFO - Added gid0 to subset
+2025-01-29 10:26:22,225 - __init__ - INFO - Closing glyph list over 'glyf': 33 glyphs before
+2025-01-29 10:26:22,226 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'C', 'F', 'I', 'L', 'P', 'R', 'S', 'T', 'V', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'hyphen', 'i', 'l', 'm', 'n', 'o', 'p', 'r', 's', 'slash', 'space', 't', 'u', 'underscore', 'y']
+2025-01-29 10:26:22,226 - __init__ - INFO - Glyph IDs:   [0, 3, 16, 18, 36, 38, 41, 44, 47, 51, 53, 54, 55, 57, 66, 68, 69, 70, 71, 72, 73, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 92]
+2025-01-29 10:26:22,227 - __init__ - INFO - Closed glyph list over 'glyf': 33 glyphs after
+2025-01-29 10:26:22,227 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'C', 'F', 'I', 'L', 'P', 'R', 'S', 'T', 'V', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'hyphen', 'i', 'l', 'm', 'n', 'o', 'p', 'r', 's', 'slash', 'space', 't', 'u', 'underscore', 'y']
+2025-01-29 10:26:22,227 - __init__ - INFO - Glyph IDs:   [0, 3, 16, 18, 36, 38, 41, 44, 47, 51, 53, 54, 55, 57, 66, 68, 69, 70, 71, 72, 73, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 92]
+2025-01-29 10:26:22,227 - loggingTools - DEBUG - Took 0.001s to close glyph list over 'glyf'
+2025-01-29 10:26:22,229 - __init__ - INFO - Retaining 33 glyphs
+2025-01-29 10:26:22,229 - __init__ - INFO - head subsetting not needed
+2025-01-29 10:26:22,230 - __init__ - INFO - hhea subsetting not needed
+2025-01-29 10:26:22,230 - __init__ - INFO - maxp subsetting not needed
+2025-01-29 10:26:22,230 - __init__ - INFO - OS/2 subsetting not needed
+2025-01-29 10:26:22,230 - ttFont - DEBUG - Reading 'hmtx' table from disk
+2025-01-29 10:26:22,230 - ttFont - DEBUG - Decompiling 'hmtx' table
+2025-01-29 10:26:22,230 - ttFont - DEBUG - Reading 'hhea' table from disk
+2025-01-29 10:26:22,230 - ttFont - DEBUG - Decompiling 'hhea' table
+2025-01-29 10:26:22,233 - loggingTools - DEBUG - Took 0.003s to subset 'hmtx'
+2025-01-29 10:26:22,233 - __init__ - INFO - hmtx subsetted
+2025-01-29 10:26:22,236 - loggingTools - DEBUG - Took 0.002s to subset 'cmap'
+2025-01-29 10:26:22,236 - __init__ - INFO - cmap subsetted
+2025-01-29 10:26:22,236 - __init__ - INFO - loca subsetting not needed
+2025-01-29 10:26:22,236 - loggingTools - DEBUG - Took 0.000s to subset 'post'
+2025-01-29 10:26:22,236 - __init__ - INFO - post subsetted
+2025-01-29 10:26:22,236 - __init__ - INFO - gasp subsetting not needed
+2025-01-29 10:26:22,236 - __init__ - INFO - FFTM NOT subset; don't know how to subset
+2025-01-29 10:26:22,236 - ttFont - DEBUG - Reading 'GDEF' table from disk
+2025-01-29 10:26:22,236 - ttFont - DEBUG - Decompiling 'GDEF' table
+2025-01-29 10:26:22,238 - loggingTools - DEBUG - Took 0.002s to subset 'GDEF'
+2025-01-29 10:26:22,238 - __init__ - INFO - GDEF subsetted
+2025-01-29 10:26:22,238 - __init__ - INFO - name subsetting not needed
+2025-01-29 10:26:22,240 - loggingTools - DEBUG - Took 0.001s to subset 'glyf'
+2025-01-29 10:26:22,240 - __init__ - INFO - glyf subsetted
+2025-01-29 10:26:22,240 - loggingTools - DEBUG - Took 0.000s to subset GlyphOrder
+2025-01-29 10:26:22,240 - loggingTools - DEBUG - Took 0.000s to prune 'head'
+2025-01-29 10:26:22,240 - __init__ - INFO - head pruned
+2025-01-29 10:26:22,240 - ttFont - DEBUG - Reading 'OS/2' table from disk
+2025-01-29 10:26:22,240 - ttFont - DEBUG - Decompiling 'OS/2' table
+2025-01-29 10:26:22,241 - __init__ - INFO - OS/2 Unicode ranges pruned: [0]
+2025-01-29 10:26:22,241 - __init__ - INFO - OS/2 CodePage ranges pruned: [0]
+2025-01-29 10:26:22,241 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-01-29 10:26:22,241 - __init__ - INFO - glyf pruned
+2025-01-29 10:26:22,241 - loggingTools - DEBUG - Took 0.000s to prune 'GDEF'
+2025-01-29 10:26:22,241 - __init__ - INFO - GDEF pruned
+2025-01-29 10:26:22,242 - ttFont - DEBUG - Reading 'name' table from disk
+2025-01-29 10:26:22,242 - ttFont - DEBUG - Decompiling 'name' table
+2025-01-29 10:26:22,242 - ttFont - DEBUG - Reading 'gasp' table from disk
+2025-01-29 10:26:22,242 - ttFont - DEBUG - Decompiling 'gasp' table
+2025-01-29 10:26:22,242 - ttFont - DEBUG - Reading 'FFTM' table from disk
+2025-01-29 10:26:22,242 - ttFont - DEBUG - Decompiling 'FFTM' table
+2025-01-29 10:26:22,242 - loggingTools - DEBUG - Took 0.001s to prune 'name'
+2025-01-29 10:26:22,242 - __init__ - INFO - name pruned
+2025-01-29 10:26:22,243 - ttFont - DEBUG - Compiling 'glyf' table
+2025-01-29 10:26:22,246 - ttFont - DEBUG - Writing 'glyf' table to disk
+2025-01-29 10:26:22,246 - ttFont - DEBUG - Compiling 'maxp' table
+2025-01-29 10:26:22,246 - ttFont - DEBUG - Writing 'maxp' table to disk
+2025-01-29 10:26:22,246 - ttFont - DEBUG - Compiling 'loca' table
+2025-01-29 10:26:22,247 - ttFont - DEBUG - Writing 'loca' table to disk
+2025-01-29 10:26:22,247 - ttFont - DEBUG - Compiling 'head' table
+2025-01-29 10:26:22,247 - ttFont - DEBUG - Writing 'head' table to disk
+2025-01-29 10:26:22,247 - ttFont - DEBUG - Compiling 'hmtx' table
+2025-01-29 10:26:22,247 - ttFont - DEBUG - Writing 'hmtx' table to disk
+2025-01-29 10:26:22,247 - ttFont - DEBUG - Compiling 'hhea' table
+2025-01-29 10:26:22,247 - ttFont - DEBUG - Writing 'hhea' table to disk
+2025-01-29 10:26:22,247 - ttFont - DEBUG - Compiling 'OS/2' table
+2025-01-29 10:26:22,247 - ttFont - DEBUG - Writing 'OS/2' table to disk
+2025-01-29 10:26:22,248 - ttFont - DEBUG - Compiling 'cmap' table
+2025-01-29 10:26:22,248 - ttFont - DEBUG - Writing 'cmap' table to disk
+2025-01-29 10:26:22,248 - ttFont - DEBUG - Compiling 'name' table
+2025-01-29 10:26:22,248 - ttFont - DEBUG - Writing 'name' table to disk
+2025-01-29 10:26:22,248 - ttFont - DEBUG - Compiling 'post' table
+2025-01-29 10:26:22,248 - ttFont - DEBUG - Writing 'post' table to disk
+2025-01-29 10:26:22,248 - ttFont - DEBUG - Compiling 'gasp' table
+2025-01-29 10:26:22,248 - ttFont - DEBUG - Writing 'gasp' table to disk
+2025-01-29 10:26:22,248 - ttFont - DEBUG - Compiling 'FFTM' table
+2025-01-29 10:26:22,248 - ttFont - DEBUG - Writing 'FFTM' table to disk
+2025-01-29 10:26:22,249 - ttFont - DEBUG - Compiling 'GDEF' table
+2025-01-29 10:26:22,249 - ttFont - DEBUG - Writing 'GDEF' table to disk
+2025-01-29 10:26:22,251 - ttFont - DEBUG - Reading 'maxp' table from disk
+2025-01-29 10:26:22,251 - ttFont - DEBUG - Decompiling 'maxp' table
+2025-01-29 10:26:22,251 - loggingTools - DEBUG - Took 0.000s to load 'maxp'
+2025-01-29 10:26:22,251 - loggingTools - DEBUG - Took 0.000s to prune 'maxp'
+2025-01-29 10:26:22,251 - __init__ - INFO - maxp pruned
+2025-01-29 10:26:22,251 - ttFont - DEBUG - Reading 'cmap' table from disk
+2025-01-29 10:26:22,252 - ttFont - DEBUG - Decompiling 'cmap' table
+2025-01-29 10:26:22,252 - ttFont - DEBUG - Reading 'post' table from disk
+2025-01-29 10:26:22,252 - ttFont - DEBUG - Decompiling 'post' table
+2025-01-29 10:26:22,260 - loggingTools - DEBUG - Took 0.008s to load 'cmap'
+2025-01-29 10:26:22,260 - loggingTools - DEBUG - Took 0.000s to prune 'cmap'
+2025-01-29 10:26:22,260 - __init__ - INFO - cmap pruned
+2025-01-29 10:26:22,260 - __init__ - INFO - fpgm dropped
+2025-01-29 10:26:22,260 - __init__ - INFO - prep dropped
+2025-01-29 10:26:22,260 - __init__ - INFO - cvt  dropped
+2025-01-29 10:26:22,260 - __init__ - INFO - kern dropped
+2025-01-29 10:26:22,260 - loggingTools - DEBUG - Took 0.000s to load 'post'
+2025-01-29 10:26:22,260 - loggingTools - DEBUG - Took 0.000s to prune 'post'
+2025-01-29 10:26:22,260 - __init__ - INFO - post pruned
+2025-01-29 10:26:22,260 - __init__ - INFO - GPOS dropped
+2025-01-29 10:26:22,260 - __init__ - INFO - GSUB dropped
+2025-01-29 10:26:22,261 - ttFont - DEBUG - Reading 'glyf' table from disk
+2025-01-29 10:26:22,261 - ttFont - DEBUG - Decompiling 'glyf' table
+2025-01-29 10:26:22,261 - ttFont - DEBUG - Reading 'loca' table from disk
+2025-01-29 10:26:22,261 - ttFont - DEBUG - Decompiling 'loca' table
+2025-01-29 10:26:22,261 - ttFont - DEBUG - Reading 'head' table from disk
+2025-01-29 10:26:22,261 - ttFont - DEBUG - Decompiling 'head' table
+2025-01-29 10:26:22,266 - loggingTools - DEBUG - Took 0.006s to load 'glyf'
+2025-01-29 10:26:22,267 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-01-29 10:26:22,267 - __init__ - INFO - glyf pruned
+2025-01-29 10:26:22,268 - loggingTools - DEBUG - Took 0.001s to close glyph list over 'cmap'
+2025-01-29 10:26:22,268 - __init__ - INFO - Added gid0 to subset
+2025-01-29 10:26:22,268 - __init__ - INFO - Closing glyph list over 'MATH': 44 glyphs before
+2025-01-29 10:26:22,268 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'I', 'L', 'P', 'R', 'S', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'eight', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'six', 'space', 't', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-01-29 10:26:22,269 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 23, 24, 25, 27, 28, 29, 36, 41, 44, 47, 51, 53, 54, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-01-29 10:26:22,269 - ttFont - DEBUG - Reading 'MATH' table from disk
+2025-01-29 10:26:22,269 - ttFont - DEBUG - Decompiling 'MATH' table
+2025-01-29 10:26:22,271 - __init__ - INFO - Closed glyph list over 'MATH': 44 glyphs after
+2025-01-29 10:26:22,272 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'I', 'L', 'P', 'R', 'S', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'eight', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'six', 'space', 't', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-01-29 10:26:22,272 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 23, 24, 25, 27, 28, 29, 36, 41, 44, 47, 51, 53, 54, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-01-29 10:26:22,272 - loggingTools - DEBUG - Took 0.004s to close glyph list over 'MATH'
+2025-01-29 10:26:22,272 - __init__ - INFO - Closing glyph list over 'glyf': 44 glyphs before
+2025-01-29 10:26:22,272 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'I', 'L', 'P', 'R', 'S', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'eight', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'six', 'space', 't', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-01-29 10:26:22,272 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 23, 24, 25, 27, 28, 29, 36, 41, 44, 47, 51, 53, 54, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-01-29 10:26:22,272 - __init__ - INFO - Closed glyph list over 'glyf': 44 glyphs after
+2025-01-29 10:26:22,272 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'I', 'L', 'P', 'R', 'S', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'eight', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'six', 'space', 't', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-01-29 10:26:22,273 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 23, 24, 25, 27, 28, 29, 36, 41, 44, 47, 51, 53, 54, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-01-29 10:26:22,273 - loggingTools - DEBUG - Took 0.001s to close glyph list over 'glyf'
+2025-01-29 10:26:22,275 - __init__ - INFO - Retaining 44 glyphs
+2025-01-29 10:26:22,275 - __init__ - INFO - head subsetting not needed
+2025-01-29 10:26:22,275 - __init__ - INFO - hhea subsetting not needed
+2025-01-29 10:26:22,275 - __init__ - INFO - maxp subsetting not needed
+2025-01-29 10:26:22,275 - __init__ - INFO - OS/2 subsetting not needed
+2025-01-29 10:26:22,276 - ttFont - DEBUG - Reading 'hmtx' table from disk
+2025-01-29 10:26:22,276 - ttFont - DEBUG - Decompiling 'hmtx' table
+2025-01-29 10:26:22,276 - ttFont - DEBUG - Reading 'hhea' table from disk
+2025-01-29 10:26:22,276 - ttFont - DEBUG - Decompiling 'hhea' table
+2025-01-29 10:26:22,278 - loggingTools - DEBUG - Took 0.002s to subset 'hmtx'
+2025-01-29 10:26:22,278 - __init__ - INFO - hmtx subsetted
+2025-01-29 10:26:22,280 - loggingTools - DEBUG - Took 0.002s to subset 'cmap'
+2025-01-29 10:26:22,280 - __init__ - INFO - cmap subsetted
+2025-01-29 10:26:22,280 - __init__ - INFO - loca subsetting not needed
+2025-01-29 10:26:22,280 - loggingTools - DEBUG - Took 0.000s to subset 'post'
+2025-01-29 10:26:22,280 - __init__ - INFO - post subsetted
+2025-01-29 10:26:22,280 - __init__ - INFO - gasp subsetting not needed
+2025-01-29 10:26:22,281 - __init__ - INFO - FFTM NOT subset; don't know how to subset
+2025-01-29 10:26:22,281 - loggingTools - DEBUG - Took 0.000s to subset 'MATH'
+2025-01-29 10:26:22,281 - __init__ - INFO - MATH subsetted
+2025-01-29 10:26:22,281 - ttFont - DEBUG - Reading 'GDEF' table from disk
+2025-01-29 10:26:22,281 - ttFont - DEBUG - Decompiling 'GDEF' table
+2025-01-29 10:26:22,283 - loggingTools - DEBUG - Took 0.002s to subset 'GDEF'
+2025-01-29 10:26:22,283 - __init__ - INFO - GDEF subsetted
+2025-01-29 10:26:22,283 - __init__ - INFO - name subsetting not needed
+2025-01-29 10:26:22,285 - loggingTools - DEBUG - Took 0.001s to subset 'glyf'
+2025-01-29 10:26:22,285 - __init__ - INFO - glyf subsetted
+2025-01-29 10:26:22,285 - loggingTools - DEBUG - Took 0.000s to subset GlyphOrder
+2025-01-29 10:26:22,285 - loggingTools - DEBUG - Took 0.000s to prune 'head'
+2025-01-29 10:26:22,285 - __init__ - INFO - head pruned
+2025-01-29 10:26:22,285 - ttFont - DEBUG - Reading 'OS/2' table from disk
+2025-01-29 10:26:22,286 - ttFont - DEBUG - Decompiling 'OS/2' table
+2025-01-29 10:26:22,286 - __init__ - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2025-01-29 10:26:22,286 - __init__ - INFO - OS/2 CodePage ranges pruned: [0]
+2025-01-29 10:26:22,286 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-01-29 10:26:22,287 - __init__ - INFO - glyf pruned
+2025-01-29 10:26:22,287 - loggingTools - DEBUG - Took 0.000s to prune 'GDEF'
+2025-01-29 10:26:22,287 - __init__ - INFO - GDEF pruned
+2025-01-29 10:26:22,287 - ttFont - DEBUG - Reading 'name' table from disk
+2025-01-29 10:26:22,287 - ttFont - DEBUG - Decompiling 'name' table
+2025-01-29 10:26:22,287 - ttFont - DEBUG - Reading 'gasp' table from disk
+2025-01-29 10:26:22,287 - ttFont - DEBUG - Decompiling 'gasp' table
+2025-01-29 10:26:22,287 - ttFont - DEBUG - Reading 'FFTM' table from disk
+2025-01-29 10:26:22,288 - ttFont - DEBUG - Decompiling 'FFTM' table
+2025-01-29 10:26:22,288 - loggingTools - DEBUG - Took 0.001s to prune 'name'
+2025-01-29 10:26:22,288 - __init__ - INFO - name pruned
+2025-01-29 10:26:22,288 - ttFont - DEBUG - Compiling 'glyf' table
+2025-01-29 10:26:22,293 - ttFont - DEBUG - Writing 'glyf' table to disk
+2025-01-29 10:26:22,293 - ttFont - DEBUG - Compiling 'maxp' table
+2025-01-29 10:26:22,293 - ttFont - DEBUG - Writing 'maxp' table to disk
+2025-01-29 10:26:22,293 - ttFont - DEBUG - Compiling 'loca' table
+2025-01-29 10:26:22,293 - ttFont - DEBUG - Writing 'loca' table to disk
+2025-01-29 10:26:22,293 - ttFont - DEBUG - Compiling 'head' table
+2025-01-29 10:26:22,294 - ttFont - DEBUG - Writing 'head' table to disk
+2025-01-29 10:26:22,294 - ttFont - DEBUG - Compiling 'hmtx' table
+2025-01-29 10:26:22,294 - ttFont - DEBUG - Writing 'hmtx' table to disk
+2025-01-29 10:26:22,294 - ttFont - DEBUG - Compiling 'hhea' table
+2025-01-29 10:26:22,294 - ttFont - DEBUG - Writing 'hhea' table to disk
+2025-01-29 10:26:22,294 - ttFont - DEBUG - Compiling 'OS/2' table
+2025-01-29 10:26:22,294 - ttFont - DEBUG - Writing 'OS/2' table to disk
+2025-01-29 10:26:22,294 - ttFont - DEBUG - Compiling 'cmap' table
+2025-01-29 10:26:22,295 - ttFont - DEBUG - Writing 'cmap' table to disk
+2025-01-29 10:26:22,295 - ttFont - DEBUG - Compiling 'name' table
+2025-01-29 10:26:22,295 - ttFont - DEBUG - Writing 'name' table to disk
+2025-01-29 10:26:22,295 - ttFont - DEBUG - Compiling 'post' table
+2025-01-29 10:26:22,295 - ttFont - DEBUG - Writing 'post' table to disk
+2025-01-29 10:26:22,295 - ttFont - DEBUG - Compiling 'gasp' table
+2025-01-29 10:26:22,295 - ttFont - DEBUG - Writing 'gasp' table to disk
+2025-01-29 10:26:22,295 - ttFont - DEBUG - Compiling 'FFTM' table
+2025-01-29 10:26:22,295 - ttFont - DEBUG - Writing 'FFTM' table to disk
+2025-01-29 10:26:22,295 - ttFont - DEBUG - Compiling 'GDEF' table
+2025-01-29 10:26:22,296 - ttFont - DEBUG - Writing 'GDEF' table to disk
+2025-01-29 10:26:22,296 - ttFont - DEBUG - Compiling 'MATH' table
+2025-01-29 10:26:22,296 - ttFont - DEBUG - Writing 'MATH' table to disk
+2025-01-29 10:26:22,315 - __init__ - WARNING - Ignored `box-shadow: 0 0 1rem var(--color-page-container-shadow)` at 48:5, unknown property.
+2025-01-29 10:26:22,318 - urls - ERROR - Relative URI reference without a base URI: <link href="styles.css">
+2025-01-29 10:26:22,378 - ttFont - DEBUG - Reading 'maxp' table from disk
+2025-01-29 10:26:22,378 - ttFont - DEBUG - Decompiling 'maxp' table
+2025-01-29 10:26:22,378 - loggingTools - DEBUG - Took 0.000s to load 'maxp'
+2025-01-29 10:26:22,378 - loggingTools - DEBUG - Took 0.000s to prune 'maxp'
+2025-01-29 10:26:22,378 - __init__ - INFO - maxp pruned
+2025-01-29 10:26:22,379 - ttFont - DEBUG - Reading 'cmap' table from disk
+2025-01-29 10:26:22,379 - ttFont - DEBUG - Decompiling 'cmap' table
+2025-01-29 10:26:22,379 - ttFont - DEBUG - Reading 'post' table from disk
+2025-01-29 10:26:22,380 - ttFont - DEBUG - Decompiling 'post' table
+2025-01-29 10:26:22,388 - loggingTools - DEBUG - Took 0.010s to load 'cmap'
+2025-01-29 10:26:22,389 - loggingTools - DEBUG - Took 0.000s to prune 'cmap'
+2025-01-29 10:26:22,389 - __init__ - INFO - cmap pruned
+2025-01-29 10:26:22,389 - __init__ - INFO - fpgm dropped
+2025-01-29 10:26:22,389 - __init__ - INFO - prep dropped
+2025-01-29 10:26:22,389 - __init__ - INFO - cvt  dropped
+2025-01-29 10:26:22,389 - __init__ - INFO - kern dropped
+2025-01-29 10:26:22,389 - loggingTools - DEBUG - Took 0.000s to load 'post'
+2025-01-29 10:26:22,389 - loggingTools - DEBUG - Took 0.000s to prune 'post'
+2025-01-29 10:26:22,389 - __init__ - INFO - post pruned
+2025-01-29 10:26:22,389 - __init__ - INFO - GPOS dropped
+2025-01-29 10:26:22,389 - __init__ - INFO - GSUB dropped
+2025-01-29 10:26:22,389 - ttFont - DEBUG - Reading 'glyf' table from disk
+2025-01-29 10:26:22,390 - ttFont - DEBUG - Decompiling 'glyf' table
+2025-01-29 10:26:22,390 - ttFont - DEBUG - Reading 'loca' table from disk
+2025-01-29 10:26:22,390 - ttFont - DEBUG - Decompiling 'loca' table
+2025-01-29 10:26:22,390 - ttFont - DEBUG - Reading 'head' table from disk
+2025-01-29 10:26:22,390 - ttFont - DEBUG - Decompiling 'head' table
+2025-01-29 10:26:22,431 - loggingTools - DEBUG - Took 0.042s to load 'glyf'
+2025-01-29 10:26:22,431 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-01-29 10:26:22,432 - __init__ - INFO - glyf pruned
+2025-01-29 10:26:22,432 - loggingTools - DEBUG - Took 0.000s to close glyph list over 'cmap'
+2025-01-29 10:26:22,433 - __init__ - INFO - Added gid0 to subset
+2025-01-29 10:26:22,433 - __init__ - INFO - Closing glyph list over 'glyf': 33 glyphs before
+2025-01-29 10:26:22,433 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'C', 'F', 'I', 'L', 'P', 'R', 'S', 'T', 'V', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'hyphen', 'i', 'l', 'm', 'n', 'o', 'p', 'r', 's', 'slash', 'space', 't', 'u', 'underscore', 'y']
+2025-01-29 10:26:22,433 - __init__ - INFO - Glyph IDs:   [0, 3, 16, 18, 36, 38, 41, 44, 47, 51, 53, 54, 55, 57, 66, 68, 69, 70, 71, 72, 73, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 92]
+2025-01-29 10:26:22,434 - __init__ - INFO - Closed glyph list over 'glyf': 33 glyphs after
+2025-01-29 10:26:22,434 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'C', 'F', 'I', 'L', 'P', 'R', 'S', 'T', 'V', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'hyphen', 'i', 'l', 'm', 'n', 'o', 'p', 'r', 's', 'slash', 'space', 't', 'u', 'underscore', 'y']
+2025-01-29 10:26:22,434 - __init__ - INFO - Glyph IDs:   [0, 3, 16, 18, 36, 38, 41, 44, 47, 51, 53, 54, 55, 57, 66, 68, 69, 70, 71, 72, 73, 74, 76, 79, 80, 81, 82, 83, 85, 86, 87, 88, 92]
+2025-01-29 10:26:22,434 - loggingTools - DEBUG - Took 0.001s to close glyph list over 'glyf'
+2025-01-29 10:26:22,436 - __init__ - INFO - Retaining 33 glyphs
+2025-01-29 10:26:22,437 - __init__ - INFO - head subsetting not needed
+2025-01-29 10:26:22,437 - __init__ - INFO - hhea subsetting not needed
+2025-01-29 10:26:22,437 - __init__ - INFO - maxp subsetting not needed
+2025-01-29 10:26:22,437 - __init__ - INFO - OS/2 subsetting not needed
+2025-01-29 10:26:22,437 - ttFont - DEBUG - Reading 'hmtx' table from disk
+2025-01-29 10:26:22,437 - ttFont - DEBUG - Decompiling 'hmtx' table
+2025-01-29 10:26:22,437 - ttFont - DEBUG - Reading 'hhea' table from disk
+2025-01-29 10:26:22,437 - ttFont - DEBUG - Decompiling 'hhea' table
+2025-01-29 10:26:22,440 - loggingTools - DEBUG - Took 0.003s to subset 'hmtx'
+2025-01-29 10:26:22,440 - __init__ - INFO - hmtx subsetted
+2025-01-29 10:26:22,442 - loggingTools - DEBUG - Took 0.002s to subset 'cmap'
+2025-01-29 10:26:22,442 - __init__ - INFO - cmap subsetted
+2025-01-29 10:26:22,442 - __init__ - INFO - loca subsetting not needed
+2025-01-29 10:26:22,442 - loggingTools - DEBUG - Took 0.000s to subset 'post'
+2025-01-29 10:26:22,442 - __init__ - INFO - post subsetted
+2025-01-29 10:26:22,442 - __init__ - INFO - gasp subsetting not needed
+2025-01-29 10:26:22,442 - __init__ - INFO - FFTM NOT subset; don't know how to subset
+2025-01-29 10:26:22,442 - ttFont - DEBUG - Reading 'GDEF' table from disk
+2025-01-29 10:26:22,442 - ttFont - DEBUG - Decompiling 'GDEF' table
+2025-01-29 10:26:22,444 - loggingTools - DEBUG - Took 0.002s to subset 'GDEF'
+2025-01-29 10:26:22,444 - __init__ - INFO - GDEF subsetted
+2025-01-29 10:26:22,444 - __init__ - INFO - name subsetting not needed
+2025-01-29 10:26:22,445 - loggingTools - DEBUG - Took 0.001s to subset 'glyf'
+2025-01-29 10:26:22,446 - __init__ - INFO - glyf subsetted
+2025-01-29 10:26:22,446 - loggingTools - DEBUG - Took 0.000s to subset GlyphOrder
+2025-01-29 10:26:22,446 - loggingTools - DEBUG - Took 0.000s to prune 'head'
+2025-01-29 10:26:22,446 - __init__ - INFO - head pruned
+2025-01-29 10:26:22,446 - ttFont - DEBUG - Reading 'OS/2' table from disk
+2025-01-29 10:26:22,446 - ttFont - DEBUG - Decompiling 'OS/2' table
+2025-01-29 10:26:22,446 - __init__ - INFO - OS/2 Unicode ranges pruned: [0]
+2025-01-29 10:26:22,447 - __init__ - INFO - OS/2 CodePage ranges pruned: [0]
+2025-01-29 10:26:22,447 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-01-29 10:26:22,447 - __init__ - INFO - glyf pruned
+2025-01-29 10:26:22,447 - loggingTools - DEBUG - Took 0.000s to prune 'GDEF'
+2025-01-29 10:26:22,448 - __init__ - INFO - GDEF pruned
+2025-01-29 10:26:22,448 - ttFont - DEBUG - Reading 'name' table from disk
+2025-01-29 10:26:22,448 - ttFont - DEBUG - Decompiling 'name' table
+2025-01-29 10:26:22,448 - ttFont - DEBUG - Reading 'gasp' table from disk
+2025-01-29 10:26:22,448 - ttFont - DEBUG - Decompiling 'gasp' table
+2025-01-29 10:26:22,448 - ttFont - DEBUG - Reading 'FFTM' table from disk
+2025-01-29 10:26:22,448 - ttFont - DEBUG - Decompiling 'FFTM' table
+2025-01-29 10:26:22,449 - loggingTools - DEBUG - Took 0.001s to prune 'name'
+2025-01-29 10:26:22,449 - __init__ - INFO - name pruned
+2025-01-29 10:26:22,449 - ttFont - DEBUG - Compiling 'glyf' table
+2025-01-29 10:26:22,453 - ttFont - DEBUG - Writing 'glyf' table to disk
+2025-01-29 10:26:22,453 - ttFont - DEBUG - Compiling 'maxp' table
+2025-01-29 10:26:22,453 - ttFont - DEBUG - Writing 'maxp' table to disk
+2025-01-29 10:26:22,453 - ttFont - DEBUG - Compiling 'loca' table
+2025-01-29 10:26:22,453 - ttFont - DEBUG - Writing 'loca' table to disk
+2025-01-29 10:26:22,454 - ttFont - DEBUG - Compiling 'head' table
+2025-01-29 10:26:22,454 - ttFont - DEBUG - Writing 'head' table to disk
+2025-01-29 10:26:22,454 - ttFont - DEBUG - Compiling 'hmtx' table
+2025-01-29 10:26:22,454 - ttFont - DEBUG - Writing 'hmtx' table to disk
+2025-01-29 10:26:22,454 - ttFont - DEBUG - Compiling 'hhea' table
+2025-01-29 10:26:22,454 - ttFont - DEBUG - Writing 'hhea' table to disk
+2025-01-29 10:26:22,454 - ttFont - DEBUG - Compiling 'OS/2' table
+2025-01-29 10:26:22,454 - ttFont - DEBUG - Writing 'OS/2' table to disk
+2025-01-29 10:26:22,454 - ttFont - DEBUG - Compiling 'cmap' table
+2025-01-29 10:26:22,455 - ttFont - DEBUG - Writing 'cmap' table to disk
+2025-01-29 10:26:22,455 - ttFont - DEBUG - Compiling 'name' table
+2025-01-29 10:26:22,455 - ttFont - DEBUG - Writing 'name' table to disk
+2025-01-29 10:26:22,455 - ttFont - DEBUG - Compiling 'post' table
+2025-01-29 10:26:22,455 - ttFont - DEBUG - Writing 'post' table to disk
+2025-01-29 10:26:22,455 - ttFont - DEBUG - Compiling 'gasp' table
+2025-01-29 10:26:22,455 - ttFont - DEBUG - Writing 'gasp' table to disk
+2025-01-29 10:26:22,455 - ttFont - DEBUG - Compiling 'FFTM' table
+2025-01-29 10:26:22,455 - ttFont - DEBUG - Writing 'FFTM' table to disk
+2025-01-29 10:26:22,456 - ttFont - DEBUG - Compiling 'GDEF' table
+2025-01-29 10:26:22,456 - ttFont - DEBUG - Writing 'GDEF' table to disk
+2025-01-29 10:26:22,457 - ttFont - DEBUG - Reading 'maxp' table from disk
+2025-01-29 10:26:22,457 - ttFont - DEBUG - Decompiling 'maxp' table
+2025-01-29 10:26:22,457 - loggingTools - DEBUG - Took 0.000s to load 'maxp'
+2025-01-29 10:26:22,457 - loggingTools - DEBUG - Took 0.000s to prune 'maxp'
+2025-01-29 10:26:22,457 - __init__ - INFO - maxp pruned
+2025-01-29 10:26:22,457 - ttFont - DEBUG - Reading 'cmap' table from disk
+2025-01-29 10:26:22,458 - ttFont - DEBUG - Decompiling 'cmap' table
+2025-01-29 10:26:22,458 - ttFont - DEBUG - Reading 'post' table from disk
+2025-01-29 10:26:22,458 - ttFont - DEBUG - Decompiling 'post' table
+2025-01-29 10:26:22,466 - loggingTools - DEBUG - Took 0.008s to load 'cmap'
+2025-01-29 10:26:22,466 - loggingTools - DEBUG - Took 0.000s to prune 'cmap'
+2025-01-29 10:26:22,466 - __init__ - INFO - cmap pruned
+2025-01-29 10:26:22,466 - __init__ - INFO - fpgm dropped
+2025-01-29 10:26:22,466 - __init__ - INFO - prep dropped
+2025-01-29 10:26:22,466 - __init__ - INFO - cvt  dropped
+2025-01-29 10:26:22,466 - __init__ - INFO - kern dropped
+2025-01-29 10:26:22,466 - loggingTools - DEBUG - Took 0.000s to load 'post'
+2025-01-29 10:26:22,467 - loggingTools - DEBUG - Took 0.000s to prune 'post'
+2025-01-29 10:26:22,467 - __init__ - INFO - post pruned
+2025-01-29 10:26:22,467 - __init__ - INFO - GPOS dropped
+2025-01-29 10:26:22,467 - __init__ - INFO - GSUB dropped
+2025-01-29 10:26:22,467 - ttFont - DEBUG - Reading 'glyf' table from disk
+2025-01-29 10:26:22,467 - ttFont - DEBUG - Decompiling 'glyf' table
+2025-01-29 10:26:22,467 - ttFont - DEBUG - Reading 'loca' table from disk
+2025-01-29 10:26:22,467 - ttFont - DEBUG - Decompiling 'loca' table
+2025-01-29 10:26:22,467 - ttFont - DEBUG - Reading 'head' table from disk
+2025-01-29 10:26:22,467 - ttFont - DEBUG - Decompiling 'head' table
+2025-01-29 10:26:22,473 - loggingTools - DEBUG - Took 0.006s to load 'glyf'
+2025-01-29 10:26:22,473 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-01-29 10:26:22,473 - __init__ - INFO - glyf pruned
+2025-01-29 10:26:22,474 - loggingTools - DEBUG - Took 0.000s to close glyph list over 'cmap'
+2025-01-29 10:26:22,474 - __init__ - INFO - Added gid0 to subset
+2025-01-29 10:26:22,474 - __init__ - INFO - Closing glyph list over 'MATH': 44 glyphs before
+2025-01-29 10:26:22,474 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'I', 'L', 'P', 'R', 'S', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'eight', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'six', 'space', 't', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-01-29 10:26:22,475 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 23, 24, 25, 27, 28, 29, 36, 41, 44, 47, 51, 53, 54, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-01-29 10:26:22,475 - ttFont - DEBUG - Reading 'MATH' table from disk
+2025-01-29 10:26:22,475 - ttFont - DEBUG - Decompiling 'MATH' table
+2025-01-29 10:26:22,477 - __init__ - INFO - Closed glyph list over 'MATH': 44 glyphs after
+2025-01-29 10:26:22,477 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'I', 'L', 'P', 'R', 'S', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'eight', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'six', 'space', 't', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-01-29 10:26:22,477 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 23, 24, 25, 27, 28, 29, 36, 41, 44, 47, 51, 53, 54, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-01-29 10:26:22,477 - loggingTools - DEBUG - Took 0.003s to close glyph list over 'MATH'
+2025-01-29 10:26:22,477 - __init__ - INFO - Closing glyph list over 'glyf': 44 glyphs before
+2025-01-29 10:26:22,477 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'I', 'L', 'P', 'R', 'S', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'eight', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'six', 'space', 't', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-01-29 10:26:22,477 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 23, 24, 25, 27, 28, 29, 36, 41, 44, 47, 51, 53, 54, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-01-29 10:26:22,477 - __init__ - INFO - Closed glyph list over 'glyf': 44 glyphs after
+2025-01-29 10:26:22,477 - __init__ - INFO - Glyph names: ['.notdef', 'A', 'F', 'I', 'L', 'P', 'R', 'S', 'a', 'ampersand', 'c', 'colon', 'comma', 'copyright', 'd', 'e', 'eight', 'five', 'four', 'g', 'h', 'hyphen', 'i', 'k', 'l', 'm', 'n', 'nine', 'o', 'one', 'p', 'percent', 'period', 'r', 's', 'six', 'space', 't', 'two', 'u', 'underscore', 'v', 'y', 'zero']
+2025-01-29 10:26:22,478 - __init__ - INFO - Glyph IDs:   [0, 3, 8, 9, 15, 16, 17, 19, 20, 21, 23, 24, 25, 27, 28, 29, 36, 41, 44, 47, 51, 53, 54, 66, 68, 70, 71, 72, 74, 75, 76, 78, 79, 80, 81, 82, 83, 85, 86, 87, 88, 89, 92, 107]
+2025-01-29 10:26:22,478 - loggingTools - DEBUG - Took 0.001s to close glyph list over 'glyf'
+2025-01-29 10:26:22,480 - __init__ - INFO - Retaining 44 glyphs
+2025-01-29 10:26:22,480 - __init__ - INFO - head subsetting not needed
+2025-01-29 10:26:22,480 - __init__ - INFO - hhea subsetting not needed
+2025-01-29 10:26:22,481 - __init__ - INFO - maxp subsetting not needed
+2025-01-29 10:26:22,481 - __init__ - INFO - OS/2 subsetting not needed
+2025-01-29 10:26:22,481 - ttFont - DEBUG - Reading 'hmtx' table from disk
+2025-01-29 10:26:22,481 - ttFont - DEBUG - Decompiling 'hmtx' table
+2025-01-29 10:26:22,481 - ttFont - DEBUG - Reading 'hhea' table from disk
+2025-01-29 10:26:22,481 - ttFont - DEBUG - Decompiling 'hhea' table
+2025-01-29 10:26:22,484 - loggingTools - DEBUG - Took 0.003s to subset 'hmtx'
+2025-01-29 10:26:22,484 - __init__ - INFO - hmtx subsetted
+2025-01-29 10:26:22,486 - loggingTools - DEBUG - Took 0.002s to subset 'cmap'
+2025-01-29 10:26:22,486 - __init__ - INFO - cmap subsetted
+2025-01-29 10:26:22,486 - __init__ - INFO - loca subsetting not needed
+2025-01-29 10:26:22,486 - loggingTools - DEBUG - Took 0.000s to subset 'post'
+2025-01-29 10:26:22,486 - __init__ - INFO - post subsetted
+2025-01-29 10:26:22,486 - __init__ - INFO - gasp subsetting not needed
+2025-01-29 10:26:22,486 - __init__ - INFO - FFTM NOT subset; don't know how to subset
+2025-01-29 10:26:22,486 - loggingTools - DEBUG - Took 0.000s to subset 'MATH'
+2025-01-29 10:26:22,486 - __init__ - INFO - MATH subsetted
+2025-01-29 10:26:22,486 - ttFont - DEBUG - Reading 'GDEF' table from disk
+2025-01-29 10:26:22,487 - ttFont - DEBUG - Decompiling 'GDEF' table
+2025-01-29 10:26:22,488 - loggingTools - DEBUG - Took 0.002s to subset 'GDEF'
+2025-01-29 10:26:22,488 - __init__ - INFO - GDEF subsetted
+2025-01-29 10:26:22,488 - __init__ - INFO - name subsetting not needed
+2025-01-29 10:26:22,490 - loggingTools - DEBUG - Took 0.001s to subset 'glyf'
+2025-01-29 10:26:22,490 - __init__ - INFO - glyf subsetted
+2025-01-29 10:26:22,490 - loggingTools - DEBUG - Took 0.000s to subset GlyphOrder
+2025-01-29 10:26:22,490 - loggingTools - DEBUG - Took 0.000s to prune 'head'
+2025-01-29 10:26:22,490 - __init__ - INFO - head pruned
+2025-01-29 10:26:22,490 - ttFont - DEBUG - Reading 'OS/2' table from disk
+2025-01-29 10:26:22,490 - ttFont - DEBUG - Decompiling 'OS/2' table
+2025-01-29 10:26:22,491 - __init__ - INFO - OS/2 Unicode ranges pruned: [0, 1]
+2025-01-29 10:26:22,491 - __init__ - INFO - OS/2 CodePage ranges pruned: [0]
+2025-01-29 10:26:22,491 - loggingTools - DEBUG - Took 0.000s to prune 'glyf'
+2025-01-29 10:26:22,491 - __init__ - INFO - glyf pruned
+2025-01-29 10:26:22,491 - loggingTools - DEBUG - Took 0.000s to prune 'GDEF'
+2025-01-29 10:26:22,492 - __init__ - INFO - GDEF pruned
+2025-01-29 10:26:22,492 - ttFont - DEBUG - Reading 'name' table from disk
+2025-01-29 10:26:22,492 - ttFont - DEBUG - Decompiling 'name' table
+2025-01-29 10:26:22,492 - ttFont - DEBUG - Reading 'gasp' table from disk
+2025-01-29 10:26:22,492 - ttFont - DEBUG - Decompiling 'gasp' table
+2025-01-29 10:26:22,492 - ttFont - DEBUG - Reading 'FFTM' table from disk
+2025-01-29 10:26:22,492 - ttFont - DEBUG - Decompiling 'FFTM' table
+2025-01-29 10:26:22,492 - loggingTools - DEBUG - Took 0.001s to prune 'name'
+2025-01-29 10:26:22,492 - __init__ - INFO - name pruned
+2025-01-29 10:26:22,493 - ttFont - DEBUG - Compiling 'glyf' table
+2025-01-29 10:26:22,498 - ttFont - DEBUG - Writing 'glyf' table to disk
+2025-01-29 10:26:22,498 - ttFont - DEBUG - Compiling 'maxp' table
+2025-01-29 10:26:22,498 - ttFont - DEBUG - Writing 'maxp' table to disk
+2025-01-29 10:26:22,499 - ttFont - DEBUG - Compiling 'loca' table
+2025-01-29 10:26:22,499 - ttFont - DEBUG - Writing 'loca' table to disk
+2025-01-29 10:26:22,500 - ttFont - DEBUG - Compiling 'head' table
+2025-01-29 10:26:22,500 - ttFont - DEBUG - Writing 'head' table to disk
+2025-01-29 10:26:22,500 - ttFont - DEBUG - Compiling 'hmtx' table
+2025-01-29 10:26:22,501 - ttFont - DEBUG - Writing 'hmtx' table to disk
+2025-01-29 10:26:22,501 - ttFont - DEBUG - Compiling 'hhea' table
+2025-01-29 10:26:22,501 - ttFont - DEBUG - Writing 'hhea' table to disk
+2025-01-29 10:26:22,501 - ttFont - DEBUG - Compiling 'OS/2' table
+2025-01-29 10:26:22,502 - ttFont - DEBUG - Writing 'OS/2' table to disk
+2025-01-29 10:26:22,502 - ttFont - DEBUG - Compiling 'cmap' table
+2025-01-29 10:26:22,502 - ttFont - DEBUG - Writing 'cmap' table to disk
+2025-01-29 10:26:22,502 - ttFont - DEBUG - Compiling 'name' table
+2025-01-29 10:26:22,502 - ttFont - DEBUG - Writing 'name' table to disk
+2025-01-29 10:26:22,502 - ttFont - DEBUG - Compiling 'post' table
+2025-01-29 10:26:22,502 - ttFont - DEBUG - Writing 'post' table to disk
+2025-01-29 10:26:22,502 - ttFont - DEBUG - Compiling 'gasp' table
+2025-01-29 10:26:22,503 - ttFont - DEBUG - Writing 'gasp' table to disk
+2025-01-29 10:26:22,503 - ttFont - DEBUG - Compiling 'FFTM' table
+2025-01-29 10:26:22,503 - ttFont - DEBUG - Writing 'FFTM' table to disk
+2025-01-29 10:26:22,503 - ttFont - DEBUG - Compiling 'GDEF' table
+2025-01-29 10:26:22,503 - ttFont - DEBUG - Writing 'GDEF' table to disk
+2025-01-29 10:26:22,503 - ttFont - DEBUG - Compiling 'MATH' table
+2025-01-29 10:26:22,504 - ttFont - DEBUG - Writing 'MATH' table to disk

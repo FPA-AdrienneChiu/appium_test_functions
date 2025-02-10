@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 09:20:14,004",
+        "end_timestamp": "2025-02-03 09:20:37,861"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 09:20:14,023",
+                "end_timestamp": "2025-02-03 09:20:37,860"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 09:20:14,023",
+                        "end_timestamp": "2025-02-03 09:20:37,859"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:20:22,242",
+                                "end_timestamp": "2025-02-03 09:20:23,419"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:20:23,420",
+                                "end_timestamp": "2025-02-03 09:20:23,420"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting material: Hemp",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:20:23,421",
+                                "end_timestamp": "2025-02-03 09:20:37,859"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

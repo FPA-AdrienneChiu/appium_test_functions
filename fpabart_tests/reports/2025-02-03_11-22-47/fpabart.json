@@ -1,0 +1,93 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 11:21:46,598",
+        "end_timestamp": "2025-02-03 11:22:45,967"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 11:21:46,621",
+                "end_timestamp": "2025-02-03 11:22:45,964"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 11:21:46,621",
+                        "end_timestamp": "2025-02-03 11:22:45,963"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:21:54,663",
+                                "end_timestamp": "2025-02-03 11:21:55,815"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:21:55,816",
+                                "end_timestamp": "2025-02-03 11:21:55,816"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting material: Elastane",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:21:55,816",
+                                "end_timestamp": "2025-02-03 11:22:00,958"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:22:00,959",
+                                "end_timestamp": "2025-02-03 11:22:02,904"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click start",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:22:02,904",
+                                "end_timestamp": "2025-02-03 11:22:04,945"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that I am on running cycle menu",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:22:04,945",
+                                "end_timestamp": "2025-02-03 11:22:08,184"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Wait 30 secs to sleep",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:22:08,184",
+                                "end_timestamp": "2025-02-03 11:22:38,214"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Hamburger and Footer Menu Dissapears",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 11:22:38,215",
+                                "end_timestamp": "2025-02-03 11:22:45,963"
+                            },
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                }
+            ],
+            "result": true
+        }
+    ],
+    "result": true
+}

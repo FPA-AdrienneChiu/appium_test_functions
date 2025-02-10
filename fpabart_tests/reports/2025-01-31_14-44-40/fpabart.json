@@ -1,0 +1,37 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-31 14:44:13,369",
+        "end_timestamp": "2025-01-31 14:44:38,212"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-31 14:44:13,396",
+                "end_timestamp": "2025-01-31 14:44:38,211"
+            },
+            "scenarios": [
+                {
+                    "name": "I verify the cycle progress screen with default values for all fabrics ",
+                    "attributes": {
+                        "start_timestamp": "2025-01-31 14:44:13,396",
+                        "end_timestamp": "2025-01-31 14:44:38,210"
+                    },
+                    "steps": [
+                        {
+                            "name": "Move along back to the start of fabric options",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 14:44:21,745",
+                                "end_timestamp": "2025-01-31 14:44:38,210"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

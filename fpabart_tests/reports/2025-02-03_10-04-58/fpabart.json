@@ -1,0 +1,61 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 10:04:05,246",
+        "end_timestamp": "2025-02-03 10:04:56,646"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 10:04:05,275",
+                "end_timestamp": "2025-02-03 10:04:56,641"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 10:04:05,275",
+                        "end_timestamp": "2025-02-03 10:04:56,641"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:04:30,535",
+                                "end_timestamp": "2025-02-03 10:04:34,859"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:04:34,859",
+                                "end_timestamp": "2025-02-03 10:04:34,860"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting material: Viscose",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:04:34,860",
+                                "end_timestamp": "2025-02-03 10:04:38,712"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:04:38,713",
+                                "end_timestamp": "2025-02-03 10:04:56,640"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

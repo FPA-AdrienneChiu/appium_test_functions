@@ -1,0 +1,93 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 10:39:57,080",
+        "end_timestamp": "2025-02-03 10:41:11,546"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 10:39:57,100",
+                "end_timestamp": "2025-02-03 10:41:11,544"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 10:39:57,100",
+                        "end_timestamp": "2025-02-03 10:41:11,544"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:40:05,174",
+                                "end_timestamp": "2025-02-03 10:40:06,338"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:40:06,338",
+                                "end_timestamp": "2025-02-03 10:40:06,339"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting material: Acrylic",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:40:06,339",
+                                "end_timestamp": "2025-02-03 10:40:11,483"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:40:11,484",
+                                "end_timestamp": "2025-02-03 10:40:13,518"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click start",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:40:13,518",
+                                "end_timestamp": "2025-02-03 10:40:15,602"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that I am on running cycle menu",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:40:15,602",
+                                "end_timestamp": "2025-02-03 10:40:18,863"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Wait 30 secs to sleep",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:40:18,863",
+                                "end_timestamp": "2025-02-03 10:41:08,914"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "footer and hamburger menu dissapears",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 10:41:08,915",
+                                "end_timestamp": "2025-02-03 10:41:11,544"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

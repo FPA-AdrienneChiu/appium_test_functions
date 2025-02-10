@@ -1,0 +1,199 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 15:23:47,083",
+        "end_timestamp": "2025-02-03 15:26:11,259"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 15:23:47,112",
+                "end_timestamp": "2025-02-03 15:26:11,256"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 15:23:47,112",
+                        "end_timestamp": "2025-02-03 15:24:54,090"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:23:54,067",
+                                "end_timestamp": "2025-02-03 15:23:55,244"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:23:55,244",
+                                "end_timestamp": "2025-02-03 15:24:00,986"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random material: Down",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:24:00,987",
+                                "end_timestamp": "2025-02-03 15:24:06,530"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:24:06,530",
+                                "end_timestamp": "2025-02-03 15:24:08,435"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click start",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:24:08,435",
+                                "end_timestamp": "2025-02-03 15:24:10,444"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that I am on running cycle menu",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:24:10,445",
+                                "end_timestamp": "2025-02-03 15:24:13,607"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Wait 30 secs to sleep",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:24:13,607",
+                                "end_timestamp": "2025-02-03 15:24:43,638"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Hamburger and Footer Menu Dissapears",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:24:43,639",
+                                "end_timestamp": "2025-02-03 15:24:51,359"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Complete Scenario",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:24:51,360",
+                                "end_timestamp": "2025-02-03 15:24:54,090"
+                            },
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                },
+                {
+                    "name": "Running Timed",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 15:24:54,095",
+                        "end_timestamp": "2025-02-03 15:26:11,256"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:24:54,096",
+                                "end_timestamp": "2025-02-03 15:25:05,320"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:25:05,320",
+                                "end_timestamp": "2025-02-03 15:25:09,974"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random material: Lyocell",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:25:09,974",
+                                "end_timestamp": "2025-02-03 15:25:15,250"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:25:15,251",
+                                "end_timestamp": "2025-02-03 15:25:17,959"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Swipe through all time options",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:25:17,960",
+                                "end_timestamp": "2025-02-03 15:25:26,530"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random time: 0:40",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:25:26,531",
+                                "end_timestamp": "2025-02-03 15:25:30,535"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click on confirm for chosen time option",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:25:30,536",
+                                "end_timestamp": "2025-02-03 15:25:31,795"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click start",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:25:31,795",
+                                "end_timestamp": "2025-02-03 15:25:33,671"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Verify that the chosen time is displayed on running screen",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:25:33,671",
+                                "end_timestamp": "2025-02-03 15:25:33,824"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Wait 30 secs to sleep",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:25:33,824",
+                                "end_timestamp": "2025-02-03 15:26:03,855"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Hamburger and Footer Menu Dissapears",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 15:26:03,855",
+                                "end_timestamp": "2025-02-03 15:26:11,255"
+                            },
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                }
+            ],
+            "result": true
+        }
+    ],
+    "result": true
+}

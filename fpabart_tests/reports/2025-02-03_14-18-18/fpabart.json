@@ -1,0 +1,77 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 14:17:26,756",
+        "end_timestamp": "2025-02-03 14:18:17,045"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 14:17:26,793",
+                "end_timestamp": "2025-02-03 14:18:17,043"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Timed",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 14:17:26,793",
+                        "end_timestamp": "2025-02-03 14:18:17,043"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:17:34,929",
+                                "end_timestamp": "2025-02-03 14:17:36,083"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:17:36,083",
+                                "end_timestamp": "2025-02-03 14:17:40,942"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random material: Down",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:17:40,942",
+                                "end_timestamp": "2025-02-03 14:17:46,320"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:17:46,321",
+                                "end_timestamp": "2025-02-03 14:17:49,335"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Swipe through all time options",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:17:49,335",
+                                "end_timestamp": "2025-02-03 14:18:03,917"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random time: {chosen_time}",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:18:03,917",
+                                "end_timestamp": "2025-02-03 14:18:17,042"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

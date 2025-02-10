@@ -1,0 +1,18 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 13:39:53,258",
+        "end_timestamp": "2025-02-03 13:39:53,328"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 13:39:53,280",
+                "end_timestamp": "2025-02-03 13:39:53,327"
+            },
+            "scenarios": [],
+            "result": true
+        }
+    ],
+    "result": false
+}

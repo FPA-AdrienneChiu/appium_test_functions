@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-30 11:18:58,280",
+        "end_timestamp": "2025-01-30 11:19:07,923"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-30 11:18:58,312",
+                "end_timestamp": "2025-01-30 11:19:07,921"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-30 11:18:58,313",
+                        "end_timestamp": "2025-01-30 11:19:07,921"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check if on Home Screen",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:19:05,717",
+                                "end_timestamp": "2025-01-30 11:19:06,890"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check for materials",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:19:06,890",
+                                "end_timestamp": "2025-01-30 11:19:06,890"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "I click on a {material}",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:19:06,890",
+                                "end_timestamp": "2025-01-30 11:19:07,921"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

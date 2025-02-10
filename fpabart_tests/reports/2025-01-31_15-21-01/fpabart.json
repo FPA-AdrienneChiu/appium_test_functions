@@ -1,0 +1,77 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-31 15:20:42,240",
+        "end_timestamp": "2025-01-31 15:20:59,768"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-31 15:20:42,260",
+                "end_timestamp": "2025-01-31 15:20:59,767"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-31 15:20:42,260",
+                        "end_timestamp": "2025-01-31 15:20:59,767"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:20:50,253",
+                                "end_timestamp": "2025-01-31 15:20:51,501"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:20:51,501",
+                                "end_timestamp": "2025-01-31 15:20:51,501"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting material: Elastane",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:20:51,502",
+                                "end_timestamp": "2025-01-31 15:20:56,653"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:20:56,653",
+                                "end_timestamp": "2025-01-31 15:20:58,660"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click start",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:20:58,661",
+                                "end_timestamp": "2025-01-31 15:20:59,720"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check for running cycle menu text",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:20:59,720",
+                                "end_timestamp": "2025-01-31 15:20:59,767"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

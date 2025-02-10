@@ -1,0 +1,61 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-31 14:10:02,637",
+        "end_timestamp": "2025-01-31 14:11:10,318"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-31 14:10:02,664",
+                "end_timestamp": "2025-01-31 14:11:10,314"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-31 14:10:02,665",
+                        "end_timestamp": "2025-01-31 14:11:10,314"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 14:10:27,220",
+                                "end_timestamp": "2025-01-31 14:10:31,272"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "I click on a random material",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 14:10:31,272",
+                                "end_timestamp": "2025-01-31 14:10:33,073"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click start",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 14:10:33,073",
+                                "end_timestamp": "2025-01-31 14:10:52,499"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click start",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 14:10:52,500",
+                                "end_timestamp": "2025-01-31 14:11:10,313"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

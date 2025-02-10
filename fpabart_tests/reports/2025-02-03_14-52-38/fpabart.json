@@ -1,0 +1,101 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 14:51:57,467",
+        "end_timestamp": "2025-02-03 14:52:35,963"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 14:51:57,489",
+                "end_timestamp": "2025-02-03 14:52:35,957"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Timed",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 14:51:57,490",
+                        "end_timestamp": "2025-02-03 14:52:35,956"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:52:04,831",
+                                "end_timestamp": "2025-02-03 14:52:06,002"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:52:06,002",
+                                "end_timestamp": "2025-02-03 14:52:10,840"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random material: Nylon",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:52:10,840",
+                                "end_timestamp": "2025-02-03 14:52:16,197"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:52:16,198",
+                                "end_timestamp": "2025-02-03 14:52:19,207"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Swipe through all time options",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:52:19,207",
+                                "end_timestamp": "2025-02-03 14:52:28,326"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random time: 0:30",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:52:28,327",
+                                "end_timestamp": "2025-02-03 14:52:32,386"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click on confirm for chosen time option",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:52:32,387",
+                                "end_timestamp": "2025-02-03 14:52:33,742"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click start",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:52:33,742",
+                                "end_timestamp": "2025-02-03 14:52:35,741"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Verify that the chosen time is displayed on running screen",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:52:35,741",
+                                "end_timestamp": "2025-02-03 14:52:35,956"
+                            },
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                }
+            ],
+            "result": true
+        }
+    ],
+    "result": true
+}

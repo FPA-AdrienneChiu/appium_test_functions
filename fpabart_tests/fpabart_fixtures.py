@@ -47,13 +47,13 @@ def appium_driver() -> Remote:
 
         capabilities = {
             "platformName": "Android",
-            "appium:platformVersion": "11",
-            "appium:deviceName": "i350fisher_paykel ",
-            "appium:appPackage": "com.fisherpaykel.laundry.fcs200",
-            "appium:appActivity": "com.fisherpaykel.laundry.fcs200.MainActivity",
-            "appium:automationName": "uiautomator2",
-            "appium:noReset": "true",
-            "appium:fullReset": "false"
+            "platformVersion": "11",
+            "deviceName": "i350fisher_paykel ",
+            "appPackage": "com.fisherpaykel.laundry.fcs200",
+            "appActivity": "com.fisherpaykel.laundry.fcs200.MainActivity",
+            "automationName": "UiAutomator2",
+            "noReset": "true",
+            "fullReset": "false",
         }
 
         logger.debug(f"Loading capabilities: {capabilities}")

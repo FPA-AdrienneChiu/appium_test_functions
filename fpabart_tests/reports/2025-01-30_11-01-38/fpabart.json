@@ -1,0 +1,37 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-30 11:01:12,403",
+        "end_timestamp": "2025-01-30 11:01:36,410"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-30 11:01:12,422",
+                "end_timestamp": "2025-01-30 11:01:36,408"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-30 11:01:12,422",
+                        "end_timestamp": "2025-01-30 11:01:36,408"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check if on Home Screen",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:01:21,532",
+                                "end_timestamp": "2025-01-30 11:01:36,408"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

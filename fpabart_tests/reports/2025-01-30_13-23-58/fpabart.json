@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-30 13:23:06,076",
+        "end_timestamp": "2025-01-30 13:23:56,702"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-30 13:23:06,098",
+                "end_timestamp": "2025-01-30 13:23:56,700"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-30 13:23:06,098",
+                        "end_timestamp": "2025-01-30 13:23:56,700"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 13:23:31,176",
+                                "end_timestamp": "2025-01-30 13:23:35,586"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check for materials",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 13:23:35,587",
+                                "end_timestamp": "2025-01-30 13:23:38,520"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "I click on a material",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 13:23:38,521",
+                                "end_timestamp": "2025-01-30 13:23:56,700"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

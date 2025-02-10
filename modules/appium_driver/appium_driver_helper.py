@@ -234,17 +234,43 @@ def swipe(appium_driver, start_location_id, end_location_id, repetitions):
         actions.perform()
 
 
-def verify_text(appium_driver, element_id: str, expected_text: str):
-    """."""
+# def verify_text(appium_driver, element_id: str, expected_text: str):
+#     """."""
+#     element = get_element(appium_driver, element_id)
+#     if element:
+#         actual_text = get_text(appium_driver, element)
+#         if actual_text == expected_text:
+#             print(f"The text '{expected_text}' is present and correct")
+#         else:
+#             print(f"The text '{expected_text}' is not present or correct")
+#         return actual_text == expected_text
+#     return False
+
+def verify_text(appium_driver: Remote, element_id: str, expected_text: str) -> bool:
+    """Verify an element contains a specified piece of text.
+ 
+    Args:
+        appium_driver: The Appium driver.
+        element_id (str): The element's ID.
+        expected_text (str): The text the element should contain.
+ 
+    Returns:
+        bool: True if the text matches or false if it does not.
+    """
     element = get_element(appium_driver, element_id)
-    if element:
-        actual_text = get_text(appium_driver, element)
-        if actual_text == expected_text:
-            print(f"The text '{expected_text}' is present and correct")
-        else:
-            print(f"The text '{expected_text}' is not present or correct")
-        return actual_text == expected_text
-    return False
+    element_text = get_text(element)
+ 
+    logger.debug(f"Expected text in element '{element_id}': {expected_text}")
+    logger.debug(f"Actual text in element '{element_id}': {element_text}")
+ 
+    text_is_correct = element_text == expected_text
+ 
+    if text_is_correct:
+        logger.debug(f"The text in '{element_id}' is correct!")
+    else:
+        logger.error(f"The text in '{element_id}' is INCORRECT!")
+ 
+    return text_is_correct
 
 
 def find_element(appium_driver, element_id):

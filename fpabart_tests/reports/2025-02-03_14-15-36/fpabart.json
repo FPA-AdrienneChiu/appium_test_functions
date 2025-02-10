@@ -1,0 +1,45 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 14:15:20,444",
+        "end_timestamp": "2025-02-03 14:15:34,787"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 14:15:20,465",
+                "end_timestamp": "2025-02-03 14:15:34,785"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Timed",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 14:15:20,465",
+                        "end_timestamp": "2025-02-03 14:15:34,785"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:15:28,718",
+                                "end_timestamp": "2025-02-03 14:15:29,878"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 14:15:29,879",
+                                "end_timestamp": "2025-02-03 14:15:34,785"
+                            },
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                }
+            ],
+            "result": true
+        }
+    ],
+    "result": true
+}

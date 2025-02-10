@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 13:26:41,880",
+        "end_timestamp": "2025-02-03 13:27:13,370"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 13:26:41,923",
+                "end_timestamp": "2025-02-03 13:27:13,366"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 13:26:41,924",
+                        "end_timestamp": "2025-02-03 13:27:13,365"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 13:26:52,015",
+                                "end_timestamp": "2025-02-03 13:26:53,184"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 13:26:53,185",
+                                "end_timestamp": "2025-02-03 13:26:56,824"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random material: Ramie",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 13:26:56,824",
+                                "end_timestamp": "2025-02-03 13:27:13,365"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

@@ -1,0 +1,155 @@
+/*
+    © Copyright 2024, Fisher & Paykel Appliances Ltd
+
+    All rights reserved. Fisher & Paykel's source code is an
+    unpublished work and the use of a copyright notice does not imply otherwise.
+    This source code contains confidential, trade secret material of
+    Fisher & Paykel Appliances Ltd.
+    Any attempt or participation in deciphering, decoding, reverse engineering
+    or in any way altering the source code is strictly prohibited,
+    unless the prior written consent of Fisher & Paykel is obtained.
+    Permission to use, copy, publish, modify and distribute for any purpose
+    is not permitted without specific, written prior permission from
+    Fisher & Paykel Appliances Limited.
+*/
+
+:root {
+    --color-body-background: #f5f5f5;
+    --color-border: #ccc;
+    --color-green: #59dd78;
+    --color-page-container-background: #fff;
+    --color-page-container-shadow: rgba(0, 0, 0, 0.1);
+    --color-red: #f54759;
+    --color-section-container-background: #fafafa;
+    --color-table-heading-row-background: #f1f1f1;
+    --color-text: #444;
+    --color-white: #ffffff;
+}
+
+@page {
+    size: A3 landscape;
+    margin: 1cm;
+    background-color: var(--color-body-background);
+    height: 891mm;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: var(--color-body-background);
+    color: var(--color-text);
+}
+
+.page-container {
+    max-width: 80%;
+    margin: 2rem auto;
+    background-color: var(--color-page-container-background);
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem var(--color-page-container-shadow);
+}
+
+.result-badge {
+    border-radius: 0.5rem;
+    padding: 0.2rem 0.5rem;
+}
+
+.table-heading-row {
+    background-color: var(--color-table-heading-row-background);
+}
+
+.section-container {
+    border-radius: 1rem;
+    border: 1px solid var(--color-border);
+    margin-bottom: 3rem;
+    padding: 1rem 1rem 3rem 1rem;  /* Add padding to create a gap between the sides of the divs and the contents. */
+    background-color: var(--color-section-container-background);
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--color-border);
+}
+
+.table-cell {
+    border: 1px solid var(--color-border);
+    padding: 0.7rem;
+    text-align: left;
+}
+
+.toc-link {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.pass {
+    background-color: var(--color-green);
+}
+
+.fail {
+    background-color: var(--color-red);
+}
+
+.step {
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 1rem 0rem;
+}
+
+.step-name {
+    font-weight: bold;
+    color: var(--color-text);
+}
+
+.step-pass {
+    background-color: var(--color-green);
+}
+
+.step-fail {
+    background-color: var(--color-red);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+#overall-result {
+    color: var(--color-white);
+    font-weight: bold;
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 0.4rem 0.4rem;
+    border-radius: 0.5rem;
+}
+
+#test-report-title {
+    font-size: 3rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.section-container-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.box-sub-heading {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.4rem;
+    margin-top: 4rem;
+}
+
+#copyright-statement {
+    text-align: center;
+}
+
+.line {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    height: 1px;
+    background-color: var(--color-border);
+    border: none;  /* Remove the default border. */
+}

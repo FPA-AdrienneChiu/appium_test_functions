@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-30 11:34:41,573",
+        "end_timestamp": "2025-01-30 11:34:53,707"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-30 11:34:41,592",
+                "end_timestamp": "2025-01-30 11:34:53,706"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-30 11:34:41,592",
+                        "end_timestamp": "2025-01-30 11:34:53,705"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check if on Home Screen",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:34:48,953",
+                                "end_timestamp": "2025-01-30 11:34:50,149"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check for materials",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:34:50,149",
+                                "end_timestamp": "2025-01-30 11:34:52,712"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "I click on a {materials}",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:34:52,713",
+                                "end_timestamp": "2025-01-30 11:34:53,705"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

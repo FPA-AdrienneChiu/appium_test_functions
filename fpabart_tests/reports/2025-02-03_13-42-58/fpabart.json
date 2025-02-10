@@ -1,0 +1,61 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 13:42:33,025",
+        "end_timestamp": "2025-02-03 13:42:56,575"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 13:42:33,044",
+                "end_timestamp": "2025-02-03 13:42:56,573"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Timed",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 13:42:33,044",
+                        "end_timestamp": "2025-02-03 13:42:56,573"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 13:42:41,088",
+                                "end_timestamp": "2025-02-03 13:42:42,251"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 13:42:42,251",
+                                "end_timestamp": "2025-02-03 13:42:48,014"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random material: Linen",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 13:42:48,014",
+                                "end_timestamp": "2025-02-03 13:42:53,562"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 13:42:53,562",
+                                "end_timestamp": "2025-02-03 13:42:56,573"
+                            },
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                }
+            ],
+            "result": true
+        }
+    ],
+    "result": true
+}

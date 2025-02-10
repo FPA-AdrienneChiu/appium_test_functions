@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-31 15:11:35,086",
+        "end_timestamp": "2025-01-31 15:11:58,016"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-31 15:11:35,107",
+                "end_timestamp": "2025-01-31 15:11:58,014"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-31 15:11:35,107",
+                        "end_timestamp": "2025-01-31 15:11:58,014"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:11:43,432",
+                                "end_timestamp": "2025-01-31 15:11:44,415"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:11:44,415",
+                                "end_timestamp": "2025-01-31 15:11:44,415"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting material: Elastane",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 15:11:44,415",
+                                "end_timestamp": "2025-01-31 15:11:58,014"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

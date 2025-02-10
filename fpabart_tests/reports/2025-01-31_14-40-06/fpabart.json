@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-31 14:39:18,338",
+        "end_timestamp": "2025-01-31 14:40:04,760"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-31 14:39:18,370",
+                "end_timestamp": "2025-01-31 14:40:04,756"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-31 14:39:18,371",
+                        "end_timestamp": "2025-01-31 14:40:04,756"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 14:39:42,699",
+                                "end_timestamp": "2025-01-31 14:39:46,867"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting material: Mixed",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 14:39:46,868",
+                                "end_timestamp": "2025-01-31 14:39:47,766"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click start",
+                            "attributes": {
+                                "start_timestamp": "2025-01-31 14:39:47,766",
+                                "end_timestamp": "2025-01-31 14:40:04,756"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

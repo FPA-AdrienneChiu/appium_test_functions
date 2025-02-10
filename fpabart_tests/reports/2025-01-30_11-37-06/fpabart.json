@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-30 11:36:53,569",
+        "end_timestamp": "2025-01-30 11:37:04,598"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-30 11:36:53,590",
+                "end_timestamp": "2025-01-30 11:37:04,595"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-30 11:36:53,590",
+                        "end_timestamp": "2025-01-30 11:37:04,594"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check if on Home Screen",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:37:01,005",
+                                "end_timestamp": "2025-01-30 11:37:02,178"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check for materials",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:37:02,178",
+                                "end_timestamp": "2025-01-30 11:37:04,592"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "I click on a material",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:37:04,593",
+                                "end_timestamp": "2025-01-30 11:37:04,594"
+                            },
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                }
+            ],
+            "result": true
+        }
+    ],
+    "result": true
+}

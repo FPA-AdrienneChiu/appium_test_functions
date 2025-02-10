@@ -1,0 +1,45 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-01-30 11:13:11,317",
+        "end_timestamp": "2025-01-30 11:13:19,864"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-01-30 11:13:11,339",
+                "end_timestamp": "2025-01-30 11:13:19,862"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-01-30 11:13:11,340",
+                        "end_timestamp": "2025-01-30 11:13:19,862"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check if on Home Screen",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:13:18,695",
+                                "end_timestamp": "2025-01-30 11:13:19,861"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check for materials",
+                            "attributes": {
+                                "start_timestamp": "2025-01-30 11:13:19,861",
+                                "end_timestamp": "2025-01-30 11:13:19,862"
+                            },
+                            "result": true
+                        }
+                    ],
+                    "result": true
+                }
+            ],
+            "result": true
+        }
+    ],
+    "result": true
+}

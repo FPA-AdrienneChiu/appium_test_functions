@@ -1,0 +1,101 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-03 09:14:33,262",
+        "end_timestamp": "2025-02-03 09:15:38,150"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-03 09:14:33,284",
+                "end_timestamp": "2025-02-03 09:15:38,149"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-03 09:14:33,285",
+                        "end_timestamp": "2025-02-03 09:15:38,148"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:14:41,491",
+                                "end_timestamp": "2025-02-03 09:14:42,639"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:14:42,639",
+                                "end_timestamp": "2025-02-03 09:14:42,640"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting material: Viscose",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:14:42,640",
+                                "end_timestamp": "2025-02-03 09:14:47,792"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check if time is set to Auto",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:14:47,793",
+                                "end_timestamp": "2025-02-03 09:14:49,772"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Click start",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:14:49,772",
+                                "end_timestamp": "2025-02-03 09:14:51,841"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that I am on running cycle menu",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:14:51,841",
+                                "end_timestamp": "2025-02-03 09:14:55,140"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Wait 30 secs to sleep",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:14:55,140",
+                                "end_timestamp": "2025-02-03 09:15:25,160"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "footer and hamburger menu dissapears",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:15:25,161",
+                                "end_timestamp": "2025-02-03 09:15:25,161"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "I go back to the fabric selection screen",
+                            "attributes": {
+                                "start_timestamp": "2025-02-03 09:15:25,161",
+                                "end_timestamp": "2025-02-03 09:15:38,148"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

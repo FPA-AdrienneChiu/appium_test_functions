@@ -1,0 +1,53 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-05 10:42:21,423",
+        "end_timestamp": "2025-02-05 10:43:15,435"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-05 10:42:21,460",
+                "end_timestamp": "2025-02-05 10:43:15,429"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-05 10:42:21,460",
+                        "end_timestamp": "2025-02-05 10:43:15,429"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-05 10:42:45,827",
+                                "end_timestamp": "2025-02-05 10:42:50,137"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-05 10:42:50,138",
+                                "end_timestamp": "2025-02-05 10:42:57,401"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Selecting random material: Lyocell",
+                            "attributes": {
+                                "start_timestamp": "2025-02-05 10:42:57,402",
+                                "end_timestamp": "2025-02-05 10:43:15,429"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}

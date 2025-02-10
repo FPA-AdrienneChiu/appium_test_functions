@@ -1,0 +1,45 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-10 11:21:01,762",
+        "end_timestamp": "2025-02-10 11:21:26,296"
+    },
+    "features": [
+        {
+            "name": "test_cancel",
+            "attributes": {
+                "start_timestamp": "2025-02-10 11:21:01,796",
+                "end_timestamp": "2025-02-10 11:21:26,294"
+            },
+            "scenarios": [
+                {
+                    "name": "Cancel during active cycle",
+                    "attributes": {
+                        "start_timestamp": "2025-02-10 11:21:01,796",
+                        "end_timestamp": "2025-02-10 11:21:26,293"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-10 11:21:09,885",
+                                "end_timestamp": "2025-02-10 11:21:11,053"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-10 11:21:11,053",
+                                "end_timestamp": "2025-02-10 11:21:26,293"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}
