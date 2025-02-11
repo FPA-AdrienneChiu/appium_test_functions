@@ -1,0 +1,71 @@
+{
+    "attributes": {
+        "start_timestamp": "2025-02-11 11:59:03,006",
+        "end_timestamp": "2025-02-11 11:59:47,388"
+    },
+    "features": [
+        {
+            "name": "test_running",
+            "attributes": {
+                "start_timestamp": "2025-02-11 11:59:03,031",
+                "end_timestamp": "2025-02-11 11:59:47,386"
+            },
+            "scenarios": [
+                {
+                    "name": "Running Auto",
+                    "attributes": {
+                        "start_timestamp": "2025-02-11 11:59:03,031",
+                        "end_timestamp": "2025-02-11 11:59:32,859"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-11 11:59:11,007",
+                                "end_timestamp": "2025-02-11 11:59:12,154"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-11 11:59:12,154",
+                                "end_timestamp": "2025-02-11 11:59:32,859"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                },
+                {
+                    "name": "Running Timed",
+                    "attributes": {
+                        "start_timestamp": "2025-02-11 11:59:32,861",
+                        "end_timestamp": "2025-02-11 11:59:47,385"
+                    },
+                    "steps": [
+                        {
+                            "name": "Check for screen title",
+                            "attributes": {
+                                "start_timestamp": "2025-02-11 11:59:32,862",
+                                "end_timestamp": "2025-02-11 11:59:33,126"
+                            },
+                            "result": true
+                        },
+                        {
+                            "name": "Check that all materials are present",
+                            "attributes": {
+                                "start_timestamp": "2025-02-11 11:59:33,127",
+                                "end_timestamp": "2025-02-11 11:59:47,385"
+                            },
+                            "result": false
+                        }
+                    ],
+                    "result": false
+                }
+            ],
+            "result": false
+        }
+    ],
+    "result": false
+}
