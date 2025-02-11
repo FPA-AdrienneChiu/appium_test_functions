@@ -6,7 +6,7 @@ import random
 @bart.scenario("Cancel during active cycle")
 def test_cancel_active(appium_driver):
 
-    # Place in logic from running
+    # Place in logic from running.py
     
     # Click on the cancel button
     bart.step("Click cancel button on active screen")
@@ -44,11 +44,10 @@ def test_cancel_active(appium_driver):
 
 
 
-
 @bart.sceanario("Cancel after Wake Up")
 def test_cancel_wake(appium_driver):
     
-    # Place in logic from running
+    # Place in logic from running.py
 
     # Wait for screen to go to sleep
     bart.step("Wait for screen to go to sleep")
@@ -87,7 +86,7 @@ def test_cancel_wake(appium_driver):
 @bart.scenario("Click back and get cancle cycle alert")
 def test_cancel_alert(appium_driver):
 
-    # Place in logic from running
+    # Place in logic from running.py
 
     # Verify I am on Running Cycle Screen
     bart.step("Check that I am on running cycle menu")

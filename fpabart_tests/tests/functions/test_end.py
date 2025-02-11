@@ -6,7 +6,7 @@ import random
 @bart.scenario("Checks an Alert appears when Dry Cycle complete")
 def test_end_alert(appium_driver):
 
-    # Place in logic from running
+    # Place in logic from running.py
  
     # Verify that I am near end of running cycle
     bart.step("Check I am on the running cycle page")
@@ -21,10 +21,11 @@ def test_end_alert(appium_driver):
     appium_driver_helper.get_element(appium_driver, "Done")
 
 
+
 @bart.scenario("Close complete alert with X button")
 def test_end_XBtn(appium_driver):
 
-    # Place in logic from running
+    # Place in logic from running.py
 
     # Verify that I am near end of running cycle
     bart.step("Check I am on the running cycle page")
@@ -39,6 +40,7 @@ def test_end_XBtn(appium_driver):
     appium_driver_helper.get_element(appium_driver, "Done")
 
     # Verify it goes back to material selection page
+
 
 
 @bart.scenario("Close complete with Done button")
@@ -69,8 +71,12 @@ def test_end_Done(appium_driver):
     else:
         print("Home screen title verification failed.")
 
+
+
 @bart.scenario("Close complete and add more time")
 def test_end_addTime(appium_driver):
+
+    # Place in logic from running.py
 
     # Verify that I am near end of running cycle
     bart.step("Check I am on the running cycle page")
@@ -94,6 +100,7 @@ def test_end_addTime(appium_driver):
     # Check that dry cycle continues with new set time
     bart.step("Cycle continues with new selected time")
     appium_driver_helper.get_element(appium_driver, "cycle-time-remaning")
+
 
 
 @bart.scenario("Complete alert popsup after add more time completed")
