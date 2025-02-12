@@ -97,7 +97,6 @@ def test_cancel_alert(appium_driver):
     appium_driver_helper.get_element(appium_driver, "Cancel")
     appium_driver_helper.get_element(appium_driver, "Options")
 
-
     # Click on the cancel button
     bart.step("Click back button on active screen")
     cancel_btn = appium_driver_helper.get_element(appium_driver, "Cancel")
