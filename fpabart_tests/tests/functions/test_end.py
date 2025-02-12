@@ -111,7 +111,15 @@ def test_end_XBtn(appium_driver):
     appium_driver_helper.get_element(appium_driver, "Add more time")
     appium_driver_helper.get_element(appium_driver, "Done")
 
-    # Verify it goes back to material selection page
+    # Verify it goes back to material selection screen
+    bart.step("Check I am back on material selection screen")
+    dyer_title = appium_driver_helper.get_element(appium_driver, "title")
+
+    dyer_title_text = appium_driver_helper.get_text(appium_driver, dyer_title)
+    if dyer_title_text == "DRYER":
+        print("Home screen title verification passed.")
+    else:
+        print("Home screen title verification failed.")
 
 
 
