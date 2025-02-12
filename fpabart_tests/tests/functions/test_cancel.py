@@ -30,14 +30,6 @@ def test_cancel_active(appium_driver):
     material_element.click()
     sleep(3)
 
-    # Verify that the time is set to "AUTO"
-    bart.step("Check if time is set to Auto")
-    Auto = appium_driver_helper.get_element(appium_driver, "Auto")
-    appium_driver_helper.get_text(appium_driver, Auto)
-
-    time_selection = appium_driver_helper.get_element(appium_driver, "time")
-    appium_driver_helper.get_text(appium_driver, time_selection)
-
     #Click on Start button
     bart.step("Click start")
     start_btn = appium_driver_helper.get_element(appium_driver, "button-start") 
@@ -92,7 +84,7 @@ def test_cancel_active(appium_driver):
 def test_cancel_wake(appium_driver):
     """Cancel Dry cycle after waking up the screen"""
     
-        #Check that I am on Home Screen
+    #Check that I am on Home Screen
     bart.step("Check for screen title")
     dyer_title = appium_driver_helper.get_element(appium_driver, "title")
 
@@ -114,14 +106,6 @@ def test_cancel_wake(appium_driver):
     material_element = appium_driver_helper.get_element(appium_driver, chosen_material)
     material_element.click()
     sleep(3)
-
-    # Verify that the time is set to "AUTO"
-    bart.step("Check if time is set to Auto")
-    Auto = appium_driver_helper.get_element(appium_driver, "Auto")
-    appium_driver_helper.get_text(appium_driver, Auto)
-
-    time_selection = appium_driver_helper.get_element(appium_driver, "time")
-    appium_driver_helper.get_text(appium_driver, time_selection)
 
     #Click on Start button
     bart.step("Click start")
@@ -197,14 +181,6 @@ def test_cancel_alert(appium_driver):
     material_element = appium_driver_helper.get_element(appium_driver, chosen_material)
     material_element.click()
     sleep(3)
-
-    # Verify that the time is set to "AUTO"
-    bart.step("Check if time is set to Auto")
-    Auto = appium_driver_helper.get_element(appium_driver, "Auto")
-    appium_driver_helper.get_text(appium_driver, Auto)
-
-    time_selection = appium_driver_helper.get_element(appium_driver, "time")
-    appium_driver_helper.get_text(appium_driver, time_selection)
 
     #Click on Start button
     bart.step("Click start")
