@@ -5,6 +5,7 @@ import random
 
 @bart.scenario("Cancel during active cycle")
 def test_cancel_active(appium_driver):
+    """Cancel dry cycle when screen is active """
 
     # Place in logic from running.py
     
@@ -46,6 +47,7 @@ def test_cancel_active(appium_driver):
 
 @bart.sceanario("Cancel after Wake Up")
 def test_cancel_wake(appium_driver):
+    """Cancel Dry cycle after waking up the screen"""
     
     # Place in logic from running.py
 
@@ -85,6 +87,7 @@ def test_cancel_wake(appium_driver):
 
 @bart.scenario("Click back and get cancle cycle alert")
 def test_cancel_alert(appium_driver):
+    """Clicking back button on the cancel cycle alert should not cancel cycle"""
 
     # Place in logic from running.py
 

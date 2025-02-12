@@ -5,6 +5,7 @@ import random
 
 @bart.scenario("Checks an Alert appears when Dry Cycle complete")
 def test_end_alert(appium_driver):
+    """Finish alert appears when dry cycle is complete"""
 
     # Place in logic from running.py
  
@@ -24,6 +25,7 @@ def test_end_alert(appium_driver):
 
 @bart.scenario("Close complete alert with X button")
 def test_end_XBtn(appium_driver):
+    """Close dry cycle complete alert with X button"""
 
     # Place in logic from running.py
 
@@ -45,6 +47,7 @@ def test_end_XBtn(appium_driver):
 
 @bart.scenario("Close complete with Done button")
 def test_end_Done(appium_driver):
+    """Close dry cycle complete alert with done button"""
 
     # Logic for crease-free active
     
@@ -75,6 +78,7 @@ def test_end_Done(appium_driver):
 
 @bart.scenario("Close complete and add more time")
 def test_end_addTime(appium_driver):
+    """Cycle complete alert appears and click add more time"""
 
     # Place in logic from running.py
 
@@ -103,8 +107,9 @@ def test_end_addTime(appium_driver):
 
 
 
-@bart.scenario("Complete alert popsup after add more time completed")
+@bart.scenario("Complete alert popsup again after add more time completed")
 def test_end_alertComplete(appium_driver):
+    """Cycle complete alert comes after dry cycle is completed again after adding more time"""
 
     # Verify that I am near end of running cycle
     bart.step("Check I am on the running cycle page")
