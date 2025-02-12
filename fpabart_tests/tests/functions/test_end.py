@@ -128,7 +128,7 @@ def test_end_Done(appium_driver):
     """Close dry cycle complete alert with done button"""
 
     # Logic for crease-free active needs to be put in
-
+    
     #Check that I am on Home Screen
     bart.step("Check for screen title")
     dyer_title = appium_driver_helper.get_element(appium_driver, "title")
@@ -152,7 +152,22 @@ def test_end_Done(appium_driver):
     material_element.click()
     sleep(3)
 
-    #Click on Start button
+    # Select More options in material setting screen
+    bart.step("Click on More options")
+    appium_driver_helper.get_element(appium_driver, "More options").click()
+
+    # Verify I am in More Options
+    creaseFree_btn = appium_driver_helper.get_element(appium_driver, "Crease free")
+    appium_driver_helper.get_element(appium_driver, "damp dry alert")
+    creaseFree_btn.click()
+
+    # Verify I am in Crease free menu and redirect back to material setting screen
+    appium_driver_helper.get_element(appium_driver, "Off")
+    appium_driver_helper.get_element(appium_driver, "On").click()
+    appium_driver_helper.get_element(appium_driver, "Confirm").click()
+    appium_driver_helper.get_element(appium_driver, "Done").click()
+
+    #Redirect to settings page and Click on Start button
     bart.step("Click start")
     start_btn = appium_driver_helper.get_element(appium_driver, "button-start") 
     start_btn.click()

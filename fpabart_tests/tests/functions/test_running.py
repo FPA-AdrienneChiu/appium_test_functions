@@ -106,8 +106,6 @@ def test_running_time(appium_driver):
     appium_driver_helper.swipe(appium_driver, "Down", "Mixed", 2)
     material_options = ["Cashmere", "Acrylic", "Viscose", "Lyocell",  "Hemp", "Ramie", "Nylon"]
     chosen_material = random.choice(material_options)
-
-    
     
     bart.step(f"Selecting random material: {chosen_material}")
     material_element = appium_driver_helper.get_element(appium_driver, chosen_material)
