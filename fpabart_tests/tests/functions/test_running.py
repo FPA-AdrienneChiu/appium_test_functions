@@ -71,7 +71,7 @@ def test_running_auto(appium_driver):
         try:
             appium_driver_helper.get_element(appium_driver, element, max_attempts=1) # Search for elements, allow one try
             print(f"{element} did not disappear.")
-            all_disappeared = False # Returns false if any elements are found 
+            all_disappeared = False # Returns false if any listed elements are found 
         except RuntimeError:
             pass # All elements dissapeared
     if all_disappeared:
@@ -173,7 +173,7 @@ def test_running_time(appium_driver):
         try:
             appium_driver_helper.get_element(appium_driver, element, max_attempts=1) # Search for elements, allow one try
             print(f"{element} did not disappear.")
-            all_disappeared = False # Returns false if any elements are found 
+            all_disappeared = False # Returns false if any listed elements are found 
         except RuntimeError:
             pass # All elements dissapeared
     if all_disappeared:
