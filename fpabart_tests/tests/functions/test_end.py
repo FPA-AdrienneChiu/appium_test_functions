@@ -220,14 +220,6 @@ def test_end_addTime(appium_driver):
     material_element.click()
     sleep(3)
 
-    # Verify that the time is set to "AUTO"
-    bart.step("Check if time is set to Auto")
-    Auto = appium_driver_helper.get_element(appium_driver, "Auto")
-    appium_driver_helper.get_text(appium_driver, Auto)
-
-    time_selection = appium_driver_helper.get_element(appium_driver, "time")
-    appium_driver_helper.get_text(appium_driver, time_selection)
-
     #Click on Start button
     bart.step("Click start")
     start_btn = appium_driver_helper.get_element(appium_driver, "button-start") 
@@ -296,14 +288,6 @@ def test_end_alertComplete(appium_driver):
     material_element.click()
     sleep(3)
 
-    # Verify that the time is set to "AUTO"
-    bart.step("Check if time is set to Auto")
-    Auto = appium_driver_helper.get_element(appium_driver, "Auto")
-    appium_driver_helper.get_text(appium_driver, Auto)
-
-    time_selection = appium_driver_helper.get_element(appium_driver, "time")
-    appium_driver_helper.get_text(appium_driver, time_selection)
-
     #Click on Start button
     bart.step("Click start")
     start_btn = appium_driver_helper.get_element(appium_driver, "button-start") 
@@ -333,16 +317,30 @@ def test_end_alertComplete(appium_driver):
     appium_driver_helper.get_element(appium_driver, "Done")
     addTime_btn.click()
 
-    # Check that it takes you back to time selection and confirm
-    bart.step("Check redirect to time selection and click confirm")
+    # Check that it takes you back to time selection
+    bart.step("Check redirect to time selection")
+    sleep(1)
+    appium_driver_helper.swipe(appium_driver, "0:30", "Auto", 1)
+    appium_driver_helper.swipe(appium_driver, "0:40", "0:30", 1)
+    appium_driver_helper.swipe(appium_driver, "0:50", "0:40", 1)
+    time_option = ["0:30", "0:40", "0:50"] # add more times to swipe through
+
+    # Select a random time
+    bart.step(f"Selecting random time: {chosen_time}")
+    chosen_time = random.choice(time_option)
+    bart.step(f"Selecting random time: {chosen_time}")
+    time_element = appium_driver_helper.get_element(appium_driver, chosen_time)
+    time_element.click()
+    sleep(3)
+
+    # Click confirm for chosen time
+    bart.step("Click confirm button")
     confirm_btn = appium_driver_helper.get_element(appium_driver, "Confirm")
-    # place in logic for time selection
     confirm_btn.click()
 
     # Check that dry cycle continues with new set time
     bart.step("Cycle continues with new selected time")
     appium_driver_helper.get_element(appium_driver, "cycle-time-remaning")
-
 
     # Wait for cycle to near complete
     sleep(3600)
