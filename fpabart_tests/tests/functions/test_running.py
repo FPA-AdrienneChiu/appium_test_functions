@@ -20,10 +20,10 @@ def test_running_auto(appium_driver):
 
     # Check for material options and click one
     bart.step("Check that all materials are present")
-    material_options =  ["Mixed", "Cotton", "Polyester", "Silk", "Elastane", "Linen", "Down",] #wool and cashmere do not have auto
+    material_options =  ["Mixed", "Cotton", "Polyester", "Wool", "Silk", "Elastane", "Linen", "Down",] # Wool and cashmere does not have auto
     sleep(1)
     appium_driver_helper.swipe(appium_driver, "Down", "Mixed", 2)
-    material_options = ["Acrylic", "Viscose", "Lyocell",  "Hemp", "Ramie", "Nylon"]
+    material_options = ["Cashmere", "Acrylic", "Viscose", "Lyocell",  "Hemp", "Ramie", "Nylon"]
     chosen_material = random.choice(material_options)
 
     bart.step(f"Selecting random material: {chosen_material}")
@@ -101,11 +101,13 @@ def test_running_time(appium_driver):
 
     # Check for material options and click one
     bart.step("Check that all materials are present")
-    material_options =  ["Mixed", "Cotton", "Polyester", "Silk", "Elastane", "Linen", "Down",] #wool and cashmere do not have auto
+    material_options =  ["Mixed", "Cotton", "Polyester", "Wool", "Silk", "Elastane", "Linen", "Down",] # Wool and cashmere does not have auto
     sleep(1)
     appium_driver_helper.swipe(appium_driver, "Down", "Mixed", 2)
-    material_options = ["Acrylic", "Viscose", "Lyocell",  "Hemp", "Ramie", "Nylon"]
+    material_options = ["Cashmere", "Acrylic", "Viscose", "Lyocell",  "Hemp", "Ramie", "Nylon"]
     chosen_material = random.choice(material_options)
+
+    
     
     bart.step(f"Selecting random material: {chosen_material}")
     material_element = appium_driver_helper.get_element(appium_driver, chosen_material)
