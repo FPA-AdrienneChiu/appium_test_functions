@@ -39,7 +39,7 @@ def test_running_auto(appium_driver):
     time_selection = appium_driver_helper.get_element(appium_driver, "time")
     appium_driver_helper.get_text(appium_driver, time_selection)
 
-    #Click on Start button
+    # Click on Start button
     bart.step("Click start")
     start_btn = appium_driver_helper.get_element(appium_driver, "button-start") 
     start_btn.click()
