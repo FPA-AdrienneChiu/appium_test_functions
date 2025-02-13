@@ -6,6 +6,9 @@ from PythonCommsBusHijack.erd_lib import ERDLib
 from PythonCommsBusHijack.ipb_control import IPB_Control
 from high_spec_dryer_control import HD_control  # Import HD_control class
 
+
+# Testing out capTouch
+
 @bart.scenario("Running Auto")
 def test_running_auto(appium_driver):
     """Test dryer's auto run cycle and verify UI elements"""
